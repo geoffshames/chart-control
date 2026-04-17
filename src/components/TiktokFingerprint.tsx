@@ -209,7 +209,7 @@ export default function TiktokFingerprint() {
                     {ratio.toFixed(2)}
                   </div>
                   <span
-                    className="text-[9px] tracking-[0.15em] uppercase font-bold px-2.5 py-1 rounded whitespace-nowrap"
+                    className="text-[10px] tracking-[0.2em] uppercase font-bold px-3.5 py-1.5 rounded-md whitespace-nowrap"
                     style={{ backgroundColor: t.solidBg, color: '#0A0A0A' }}
                   >
                     {t.label}
@@ -233,7 +233,7 @@ export default function TiktokFingerprint() {
                 </div>
                 <div className="hidden md:flex justify-end">
                   <span
-                    className="text-[10px] tracking-[0.15em] uppercase font-bold px-3.5 py-2 rounded whitespace-nowrap"
+                    className="text-[11px] tracking-[0.2em] uppercase font-bold px-5 py-3 rounded-md whitespace-nowrap"
                     style={{ backgroundColor: t.solidBg, color: '#0A0A0A' }}
                   >
                     {t.label}
