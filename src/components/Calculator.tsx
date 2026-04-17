@@ -170,8 +170,8 @@ const Calculator = ({ id }: CalculatorProps) => {
               label="Sales Units"
               value={sales}
               onChange={setSales}
-              max={50_000}
-              step={250}
+              max={100_000}
+              step={500}
               hint="Paid downloads &amp; physical singles (CD / vinyl)"
               format={fmtK}
             />
