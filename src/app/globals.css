@@ -374,3 +374,9 @@ input[type="number"]::-webkit-inner-spin-button {
   .md\:flex { display: flex; }
   .md\:inline-flex { display: inline-flex; }
 }
+
+
+/* Force md:hidden to win over flex/block cascade order */
+@media (min-width: 768px) {
+  .md\:hidden { display: none !important; }
+}
