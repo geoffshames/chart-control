@@ -1,1 +1,41 @@
-{"weekStart":"2026-01-16","weekEnding":"2026-01-22","thresholdPoints":{"1":223936,"10":143581,"25":80218,"50":54418,"75":39627,"100":33305},"drillins":{"1":{"luminateId":"SGF94BEE8684DE40FBB02614F434A115C8","title":"I Just Might","artist":"Bruno Mars","actualPts":223936},"50":{"luminateId":"SG46C919C7C7F7433281F1A4FE9FEE8661","title":"No Broke Boys","artist":"Tinashe, Disco Lines","actualPts":54418},"100":{"luminateId":"SGB37B2F04918F456491D1BF224C384C97","title":"Sienna","artist":"THE MARÍAS","actualPts":33305}}}
+{
+  "weekStart": "2026-01-16",
+  "weekEnding": "2026-01-22",
+  "thresholdPoints": {
+    "1": 223936,
+    "10": 143581,
+    "25": 80218,
+    "50": 54418,
+    "75": 39627,
+    "100": 33305
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGF94BEE8684DE40FBB02614F434A115C8",
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "actualPts": 223936,
+      "consumption": {
+        "programmedStreams": 816681
+      }
+    },
+    "50": {
+      "luminateId": "SG46C919C7C7F7433281F1A4FE9FEE8661",
+      "title": "No Broke Boys",
+      "artist": "Tinashe, Disco Lines",
+      "actualPts": 54418,
+      "consumption": {
+        "programmedStreams": 374109
+      }
+    },
+    "100": {
+      "luminateId": "SGB37B2F04918F456491D1BF224C384C97",
+      "title": "Sienna",
+      "artist": "THE MAR\u00cdAS",
+      "actualPts": 33305,
+      "consumption": {
+        "programmedStreams": 59332
+      }
+    }
+  }
+}

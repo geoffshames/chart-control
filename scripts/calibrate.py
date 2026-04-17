@@ -84,7 +84,11 @@ def load_weeks(weeks_dir: str) -> Tuple[List[Dict], List[DrillIn]]:
             c = d.get("consumption") or {}
             # Skip drill-ins that don't yet have the consumption
             # breakdown (early threshold-only weeks).
-            if not c:
+            # Require complete consumption data (all 5 fields) for calibration
+            # Incomplete samples bias the optimizer. Programmed-only historical
+            # drill-ins are preserved in week JSONs for future backfill.
+            required = ["premiumStreams", "adSupportedStreams", "programmedStreams", "airplayAudience", "sales"]
+            if not c or any(c.get(k) is None for k in required):
                 continue
             drillins.append(DrillIn(
                 week=data.get("weekEnding", Path(f).stem),

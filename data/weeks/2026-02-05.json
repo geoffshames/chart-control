@@ -1,1 +1,41 @@
-{"weekStart":"2026-01-30","weekEnding":"2026-02-05","thresholdPoints":{"1":258281,"10":148143,"25":98358,"50":65509,"75":49414,"100":35215},"drillins":{"1":{"luminateId":"SGFABFA59A35564C4DBF9D4EF5551C42D4","title":"Choosin' Texas","artist":"Ella Langley","actualPts":258281},"50":{"luminateId":"SG48CFDF492F694A9BB47036C7C1E765B1","title":"LET 'EM KNOW","artist":"T.I.","actualPts":65509},"100":{"luminateId":"SGF91A6449491648C6ABE12AA3E01E7278","title":"DARLIN'","artist":"CHASE MATTHEW","actualPts":35215}}}
+{
+  "weekStart": "2026-01-30",
+  "weekEnding": "2026-02-05",
+  "thresholdPoints": {
+    "1": 258281,
+    "10": 148143,
+    "25": 98358,
+    "50": 65509,
+    "75": 49414,
+    "100": 35215
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "actualPts": 258281,
+      "consumption": {
+        "programmedStreams": 2362472
+      }
+    },
+    "50": {
+      "luminateId": "SG48CFDF492F694A9BB47036C7C1E765B1",
+      "title": "LET 'EM KNOW",
+      "artist": "T.I.",
+      "actualPts": 65509,
+      "consumption": {
+        "programmedStreams": 279494
+      }
+    },
+    "100": {
+      "luminateId": "SGF91A6449491648C6ABE12AA3E01E7278",
+      "title": "DARLIN'",
+      "artist": "CHASE MATTHEW",
+      "actualPts": 35215,
+      "consumption": {
+        "programmedStreams": 181321
+      }
+    }
+  }
+}

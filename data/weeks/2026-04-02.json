@@ -10,8 +10,32 @@
     "100": 35330
   },
   "drillins": {
-    "1": {"luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4", "title": "Choosin' Texas", "artist": "Ella Langley", "actualPts": 274292},
-    "50": {"luminateId": "SG689E7AD7E5B745C59CE8AD425EC75954", "title": "When Did You Get Hot?", "artist": "Sabrina Carpenter", "actualPts": 60347},
-    "100": {"luminateId": "SG68A9F48071A441C18C4D029A7FF6F796", "title": "Plastic Cigarette", "artist": "ZACH BRYAN", "actualPts": 35330}
+    "1": {
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "actualPts": 274292,
+      "consumption": {
+        "programmedStreams": 3683163
+      }
+    },
+    "50": {
+      "luminateId": "SG689E7AD7E5B745C59CE8AD425EC75954",
+      "title": "When Did You Get Hot?",
+      "artist": "Sabrina Carpenter",
+      "actualPts": 60347,
+      "consumption": {
+        "programmedStreams": 711775
+      }
+    },
+    "100": {
+      "luminateId": "SG68A9F48071A441C18C4D029A7FF6F796",
+      "title": "Plastic Cigarette",
+      "artist": "ZACH BRYAN",
+      "actualPts": 35330,
+      "consumption": {
+        "programmedStreams": 104861
+      }
+    }
   }
 }

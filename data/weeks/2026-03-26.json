@@ -18,7 +18,7 @@
       "consumption": {
         "premiumStreams": 15711940,
         "adSupportedStreams": 5199773,
-        "programmedStreams": null,
+        "programmedStreams": 734975,
         "airplayAudience": 27900000,
         "airplaySpins": 0,
         "sales": 95400
@@ -28,13 +28,19 @@
       "luminateId": "SG8C3E80D54CCF4265BD31A3B4490D4680",
       "title": "2.0",
       "artist": "BTS",
-      "actualPts": 67274
+      "actualPts": 67274,
+      "consumption": {
+        "programmedStreams": 32704
+      }
     },
     "100": {
       "luminateId": "SG3B5E00A4DC6D4D968163FAE79B5796A8",
       "title": "Ever Since U Left Me",
       "artist": "French Montana,Max B",
-      "actualPts": 33859
+      "actualPts": 33859,
+      "consumption": {
+        "programmedStreams": 265392
+      }
     }
   }
 }

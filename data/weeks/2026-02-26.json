@@ -1,1 +1,41 @@
-{"weekStart":"2026-02-20","weekEnding":"2026-02-26","thresholdPoints":{"1":243732,"10":143788,"25":99198,"50":59528,"75":42268,"100":35862},"drillins":{"1":{"luminateId":"SGFABFA59A35564C4DBF9D4EF5551C42D4","title":"Choosin' Texas","artist":"Ella Langley","actualPts":243732},"50":{"luminateId":"SG25DB6783C44E44528B6ADA80EBDBD02F","title":"BIRDS & THE BEES","artist":"Baby Keem","actualPts":59528},"100":{"luminateId":"SG40C71A3E6E2348B287147105A90712FE","title":"FAME IS A GUN","artist":"ADDISON RAE","actualPts":35862}}}
+{
+  "weekStart": "2026-02-20",
+  "weekEnding": "2026-02-26",
+  "thresholdPoints": {
+    "1": 243732,
+    "10": 143788,
+    "25": 99198,
+    "50": 59528,
+    "75": 42268,
+    "100": 35862
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "actualPts": 243732,
+      "consumption": {
+        "programmedStreams": 2604945
+      }
+    },
+    "50": {
+      "luminateId": "SG25DB6783C44E44528B6ADA80EBDBD02F",
+      "title": "BIRDS & THE BEES",
+      "artist": "Baby Keem",
+      "actualPts": 59528,
+      "consumption": {
+        "programmedStreams": 11215
+      }
+    },
+    "100": {
+      "luminateId": "SG40C71A3E6E2348B287147105A90712FE",
+      "title": "FAME IS A GUN",
+      "artist": "ADDISON RAE",
+      "actualPts": 35862,
+      "consumption": {
+        "programmedStreams": 30480
+      }
+    }
+  }
+}

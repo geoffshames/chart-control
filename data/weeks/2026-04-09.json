@@ -36,7 +36,7 @@
       "consumption": {
         "premiumStreams": 5986895,
         "adSupportedStreams": 2635903,
-        "programmedStreams": null,
+        "programmedStreams": 1097497,
         "airplayAudience": 72200000,
         "airplaySpins": 28900,
         "sales": 529
@@ -50,7 +50,7 @@
       "consumption": {
         "premiumStreams": 7298074,
         "adSupportedStreams": 1378151,
-        "programmedStreams": null,
+        "programmedStreams": 314776,
         "airplayAudience": 13200000,
         "airplaySpins": 7700,
         "sales": 280
@@ -64,7 +64,7 @@
       "consumption": {
         "premiumStreams": 5540144,
         "adSupportedStreams": 558598,
-        "programmedStreams": null,
+        "programmedStreams": 366678,
         "airplayAudience": 53800,
         "airplaySpins": 118,
         "sales": 336
@@ -78,7 +78,7 @@
       "consumption": {
         "premiumStreams": 3953297,
         "adSupportedStreams": 1460588,
-        "programmedStreams": null,
+        "programmedStreams": 175233,
         "airplayAudience": 0,
         "airplaySpins": 0,
         "sales": 52
@@ -92,7 +92,7 @@
       "consumption": {
         "premiumStreams": 2834886,
         "adSupportedStreams": 987358,
-        "programmedStreams": null,
+        "programmedStreams": 6370,
         "airplayAudience": 0,
         "airplaySpins": 0,
         "sales": 16

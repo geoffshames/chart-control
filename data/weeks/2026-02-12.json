@@ -18,7 +18,7 @@
       "consumption": {
         "premiumStreams": 41033120,
         "adSupportedStreams": 9143112,
-        "programmedStreams": null,
+        "programmedStreams": 1080104,
         "airplayAudience": 5800000,
         "airplaySpins": 2300,
         "sales": 11700
@@ -28,13 +28,19 @@
       "luminateId": "SG48CFDF492F694A9BB47036C7C1E765B1",
       "title": "LET 'EM KNOW",
       "artist": "T.I.",
-      "actualPts": 72901
+      "actualPts": 72901,
+      "consumption": {
+        "programmedStreams": 679785
+      }
     },
     "100": {
       "luminateId": "SGF5CA204A9D0A44A19EDAA8D30B9DFFB4",
       "title": "Quik Stop",
       "artist": "J. Cole",
-      "actualPts": 46524
+      "actualPts": 46524,
+      "consumption": {
+        "programmedStreams": 6502
+      }
     }
   }
 }

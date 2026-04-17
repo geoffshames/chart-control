@@ -18,7 +18,7 @@
       "consumption": {
         "premiumStreams": 17984626,
         "adSupportedStreams": 2298203,
-        "programmedStreams": null,
+        "programmedStreams": 469583,
         "airplayAudience": 29200000,
         "airplaySpins": 0,
         "sales": 3600
@@ -28,13 +28,19 @@
       "luminateId": "SGA51AF88FCF5B454295DC692F0F849F66",
       "title": "I Ain't Comin' Back",
       "artist": "Morgan Wallen, Post Malone",
-      "actualPts": 49193
+      "actualPts": 49193,
+      "consumption": {
+        "programmedStreams": 799861
+      }
     },
     "100": {
       "luminateId": "SG7A3838BBF9A3414793E3042B1089680D",
       "title": "MR RECOUP",
       "artist": "21 Savage & Drake",
-      "actualPts": 29087
+      "actualPts": 29087,
+      "consumption": {
+        "programmedStreams": 123306
+      }
     }
   }
 }
