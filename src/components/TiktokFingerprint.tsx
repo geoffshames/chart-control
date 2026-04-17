@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import data from '@/lib/data/tiktok-fingerprint.json';
+import { computeBenchmarks, normalizeGenre, vsGenreBenchmark, GENRE_COLORS, GENRE_ORDER } from '@/lib/genre';
 
 type Sample = {
   rank: number;
@@ -49,6 +50,8 @@ export default function TiktokFingerprint() {
   const samples = (data.samples as Sample[]).slice().sort(
     (a, b) => a.tiktokCreates / a.songEquivalent - b.tiktokCreates / b.songEquivalent
   );
+
+  const benchmarks = computeBenchmarks(samples);
 
   const greenCount = samples.filter(s => s.tiktokCreates / s.songEquivalent < 2).length;
   const amberCount = samples.filter(s => {
@@ -141,6 +144,74 @@ export default function TiktokFingerprint() {
           ))}
         </motion.div>
 
+        {/* Genre Benchmark strip — normalized buckets, sorted by median creates/point */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="mb-20 md:mb-24"
+        >
+          <div className="flex items-baseline justify-between mb-6 md:mb-8">
+            <div>
+              <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mb-2 font-medium">
+                Genre Benchmarks
+              </div>
+              <p className="text-base text-[#E4E4E9] max-w-xl">
+                Median creates-per-point by normalized genre. Each song&apos;s ratio is most meaningfully compared to its cohort here.
+              </p>
+            </div>
+            <div className="hidden md:block text-[10px] tracking-[0.25em] uppercase text-[#B8B8C0] font-mono">
+              N = {samples.length} songs &middot; {benchmarks.length} genres
+            </div>
+          </div>
+
+          <div
+            className="grid gap-3 md:gap-4"
+            style={{ gridTemplateColumns: `repeat(auto-fit, minmax(180px, 1fr))` }}
+          >
+            {benchmarks.map((bm) => {
+              const color = GENRE_COLORS[bm.genre];
+              return (
+                <div
+                  key={bm.genre}
+                  className="relative p-5 md:p-6 rounded-lg"
+                  style={{
+                    background: 'linear-gradient(145deg, rgba(20,20,20,0.9), rgba(14,14,14,0.9))',
+                    border: `1px solid ${color}40`,
+                  }}
+                >
+                  <div className="absolute left-0 top-0 bottom-0 w-[3px] rounded-l-lg" style={{ background: color }} />
+                  <div className="pl-3">
+                    <div
+                      className="text-[10px] tracking-[0.25em] uppercase font-bold mb-3"
+                      style={{ color }}
+                    >
+                      {bm.genre}
+                    </div>
+                    <div className="flex items-baseline gap-2 mb-2">
+                      <div
+                        className="text-3xl md:text-4xl font-bold font-mono tabular-nums text-[#FAFAFA] leading-none"
+                        style={{ fontFamily: "'N27', sans-serif" }}
+                      >
+                        {bm.median.toFixed(bm.median < 10 ? 2 : 1)}
+                      </div>
+                      <span className="text-[10px] text-[#B8B8C0] font-mono tracking-wide">
+                        median
+                      </span>
+                    </div>
+                    <div className="text-[11px] text-[#B8B8C0] font-mono tracking-wide">
+                      {bm.n === 1
+                        ? `N=1 · ${bm.median.toFixed(2)} only`
+                        : `N=${bm.n} · ${bm.min.toFixed(2)}–${bm.max.toFixed(2)}`}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </motion.div>
+
         {/* Column headers — generous vertical padding */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -169,6 +240,8 @@ export default function TiktokFingerprint() {
           {samples.map((s, idx) => {
             const ratio = s.tiktokCreates / s.songEquivalent;
             const t = getTier(ratio);
+            const canonicalGenre = normalizeGenre(s.genre);
+            const bmCompare = vsGenreBenchmark(s, benchmarks);
             return (
               <motion.div
                 key={s.rank}
@@ -225,11 +298,22 @@ export default function TiktokFingerprint() {
                 <div className="hidden md:block text-right font-mono tabular-nums text-[15px] text-[#FAFAFA] font-medium">
                   {fmtK(s.songEquivalent)}
                 </div>
-                <div
-                  className="hidden md:block text-right font-mono tabular-nums text-3xl font-bold"
-                  style={{ fontFamily: "'N27', sans-serif", color: '#FAFAFA' }}
-                >
-                  {ratio.toFixed(2)}
+                <div className="hidden md:flex flex-col items-end">
+                  <div
+                    className="font-mono tabular-nums text-3xl font-bold"
+                    style={{ fontFamily: "'N27', sans-serif", color: '#FAFAFA' }}
+                  >
+                    {ratio.toFixed(2)}
+                  </div>
+                  {bmCompare && bmCompare.nInGenre >= 1 && (
+                    <div
+                      className="text-[10px] font-mono tracking-wide mt-1"
+                      style={{ color: bmCompare.pct > 15 ? '#FF9100' : bmCompare.pct < -15 ? '#00E676' : '#B8B8C0' }}
+                      title={`Genre median for ${canonicalGenre}: ${benchmarks.find(b => b.genre === canonicalGenre)?.median.toFixed(2)} (N=${bmCompare.nInGenre})`}
+                    >
+                      {bmCompare.pct > 0 ? '+' : ''}{bmCompare.pct.toFixed(0)}% vs {canonicalGenre} median
+                    </div>
+                  )}
                 </div>
                 <div className="hidden md:flex justify-end">
                   <span
