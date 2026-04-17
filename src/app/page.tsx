@@ -159,7 +159,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#0A0A0A] text-text-primary font-body">
       {/* Sticky Top Nav */}
       <motion.header
-        initial={{ opacity: 0 }}
+        initial={false}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
         className={`fixed top-0 z-50 w-full transition-all duration-300 ${
@@ -170,7 +170,7 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-10 h-full flex items-center justify-between">
           <motion.div
-            initial={{ opacity: 0 }}
+            initial={false}
             animate={{ opacity: isScrolled ? 1 : 0 }}
             className="flex items-center gap-3"
           >
@@ -182,7 +182,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <motion.section
-        initial={{ opacity: 0 }}
+        initial={false}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
         className="relative min-h-[85vh] flex flex-col items-center justify-center overflow-hidden pt-16 pb-20 md:pb-32"
@@ -192,7 +192,7 @@ export default function Home() {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-10 w-full flex flex-col items-center text-center">
           <motion.span
-            initial={{ opacity: 0, y: -15 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
             className="text-[10px] tracking-[0.3em] uppercase text-text-muted mb-8 md:mb-12"
@@ -201,7 +201,7 @@ export default function Home() {
           </motion.span>
 
           <motion.h1
-            initial={{ opacity: 0, scale: 0.92 }}
+            initial={false}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.9, delay: 0.2, type: 'spring', stiffness: 60 }}
             className="font-heading font-bold text-[clamp(3.5rem,16vw,11rem)] leading-[0.9] tracking-tight uppercase mb-6 md:mb-8"
@@ -210,7 +210,7 @@ export default function Home() {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 15 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.35 }}
             className="text-lg md:text-2xl text-text-secondary max-w-3xl mx-auto mb-10 md:mb-16 tracking-wide"
@@ -219,7 +219,7 @@ export default function Home() {
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.45 }}
             className="text-xs text-text-muted tracking-[0.2em] space-y-1"
