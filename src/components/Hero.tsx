@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
   // Choosin' Texas #1 composition — per week-1 validation with old PDF divisors
@@ -30,14 +29,12 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
         >
           {/* Left: Content */}
           <div className="flex flex-col gap-6 md:gap-8">
-            {/* Wordmark only — no redundant text, no VOLUME 01 */}
-            <Image
+            {/* Wordmark only — inline style to bypass Tailwind scanner */}
+            <img
               src="/brand/CC-LOGO-2024-WHITE.png"
               alt="Crowd Control Digital"
-              width={640}
-              height={90}
-              className="h-4 md:h-5 w-auto"
-              priority
+              style={{ height: '24px', width: 'auto' }}
+              className="block"
             />
 
             <h1
