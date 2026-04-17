@@ -415,3 +415,19 @@ input[type="number"]::-webkit-inner-spin-button {
   .md\:gap-10 { gap: 2.5rem; }
   .md\:gap-12 { gap: 3rem; }
 }
+
+/* =========================================================================
+ * CASCADE OVERRIDE — all responsive display utilities must win over non-
+ * responsive ones regardless of source order. This fixes repeating bugs
+ * where `flex flex-col md:grid` stayed as flex on desktop because `.flex`
+ * was declared later in the safelist than `.md:grid`.
+ * ========================================================================= */
+@media (min-width: 768px) {
+  .md\:hidden { display: none !important; }
+  .md\:block { display: block !important; }
+  .md\:flex { display: flex !important; }
+  .md\:inline-flex { display: inline-flex !important; }
+  .md\:grid { display: grid !important; }
+  .md\:inline-block { display: inline-block !important; }
+  .md\:inline { display: inline !important; }
+}
