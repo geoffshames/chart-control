@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -15,12 +14,12 @@ const Footer = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="flex items-center gap-3">
-            <Image
-              src="/brand/CC-LOGO-2024-WHITE.png"
+            <img
+              src="/brand/CC-LOGO-2025-PROFILE.png"
               alt="Crowd Control Digital"
-              width={32}
-              height={32}
-              className="w-8 h-auto"
+              width={28}
+              height={28}
+              style={{ width: '28px', height: '28px', display: 'block' }}
             />
             <span className="text-xs text-[#B8B8C0] tracking-tight">
               CROWD CONTROL DIGITAL
