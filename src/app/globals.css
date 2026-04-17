@@ -127,47 +127,59 @@ input[type="range"].slider {
   cursor: pointer;
 }
 
+input[type="range"].slider::-webkit-slider-runnable-track {
+  height: 2px;
+  background: linear-gradient(to right, #FD3737 0%, #FD3737 var(--val, 0%), #333 var(--val, 0%), #333 100%);
+  border-radius: 999px;
+}
+
+input[type="range"].slider::-moz-range-track {
+  height: 2px;
+  background: #333;
+  border-radius: 999px;
+  border: none;
+}
+
 input[type="range"].slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background: #FD3737;
   cursor: pointer;
-  margin-top: -5px;
+  margin-top: -6px;
   box-shadow: 0 0 0 4px rgba(253, 55, 55, 0.15);
-  transition: all 0.2s ease;
+  transition: box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.15s;
 }
 
 input[type="range"].slider::-webkit-slider-thumb:hover {
   box-shadow: 0 0 0 8px rgba(253, 55, 55, 0.25);
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 input[type="range"].slider::-webkit-slider-thumb:active {
-  box-shadow: 0 0 0 12px rgba(253, 55, 55, 0.3);
+  transform: scale(0.92);
 }
 
 input[type="range"].slider::-moz-range-thumb {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background: #FD3737;
   cursor: pointer;
   border: none;
   box-shadow: 0 0 0 4px rgba(253, 55, 55, 0.15);
-  transition: all 0.2s ease;
+  transition: box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.15s;
 }
 
 input[type="range"].slider::-moz-range-thumb:hover {
   box-shadow: 0 0 0 8px rgba(253, 55, 55, 0.25);
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
-input[type="range"].slider::-moz-range-track {
-  background: transparent;
-  border: none;
+input[type="range"].slider::-moz-range-thumb:active {
+  transform: scale(0.92);
 }
 
 input[type="range"].slider::-moz-range-progress {
@@ -278,3 +290,13 @@ input[type="number"]::-webkit-inner-spin-button {
   .md\:gap-8 { gap: 2rem; }
   .md\:gap-10 { gap: 2.5rem; }
 }
+
+/* Tier color utilities */
+.bg-tier-green { background-color: #00E676; }
+.bg-tier-yellow { background-color: #FFD600; }
+.bg-tier-orange { background-color: #FF9100; }
+.bg-tier-red { background-color: #FF1744; }
+.text-tier-green { color: #00E676; }
+.text-tier-yellow { color: #FFD600; }
+.text-tier-orange { color: #FF9100; }
+.text-tier-red { color: #FF1744; }
