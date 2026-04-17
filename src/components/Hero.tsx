@@ -1,9 +1,21 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+import Image from 'next/image';
 
 const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
+  // Choosin' Texas #1 composition — per week-1 validation with old PDF divisors
+  // Premium: 24,764,046 / 125 = 198,112 (66.1%)
+  // Airplay: 55.8M / 800 = 69,750 (23.3%)
+  // Ad-Supported: 8,098,719 / 375 = 21,597 (7.2%)
+  // Sales: 8,900 (3.0%)
+  const composition = [
+    { label: 'PREMIUM', pts: 198112, share: 66.1, color: '#FD3737' },
+    { label: 'AIRPLAY', pts: 69750, share: 23.3, color: '#FD6B6B' },
+    { label: 'AD-SUPP', pts: 21597, share: 7.2, color: '#FF9797' },
+    { label: 'SALES', pts: 8900, share: 3.0, color: '#FFC4C4' },
+  ];
+
   return (
     <section
       className="min-h-[100dvh] w-full px-6 md:px-10 py-16 md:py-24 flex items-center"
@@ -11,107 +23,149 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
     >
       <div className="max-w-7xl mx-auto w-full">
         <motion.div
-          className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-20 items-center"
+          className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-16 lg:gap-20 items-center"
           initial={false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
           {/* Left: Content */}
-          <div className="flex flex-col gap-8">
-            <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0]">
-              CROWD CONTROL DIGITAL · CHART INTELLIGENCE
+          <div className="flex flex-col gap-6 md:gap-8">
+            <div className="flex items-center gap-3">
+              <Image
+                src="/brand/CC-LOGO-2024-WHITE.png"
+                alt="Crowd Control Digital"
+                width={36}
+                height={36}
+                className="h-8 w-8 md:h-9 md:w-9 object-contain"
+                priority
+              />
+              <span className="text-[10px] md:text-[11px] tracking-[0.3em] uppercase text-[#B8B8C0] font-medium">
+                CROWD CONTROL DIGITAL
+              </span>
+            </div>
+
+            <div className="text-[10px] md:text-[11px] tracking-[0.3em] uppercase text-[#B8B8C0]">
+              CHART INTELLIGENCE &middot; VOLUME 01
             </div>
 
             <h1
-              className="text-[clamp(3.5rem,10vw,8rem)] leading-[0.9] tracking-tight uppercase"
+              className="text-[clamp(3.5rem,10vw,8rem)] leading-[0.9] tracking-tight uppercase font-bold"
               style={{ fontFamily: "'N27', sans-serif" }}
             >
-              CHART<br />CONTROL
+              CHART
+              <br />
+              CONTROL
             </h1>
 
-            <p className="text-xl md:text-2xl text-[#E4E4E9] font-light">
-              the hot 100, reverse-engineered.
+            <p className="text-xl md:text-2xl tracking-[0.05em] uppercase text-[#E4E4E9] font-medium leading-tight">
+              THE HOT 100,
+              <br className="md:hidden" />
+              <span className="text-[#FD3737]">&nbsp;REVERSE-ENGINEERED.</span>
             </p>
 
-            <div className="flex items-center gap-3 mt-2">
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mt-2">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-[#00E676] animate-pulse" />
-                <span className="text-xs font-mono text-[#B8B8C0]">LIVE</span>
+                <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#E4E4E9] font-medium">LIVE</span>
               </div>
-              <span className="text-xs font-mono text-[#B8B8C0]">
-                Week of Apr 3–9, 2026
+              <span className="h-3 w-px bg-[#333]"></span>
+              <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
+                WEEK OF APR 3 &ndash; 9, 2026
+              </span>
+              <span className="h-3 w-px bg-[#333]"></span>
+              <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
+                PUBLISHED APR 15
               </span>
             </div>
 
             <motion.button
               onClick={onCalculatorClick}
-              className="mt-6 px-8 py-4 bg-[#FD3737] text-white font-medium tracking-tight w-fit"
-              whileHover={{ scale: 1.02 }}
+              className="mt-4 px-8 py-4 bg-[#FD3737] text-white font-medium tracking-[0.15em] uppercase text-sm w-fit rounded-sm"
+              whileHover={{ scale: 1.02, y: -1 }}
               whileTap={{ scale: 0.98 }}
               transition={{ type: 'spring', stiffness: 100, damping: 20 }}
             >
-              Open Calculator
+              OPEN CALCULATOR
             </motion.button>
           </div>
 
-          {/* Right: Hero Visual */}
+          {/* Right: #1 composition */}
           <motion.div
-            className="relative"
+            className="relative w-full"
             initial={false}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: 'easeOut' }}
           >
-            <div
-              className="p-8 rounded-lg border border-[#333]/50"
-              style={{
-                background: 'linear-gradient(135deg, #141414 0%, #141414 85%, rgba(253, 55, 55, 0.08) 100%)',
-              }}
-            >
-              <div className="text-sm text-[#B8B8C0] mb-6">
-                <span className="text-[10px] tracking-[0.2em] uppercase">This week: #1</span>
-              </div>
-
-              <div className="mb-8">
-                <h3 className="text-lg font-medium text-[#FAFAFA]">Choosin' Texas</h3>
-                <p className="text-sm text-[#B8B8C0]">Ella Langley</p>
-              </div>
-
-              <div className="mb-8">
-                <div
-                  className="text-5xl font-bold tracking-tight"
-                  style={{ fontFamily: "'N27', sans-serif", fontSize: 'clamp(2rem, 5vw, 4rem)' }}
-                >
-                  <span className="font-mono">299.6K</span>
+            <div className="p-8 md:p-10 rounded-xl border border-[#333]/60 bg-[#111]">
+              <div className="flex items-start justify-between mb-10">
+                <div>
+                  <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mb-3 font-medium">
+                    THIS WEEK &middot; #1
+                  </div>
+                  <h3 className="text-2xl font-medium text-[#FAFAFA] leading-tight tracking-tight">
+                    Choosin&apos; Texas
+                  </h3>
+                  <p className="text-sm text-[#B8B8C0] mt-1">Ella Langley &middot; Columbia</p>
                 </div>
-                <div className="text-[10px] tracking-[0.2em] uppercase text-[#B8B8C0] mt-2">Points</div>
+                <div className="text-right shrink-0 ml-4">
+                  <div className="text-[9px] tracking-[0.25em] uppercase text-[#B8B8C0] mb-1">PEAK</div>
+                  <div className="font-mono text-sm text-[#FAFAFA] tabular-nums">#1 &middot; W25</div>
+                </div>
               </div>
 
-              {/* Composition Bar */}
-              <div className="relative h-16 bg-[#1A1A1A] rounded overflow-hidden">
-                <motion.div
-                  className="absolute inset-0 bg-gradient-to-r from-transparent via-[#FD3737] to-transparent opacity-30"
-                  animate={{ x: ['0%', '100%'] }}
-                  transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
-                  style={{ width: '30%' }}
-                />
+              <div className="mb-10">
+                <div
+                  className="font-bold tracking-tight text-[#FAFAFA] font-mono tabular-nums"
+                  style={{ fontFamily: "'N27', sans-serif", fontSize: 'clamp(3.25rem, 6vw, 5rem)', lineHeight: 0.95 }}
+                >
+                  299,600
+                </div>
+                <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mt-2 font-medium">
+                  SONG EQUIVALENT POINTS
+                </div>
+              </div>
 
-                <div className="flex h-full items-center relative z-10 divide-x divide-[#333]/50">
-                  <div className="flex-1 px-4 flex flex-col justify-center">
-                    <div className="text-[10px] text-[#B8B8C0] tracking-wide uppercase">Premium</div>
-                    <div className="font-mono text-sm text-[#FD3737] font-bold">180.2K</div>
+              {/* Composition — NO ANIMATION, LEGIBLE */}
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <div className="text-[10px] tracking-[0.25em] uppercase text-[#B8B8C0] font-medium">
+                    POINT COMPOSITION
                   </div>
-                  <div className="flex-1 px-4 flex flex-col justify-center">
-                    <div className="text-[10px] text-[#B8B8C0] tracking-wide uppercase">Ad-Supp</div>
-                    <div className="font-mono text-sm text-[#FD3737] opacity-60 font-bold">71.8K</div>
+                  <div className="text-[10px] tracking-[0.25em] uppercase text-[#B8B8C0] font-mono">
+                    100%
                   </div>
-                  <div className="flex-1 px-4 flex flex-col justify-center">
-                    <div className="text-[10px] text-[#B8B8C0] tracking-wide uppercase">Airplay</div>
-                    <div className="font-mono text-sm text-[#FD3737] opacity-30 font-bold">37.2K</div>
-                  </div>
-                  <div className="flex-1 px-4 flex flex-col justify-center">
-                    <div className="text-[10px] text-[#B8B8C0] tracking-wide uppercase">Sales</div>
-                    <div className="font-mono text-sm text-[#FD3737] opacity-10 font-bold">10.4K</div>
-                  </div>
+                </div>
+
+                <div className="flex h-3 w-full rounded-full overflow-hidden bg-[#1A1A1A] mb-5">
+                  {composition.map((seg) => (
+                    <div
+                      key={seg.label}
+                      className="h-full"
+                      style={{ width: seg.share + '%', backgroundColor: seg.color }}
+                      title={seg.label + ': ' + seg.pts.toLocaleString() + ' pts (' + seg.share + '%)'}
+                    />
+                  ))}
+                </div>
+
+                <div className="grid grid-cols-2 gap-x-6 gap-y-3">
+                  {composition.map((seg) => (
+                    <div key={seg.label} className="flex items-center justify-between border-b border-[#333]/30 pb-2">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-2.5 h-2.5 rounded-sm shrink-0" style={{ backgroundColor: seg.color }} />
+                        <span className="text-[10px] tracking-[0.2em] uppercase text-[#B8B8C0] font-medium">
+                          {seg.label}
+                        </span>
+                      </div>
+                      <div className="flex items-baseline gap-2">
+                        <span className="font-mono text-sm text-[#FAFAFA] tabular-nums font-medium">
+                          {(seg.pts / 1000).toFixed(1)}K
+                        </span>
+                        <span className="font-mono text-[10px] text-[#B8B8C0] tabular-nums">
+                          {seg.share}%
+                        </span>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
