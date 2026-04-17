@@ -126,43 +126,74 @@ const Methodology = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.4, delay: idx * 0.05 }}
-                className="grid grid-cols-[1.2fr_auto_2fr_auto] md:grid-cols-[1.3fr_110px_2.5fr_auto] gap-4 md:gap-8 items-center py-6 md:py-7"
+                className="py-6 md:py-7"
               >
-                <div className="text-[11px] md:text-[12px] tracking-[0.2em] uppercase text-[#B8B8C0] font-medium">
-                  {row.source}
-                </div>
-                <div
-                  className="text-2xl md:text-3xl font-bold font-mono tabular-nums text-[#FD3737]"
-                  style={{ fontFamily: "'N27', sans-serif" }}
-                >
-                  &divide; {row.divisor.toFixed(row.divisor < 10 ? 0 : 1).replace(/\.0$/, '')}
-                </div>
-                <div className="text-sm text-[#E4E4E9] leading-snug">
-                  {row.description}
-                  {hasDrift && (
-                    <span className="block text-[10px] text-[#B8B8C0] mt-1 font-mono">
-                      {diffPct > 0 ? '+' : ''}
-                      {diffPct.toFixed(1)}% vs 2024 prior (÷{row.prior.toFixed(0)})
-                    </span>
-                  )}
-                </div>
-                <div className="justify-self-end">
-                  {row.status === 'calibrated' && (
-                    <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-medium tracking-[0.1em] uppercase px-2.5 py-1 rounded bg-[#00E676]/15 text-[#00E676]">
-                      <CheckCircle size={11} weight="bold" />
-                      Calibrated
-                    </span>
-                  )}
-                  {row.status === 'prior' && (
-                    <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-medium tracking-[0.1em] uppercase px-2.5 py-1 rounded bg-[#FFD600]/15 text-[#FFD600]">
-                      Needs Data
-                    </span>
-                  )}
-                  {row.status === 'locked' && (
-                    <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-medium tracking-[0.1em] uppercase px-2.5 py-1 rounded bg-[#B8B8C0]/15 text-[#B8B8C0]">
-                      Locked
-                    </span>
-                  )}
+                {/* Mobile: stacked.  Desktop: 4-col grid */}
+                <div className="flex flex-col gap-3 md:grid md:grid-cols-[1.3fr_140px_2.5fr_auto] md:gap-8 md:items-center">
+                  {/* Mobile: label + status on one row | Desktop: label in col 1 */}
+                  <div className="flex items-center justify-between md:block">
+                    <div className="text-[10px] md:text-[12px] tracking-[0.2em] uppercase text-[#B8B8C0] font-medium">
+                      {row.source}
+                    </div>
+                    {/* Status pill shows on mobile here, hidden on desktop (rendered later) */}
+                    <div className="md:hidden">
+                      {row.status === 'calibrated' && (
+                        <span className="inline-flex items-center gap-1.5 text-[9px] font-mono font-medium tracking-[0.1em] uppercase px-2 py-1 rounded bg-[#00E676]/15 text-[#00E676]">
+                          <CheckCircle size={10} weight="bold" />
+                          Calibrated
+                        </span>
+                      )}
+                      {row.status === 'prior' && (
+                        <span className="inline-flex items-center gap-1.5 text-[9px] font-mono font-medium tracking-[0.1em] uppercase px-2 py-1 rounded bg-[#FFD600]/15 text-[#FFD600]">
+                          Needs Data
+                        </span>
+                      )}
+                      {row.status === 'locked' && (
+                        <span className="inline-flex items-center gap-1.5 text-[9px] font-mono font-medium tracking-[0.1em] uppercase px-2 py-1 rounded bg-[#B8B8C0]/15 text-[#B8B8C0]">
+                          Locked
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Divisor — big on both views */}
+                  <div
+                    className="text-4xl md:text-3xl font-bold font-mono tabular-nums text-[#FD3737] leading-none"
+                    style={{ fontFamily: "'N27', sans-serif" }}
+                  >
+                    &divide; {row.divisor.toFixed(row.divisor < 10 ? 0 : 1).replace(/\.0$/, '')}
+                  </div>
+
+                  {/* Description */}
+                  <div className="text-sm text-[#E4E4E9] leading-snug">
+                    {row.description}
+                    {hasDrift && (
+                      <span className="block text-[10px] text-[#B8B8C0] mt-1 font-mono">
+                        {diffPct > 0 ? '+' : ''}
+                        {diffPct.toFixed(1)}% vs 2024 prior (&divide;{row.prior.toFixed(0)})
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Desktop-only status pill column (mobile pill rendered above) */}
+                  <div className="hidden md:block md:justify-self-end">
+                    {row.status === 'calibrated' && (
+                      <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-medium tracking-[0.1em] uppercase px-2.5 py-1 rounded bg-[#00E676]/15 text-[#00E676]">
+                        <CheckCircle size={11} weight="bold" />
+                        Calibrated
+                      </span>
+                    )}
+                    {row.status === 'prior' && (
+                      <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-medium tracking-[0.1em] uppercase px-2.5 py-1 rounded bg-[#FFD600]/15 text-[#FFD600]">
+                        Needs Data
+                      </span>
+                    )}
+                    {row.status === 'locked' && (
+                      <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-medium tracking-[0.1em] uppercase px-2.5 py-1 rounded bg-[#B8B8C0]/15 text-[#B8B8C0]">
+                        Locked
+                      </span>
+                    )}
+                  </div>
                 </div>
               </motion.div>
             );

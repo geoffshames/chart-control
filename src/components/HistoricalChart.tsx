@@ -30,8 +30,8 @@ const HistoricalChart = () => {
   });
 
   const nWeeks = chartData.length;
-  const target = 12;
-  const progressPct = Math.min(100, (nWeeks / target) * 100);
+  // Denominator grows with the dataset so the counter reads as N/N and the bar stays full
+  const progressPct = 100;
 
   return (
     <section className="w-full px-6 md:px-10 py-20 md:py-32 bg-[#0A0A0A]">
@@ -53,9 +53,7 @@ const HistoricalChart = () => {
             Threshold Drift
           </h2>
           <p className="text-lg text-[#E4E4E9] max-w-2xl">
-            How the points required at each rank shift week to week. The spikes
-            reveal big release weeks; the valleys reveal soft chart weeks to
-            target.
+            How the points required at each rank shift week to week. Spikes mark big release weeks; valleys mark softer chart weeks worth targeting.
           </p>
         </motion.div>
 
@@ -75,7 +73,7 @@ const HistoricalChart = () => {
               style={{ fontFamily: "'N27', sans-serif" }}
             >
               {String(nWeeks).padStart(2, '0')}{' '}
-              <span className="text-[#B8B8C0]">/</span> {target}
+              <span className="text-[#B8B8C0]">/</span> {String(nWeeks).padStart(2, '0')}
             </div>
             <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] font-medium mt-1">
               WEEKS COLLECTED

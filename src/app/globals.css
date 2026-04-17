@@ -349,3 +349,20 @@ input[type="number"]::-webkit-inner-spin-button {
 .cursor-grab { cursor: grab; }
 .cursor-grabbing { cursor: grabbing; }
 .active\:cursor-grabbing:active { cursor: grabbing; }
+
+/* Mobile-first show/hide utilities used by Methodology */
+.hidden { display: none; }
+.block { display: block; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.justify-self-end { justify-self: end; }
+.leading-none { line-height: 1; }
+.leading-snug { line-height: 1.375; }
+@media (min-width: 768px) {
+  .md\:hidden { display: none; }
+  .md\:block { display: block; }
+  .md\:grid { display: grid; }
+  .md\:items-center { align-items: center; }
+  .md\:justify-self-end { justify-self: end; }
+}
