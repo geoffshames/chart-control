@@ -192,3 +192,89 @@ input[type="number"]::-webkit-inner-spin-button {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ========== Explicit utility safelist for Tailwind v4 scanner gaps ========== */
+.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+.px-8 { padding-left: 2rem; padding-right: 2rem; }
+.px-10 { padding-left: 2.5rem; padding-right: 2.5rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+.py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+.py-10 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+.py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+.py-24 { padding-top: 6rem; padding-bottom: 6rem; }
+.py-32 { padding-top: 8rem; padding-bottom: 8rem; }
+.p-4 { padding: 1rem; }
+.p-6 { padding: 1.5rem; }
+.p-8 { padding: 2rem; }
+.p-10 { padding: 2.5rem; }
+.pb-20 { padding-bottom: 5rem; }
+.pb-32 { padding-bottom: 8rem; }
+.pt-16 { padding-top: 4rem; }
+.pt-24 { padding-top: 6rem; }
+
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.mb-8 { margin-bottom: 2rem; }
+.mb-10 { margin-bottom: 2.5rem; }
+.mb-12 { margin-bottom: 3rem; }
+.mb-16 { margin-bottom: 4rem; }
+.mb-20 { margin-bottom: 5rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+.mt-6 { margin-top: 1.5rem; }
+.mt-8 { margin-top: 2rem; }
+.mt-12 { margin-top: 3rem; }
+.mt-16 { margin-top: 4rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.max-w-2xl { max-width: 42rem; }
+.max-w-3xl { max-width: 48rem; }
+.max-w-4xl { max-width: 56rem; }
+.max-w-5xl { max-width: 64rem; }
+.max-w-7xl { max-width: 80rem; }
+
+.min-h-screen { min-height: 100vh; }
+
+@media (min-width: 768px) {
+  .md\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+  .md\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+  .md\:px-10 { padding-left: 2.5rem; padding-right: 2.5rem; }
+  .md\:py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+  .md\:py-24 { padding-top: 6rem; padding-bottom: 6rem; }
+  .md\:py-32 { padding-top: 8rem; padding-bottom: 8rem; }
+  .md\:p-6 { padding: 1.5rem; }
+  .md\:p-8 { padding: 2rem; }
+  .md\:p-10 { padding: 2.5rem; }
+  .md\:pb-32 { padding-bottom: 8rem; }
+  .md\:mb-6 { margin-bottom: 1.5rem; }
+  .md\:mb-8 { margin-bottom: 2rem; }
+  .md\:mb-12 { margin-bottom: 3rem; }
+  .md\:mb-16 { margin-bottom: 4rem; }
+}
+
+.bg-accent { background-color: #FD3737; }
+.bg-surface { background-color: #141414; }
+.bg-surface-50 { background-color: #1A1A1A; }
+.bg-surface-100 { background-color: #262626; }
+.bg-surface-200 { background-color: #333333; }
+.text-accent { color: #FD3737; }
+.border-accent { border-color: #FD3737; }
+.border-surface-200 { border-color: #333333; }
+.border-surface-200\/60 { border-color: rgba(51, 51, 51, 0.6); }
+.border-surface-200\/40 { border-color: rgba(51, 51, 51, 0.4); }
+.hover\:border-accent\/40:hover { border-color: rgba(253, 55, 55, 0.4); }
+.hover\:border-accent\/30:hover { border-color: rgba(253, 55, 55, 0.3); }
+
+.gap-4 { gap: 1rem; }
+.gap-5 { gap: 1.25rem; }
+.gap-8 { gap: 2rem; }
+.gap-10 { gap: 2.5rem; }
+@media (min-width: 768px) {
+  .md\:gap-6 { gap: 1.5rem; }
+  .md\:gap-8 { gap: 2rem; }
+  .md\:gap-10 { gap: 2.5rem; }
+}

@@ -168,7 +168,7 @@ export default function Home() {
             : 'bg-transparent border-b border-transparent h-16'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-10 h-full flex items-center justify-between">
+        <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px] h-full flex items-center justify-between">
           <motion.div
             initial={false}
             animate={{ opacity: isScrolled ? 1 : 0 }}
@@ -190,7 +190,7 @@ export default function Home() {
           background: 'radial-gradient(circle at 50% 20%, rgba(253, 55, 55, 0.08) 0%, transparent 70%)',
         }}
       >
-        <div className="max-w-7xl mx-auto px-6 md:px-10 w-full flex flex-col items-center text-center">
+        <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px] w-full flex flex-col items-center text-center">
           <motion.span
             initial={false}
             animate={{ opacity: 1, y: 0 }}
@@ -240,7 +240,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="py-24 md:py-32"
         >
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px]">
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -298,7 +298,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="py-24 md:py-32"
         >
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px]">
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -508,7 +508,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="py-24 md:py-32"
         >
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px]">
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -599,7 +599,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="py-24 md:py-32"
         >
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px]">
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -708,7 +708,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="py-24 md:py-32"
         >
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px]">
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -780,7 +780,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
           className="py-24 md:py-32"
         >
-          <div className="max-w-7xl mx-auto px-6 md:px-10">
+          <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px]">
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -863,7 +863,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-surface-200/40 mt-32 py-12 md:py-16 bg-[#0A0A0A]">
-        <div className="max-w-7xl mx-auto px-6 md:px-10">
+        <div className="max-w-[1280px] mx-auto px-[24px] md:px-[40px]">
           <div className="flex items-center justify-center gap-3 mb-6">
             <img src="/brand/CC-LOGO-2024-WHITE.png" alt="Crowd Control Digital" className="h-5 w-5" />
             <span className="text-xs font-heading font-bold tracking-[0.2em] uppercase">Crowd Control Digital</span>
