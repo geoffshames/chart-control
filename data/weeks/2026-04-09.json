@@ -12,20 +12,26 @@
   "drillins": {
     "1": {
       "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
-      "title": "Choosin' Texas", "artist": "Ella Langley",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
       "actualPts": 299600,
       "consumption": {
         "premiumStreams": 24764046,
         "adSupportedStreams": 8098719,
-        "programmedStreams": null,
+        "programmedStreams": 3810328,
         "airplayAudience": 55800000,
         "airplaySpins": 24900,
-        "sales": 8900
+        "sales": 8900,
+        "programmedSplit": {
+          "adSupported": 2623544,
+          "premium": 1186784
+        }
       }
     },
     "10": {
       "luminateId": "SG405C130DC6094EEF94DDFB8795512C96",
-      "title": "Folded", "artist": "Kehlani",
+      "title": "Folded",
+      "artist": "Kehlani",
       "actualPts": 146717,
       "consumption": {
         "premiumStreams": 5986895,
@@ -38,7 +44,8 @@
     },
     "25": {
       "luminateId": "SG038DB5740450460FB1F6BAB15BB82AF9",
-      "title": "Body", "artist": "Don Toliver",
+      "title": "Body",
+      "artist": "Don Toliver",
       "actualPts": 88931,
       "consumption": {
         "premiumStreams": 7298074,
@@ -51,7 +58,8 @@
     },
     "50": {
       "luminateId": "SGD7249D38C1DF4BA298FFACFC966B035D",
-      "title": "Porch Light", "artist": "Noah Kahan",
+      "title": "Porch Light",
+      "artist": "Noah Kahan",
       "actualPts": 55619,
       "consumption": {
         "premiumStreams": 5540144,
@@ -64,7 +72,8 @@
     },
     "75": {
       "luminateId": "SGA6DC817BFB35445D8C05DBA0E078F1AA",
-      "title": "DAÑO", "artist": "Peso Pluma, Tito Double P",
+      "title": "DA\u00d1O",
+      "artist": "Peso Pluma, Tito Double P",
       "actualPts": 36298,
       "consumption": {
         "premiumStreams": 3953297,
@@ -77,7 +86,8 @@
     },
     "100": {
       "luminateId": "SG538A1A6B518842DE862B985C32CD7F20",
-      "title": "Sweet Boy", "artist": "Malcolm Todd",
+      "title": "Sweet Boy",
+      "artist": "Malcolm Todd",
       "actualPts": 31079,
       "consumption": {
         "premiumStreams": 2834886,
