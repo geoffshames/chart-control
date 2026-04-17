@@ -33,8 +33,9 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
             <img
               src="/brand/CC-LOGO-2024-WHITE.png"
               alt="Crowd Control Digital"
-              style={{ height: '24px', width: 'auto' }}
-              className="block"
+              width={172}
+              height={24}
+              style={{ height: '24px', width: '172px', display: 'block' }}
             />
 
             <h1
