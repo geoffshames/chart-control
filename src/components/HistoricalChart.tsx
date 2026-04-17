@@ -35,24 +35,27 @@ const HistoricalChart = () => {
 
         {/* Empty State */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-8 md:gap-12 items-center"
+          className="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-10 md:gap-16 items-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.6 }}
         >
-          <div className="flex flex-col items-center md:items-start justify-center md:justify-start">
-            <div className="text-[10px] tracking-[0.2em] uppercase text-[#B8B8C0] mb-4">
-              Progress
+          <div className="flex flex-col items-start gap-3 min-w-0">
+            <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] font-medium">
+              PROGRESS
             </div>
             <div
-              className="text-4xl md:text-5xl font-bold text-[#FD3737] font-mono leading-tight"
+              className="text-5xl md:text-6xl font-bold text-[#FD3737] font-mono leading-none tabular-nums whitespace-nowrap"
               style={{ fontFamily: "'N27', sans-serif" }}
             >
-              1/12
+              01 <span className="text-[#B8B8C0]">/</span> 12
             </div>
-            <div className="text-xs text-[#B8B8C0] mt-2 text-center md:text-left">
+            <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] font-medium mt-1">
               WEEKS COLLECTED
+            </div>
+            <div className="mt-4 w-full h-1 bg-[#1A1A1A] rounded-full overflow-hidden">
+              <div className="h-full bg-[#FD3737]" style={{ width: '8.33%' }} />
             </div>
           </div>
 

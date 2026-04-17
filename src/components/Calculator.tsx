@@ -70,7 +70,7 @@ const Calculator = ({ id }: CalculatorProps) => {
           step={max / 100}
           value={value}
           onChange={(e) => onChange(Number(e.target.value))}
-          className="w-full h-1 bg-transparent rounded-full appearance-none cursor-pointer accent-accent slider"
+          className="w-full block cursor-grab active:cursor-grabbing slider"
           style={
             {
               '--val': `${percent}%`,
@@ -160,7 +160,7 @@ const Calculator = ({ id }: CalculatorProps) => {
                 step={500}
                 value={sales}
                 onChange={(e) => setSales(Number(e.target.value))}
-                className="w-full h-1 bg-transparent rounded-full appearance-none cursor-pointer accent-accent slider"
+                className="w-full block cursor-grab active:cursor-grabbing slider"
                 style={
                   {
                     '--val': `${(sales / 50000) * 100}%`,

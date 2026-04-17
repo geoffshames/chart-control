@@ -15,16 +15,6 @@ const ThresholdBento = () => {
 
   const TileContent = ({ rank, points, change }: (typeof thresholds)[0]) => (
     <div className="flex flex-col justify-between h-full relative overflow-hidden">
-      {rank === 1 && (
-        <motion.div
-          className="absolute inset-0 bg-gradient-to-r from-[#FD3737] via-[#FD3737] to-transparent opacity-20"
-          animate={{
-            x: ['-100%', '100%'],
-          }}
-          transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
-        />
-      )}
-
       <div className="relative z-10">
         <div className="text-[10px] tracking-[0.2em] uppercase text-[#FD3737] mb-3">
           #{rank}

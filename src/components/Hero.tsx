@@ -30,23 +30,15 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
         >
           {/* Left: Content */}
           <div className="flex flex-col gap-6 md:gap-8">
-            <div className="flex items-center gap-3">
-              <Image
-                src="/brand/CC-LOGO-2024-WHITE.png"
-                alt="Crowd Control Digital"
-                width={36}
-                height={36}
-                className="h-8 w-8 md:h-9 md:w-9 object-contain"
-                priority
-              />
-              <span className="text-[10px] md:text-[11px] tracking-[0.3em] uppercase text-[#B8B8C0] font-medium">
-                CROWD CONTROL DIGITAL
-              </span>
-            </div>
-
-            <div className="text-[10px] md:text-[11px] tracking-[0.3em] uppercase text-[#B8B8C0]">
-              CHART INTELLIGENCE &middot; VOLUME 01
-            </div>
+            {/* Wordmark only — no redundant text, no VOLUME 01 */}
+            <Image
+              src="/brand/CC-LOGO-2024-WHITE.png"
+              alt="Crowd Control Digital"
+              width={640}
+              height={90}
+              className="h-12 md:h-14 w-auto"
+              priority
+            />
 
             <h1
               className="text-[clamp(3.5rem,10vw,8rem)] leading-[0.9] tracking-tight uppercase font-bold"
