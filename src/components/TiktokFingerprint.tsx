@@ -298,22 +298,32 @@ export default function TiktokFingerprint() {
                 <div className="hidden md:block text-right font-mono tabular-nums text-[15px] text-[#FAFAFA] font-medium">
                   {fmtK(s.songEquivalent)}
                 </div>
-                <div className="hidden md:flex flex-col items-end">
+                <div className="hidden md:flex flex-col items-end gap-2">
                   <div
-                    className="font-mono tabular-nums text-3xl font-bold"
+                    className="font-mono tabular-nums text-3xl font-bold leading-none"
                     style={{ fontFamily: "'N27', sans-serif", color: '#FAFAFA' }}
                   >
                     {ratio.toFixed(2)}
                   </div>
-                  {bmCompare && bmCompare.nInGenre >= 1 && (
-                    <div
-                      className="text-[10px] font-mono tracking-wide mt-1"
-                      style={{ color: bmCompare.pct > 15 ? '#FF9100' : bmCompare.pct < -15 ? '#00E676' : '#B8B8C0' }}
-                      title={`Genre median for ${canonicalGenre}: ${benchmarks.find(b => b.genre === canonicalGenre)?.median.toFixed(2)} (N=${bmCompare.nInGenre})`}
-                    >
-                      {bmCompare.pct > 0 ? '+' : ''}{bmCompare.pct.toFixed(0)}% vs {canonicalGenre} median
-                    </div>
-                  )}
+                  {bmCompare && bmCompare.nInGenre >= 1 && (() => {
+                    const above = bmCompare.pct > 15;
+                    const below = bmCompare.pct < -15;
+                    const neutral = !above && !below;
+                    const chipColor = above ? '#FF9100' : below ? '#00E676' : '#B8B8C0';
+                    const chipBg = above ? 'rgba(255, 145, 0, 0.12)' : below ? 'rgba(0, 230, 118, 0.12)' : 'rgba(184, 184, 192, 0.08)';
+                    const arrow = above ? '▲' : below ? '▼' : '·';
+                    return (
+                      <div
+                        className="inline-flex items-center gap-1.5 text-[10px] font-mono tracking-[0.05em] font-semibold px-2 py-1 rounded whitespace-nowrap"
+                        style={{ color: chipColor, backgroundColor: chipBg }}
+                        title={`Genre median for ${canonicalGenre}: ${benchmarks.find(b => b.genre === canonicalGenre)?.median.toFixed(2)} (N=${bmCompare.nInGenre})`}
+                      >
+                        <span style={{ fontSize: '8px', opacity: neutral ? 0.5 : 1 }}>{arrow}</span>
+                        <span>{Math.abs(bmCompare.pct).toFixed(0)}%</span>
+                        <span style={{ opacity: 0.7 }}>vs {canonicalGenre}</span>
+                      </div>
+                    );
+                  })()}
                 </div>
                 <div className="hidden md:flex justify-end">
                   <span
