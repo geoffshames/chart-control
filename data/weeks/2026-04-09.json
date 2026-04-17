@@ -1,0 +1,92 @@
+{
+  "weekStart": "2026-04-03",
+  "weekEnding": "2026-04-09",
+  "thresholdPoints": {
+    "1": 299600,
+    "10": 146717,
+    "25": 88931,
+    "50": 55619,
+    "75": 36298,
+    "100": 31079
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas", "artist": "Ella Langley",
+      "actualPts": 299600,
+      "consumption": {
+        "premiumStreams": 24764046,
+        "adSupportedStreams": 8098719,
+        "programmedStreams": null,
+        "airplayAudience": 55800000,
+        "airplaySpins": 24900,
+        "sales": 8900
+      }
+    },
+    "10": {
+      "luminateId": "SG405C130DC6094EEF94DDFB8795512C96",
+      "title": "Folded", "artist": "Kehlani",
+      "actualPts": 146717,
+      "consumption": {
+        "premiumStreams": 5986895,
+        "adSupportedStreams": 2635903,
+        "programmedStreams": null,
+        "airplayAudience": 72200000,
+        "airplaySpins": 28900,
+        "sales": 529
+      }
+    },
+    "25": {
+      "luminateId": "SG038DB5740450460FB1F6BAB15BB82AF9",
+      "title": "Body", "artist": "Don Toliver",
+      "actualPts": 88931,
+      "consumption": {
+        "premiumStreams": 7298074,
+        "adSupportedStreams": 1378151,
+        "programmedStreams": null,
+        "airplayAudience": 13200000,
+        "airplaySpins": 7700,
+        "sales": 280
+      }
+    },
+    "50": {
+      "luminateId": "SGD7249D38C1DF4BA298FFACFC966B035D",
+      "title": "Porch Light", "artist": "Noah Kahan",
+      "actualPts": 55619,
+      "consumption": {
+        "premiumStreams": 5540144,
+        "adSupportedStreams": 558598,
+        "programmedStreams": null,
+        "airplayAudience": 53800,
+        "airplaySpins": 118,
+        "sales": 336
+      }
+    },
+    "75": {
+      "luminateId": "SGA6DC817BFB35445D8C05DBA0E078F1AA",
+      "title": "DAÑO", "artist": "Peso Pluma, Tito Double P",
+      "actualPts": 36298,
+      "consumption": {
+        "premiumStreams": 3953297,
+        "adSupportedStreams": 1460588,
+        "programmedStreams": null,
+        "airplayAudience": 0,
+        "airplaySpins": 0,
+        "sales": 52
+      }
+    },
+    "100": {
+      "luminateId": "SG538A1A6B518842DE862B985C32CD7F20",
+      "title": "Sweet Boy", "artist": "Malcolm Todd",
+      "actualPts": 31079,
+      "consumption": {
+        "premiumStreams": 2834886,
+        "adSupportedStreams": 987358,
+        "programmedStreams": null,
+        "airplayAudience": 0,
+        "airplaySpins": 0,
+        "sales": 16
+      }
+    }
+  }
+}
