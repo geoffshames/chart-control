@@ -319,3 +319,33 @@ input[type="number"]::-webkit-inner-spin-button {
 .text-tier-yellow { color: #FFD600; }
 .text-tier-orange { color: #FF9100; }
 .text-tier-red { color: #FF1744; }
+
+/* Additional safelist utilities for logo sizing and slider cursor */
+.h-4 { height: 1rem; }
+.h-5 { height: 1.25rem; }
+.h-6 { height: 1.5rem; }
+.h-7 { height: 1.75rem; }
+.h-8 { height: 2rem; }
+.h-9 { height: 2.25rem; }
+.h-10 { height: 2.5rem; }
+.h-12 { height: 3rem; }
+.h-14 { height: 3.5rem; }
+.w-auto { width: auto; }
+.w-full { width: 100%; }
+.w-fit { width: fit-content; }
+
+@media (min-width: 768px) {
+  .md\:h-4 { height: 1rem; }
+  .md\:h-5 { height: 1.25rem; }
+  .md\:h-6 { height: 1.5rem; }
+  .md\:h-7 { height: 1.75rem; }
+  .md\:h-8 { height: 2rem; }
+  .md\:h-9 { height: 2.25rem; }
+  .md\:h-10 { height: 2.5rem; }
+  .md\:h-12 { height: 3rem; }
+  .md\:h-14 { height: 3.5rem; }
+}
+
+.cursor-grab { cursor: grab; }
+.cursor-grabbing { cursor: grabbing; }
+.active\:cursor-grabbing:active { cursor: grabbing; }
