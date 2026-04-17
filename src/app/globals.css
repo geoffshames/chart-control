@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'N27';
+  src: url('/brand/N27-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg: #0A0A0A;
+  --text-primary: #FAFAFA;
+  --text-secondary: #E4E4E9;
+  --text-muted: #B8B8C0;
+  --accent: #FD3737;
+  --surface: #141414;
+  --surface-50: #1A1A1A;
+  --surface-100: #262626;
+  --surface-200: #333333;
+  --tier-green: #00E676;
+  --tier-yellow: #FFD600;
+  --tier-orange: #FF9100;
+  --tier-red: #FF1744;
+}
 
 * {
   margin: 0;
@@ -9,16 +35,71 @@
 }
 
 html {
-  font-family: var(--font-work-sans), sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background-color: #0A0A0A;
-  color: #FAFAFA;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.7;
+}
+
+::selection {
+  @apply bg-accent/30 text-white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+* {
+  scrollbar-color: #333333 transparent;
+  scrollbar-width: thin;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Image defaults */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.3s;
 }
 
 input[type='range'] {
-  accent-color: #FD3737;
+  accent-color: var(--accent);
 }
 
 input[type='number'] {

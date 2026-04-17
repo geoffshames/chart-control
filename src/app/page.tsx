@@ -116,14 +116,14 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0A0A0A] text-[#FAFAFA]">
-      <header className="border-b border-[#2A2A2A] bg-[#0A0A0A]/80 backdrop-blur sticky top-0 z-40">
+    <div className="min-h-screen bg-[#0A0A0A] text-text-primary font-body">
+      <header className="border-b border-surface-200/40 bg-[#0A0A0A]/80 backdrop-blur sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-[#FD3737] rounded" />
-            <span className="font-semibold text-sm tracking-wide">CHART CONTROL</span>
+            <img src="/brand/CC-LOGO-2024-WHITE.png" alt="Crowd Control Digital" className="w-8 h-8" />
+            <span className="font-heading font-bold text-sm tracking-wide uppercase">CHART CONTROL</span>
           </div>
-          <div className="text-xs text-[#A1A1AA]">
+          <div className="text-xs text-text-muted">
             Week ending Apr 9, 2026 · Published Apr 15
           </div>
         </div>
@@ -143,9 +143,9 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-center mb-16"
           >
-            <h1 className="text-6xl font-bold mb-4 tracking-tight">CHART CONTROL</h1>
-            <p className="text-xl text-[#A1A1AA] mb-12">
-              Reverse-engineering the Billboard Hot 100
+            <h1 className="text-5xl md:text-6xl font-heading font-bold mb-4 uppercase tracking-wide">CHART CONTROL</h1>
+            <p className="text-xl text-text-secondary mb-12">
+              Hot 100 Reverse Engineer
             </p>
 
             <div className="grid grid-cols-3 gap-4 mb-8 md:grid-cols-6">
@@ -157,15 +157,15 @@ export default function Home() {
                 { label: '#75', value: 36298 },
                 { label: '#100', value: 31079 },
               ].map((t) => (
-                <div key={t.label} className="bg-[#1A1A1A] border border-[#2A2A2A] rounded p-4">
-                  <div className="text-xs text-[#71717A] uppercase mb-2">{t.label}</div>
-                  <div className="text-lg font-semibold text-[#FD3737]">
+                <div key={t.label} className="bg-gradient-to-br from-surface-50/80 to-surface/50 border border-surface-200/60 rounded-2xl p-6 hover:scale-[1.01] hover:shadow-lg hover:shadow-accent/5 hover:border-accent/30 transition-all duration-300">
+                  <div className="text-[10px] text-text-muted uppercase tracking-[0.25em] font-medium mb-2">{t.label}</div>
+                  <div className="text-xl md:text-2xl font-heading font-bold text-text-primary">
                     {(t.value / 1000).toFixed(1)}K
                   </div>
                 </div>
               ))}
             </div>
-            <p className="text-sm text-[#71717A]">
+            <p className="text-sm text-text-muted">
               Source: Luminate Billboard Hot 100 chart
             </p>
           </motion.section>
@@ -175,9 +175,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-[#1A1A1A] border border-[#2A2A2A] rounded-lg p-8"
+            className="bg-gradient-to-br from-surface-50/80 to-surface/50 border border-surface-200/60 rounded-2xl p-8 md:p-10 hover:scale-[1.01] hover:shadow-lg hover:shadow-accent/5 hover:border-accent/30 transition-all duration-300"
           >
-            <h2 className="text-2xl font-bold mb-8">What-If Calculator</h2>
+            <h2 className="text-2xl md:text-3xl font-heading font-bold mb-8 uppercase tracking-[0.15em]">What-If Calculator</h2>
 
             <div className="grid md:grid-cols-2 gap-8">
               {/* Inputs */}
@@ -220,7 +220,7 @@ export default function Home() {
                   },
                 ].map((field) => (
                   <div key={field.label}>
-                    <label className="block text-sm font-medium text-[#A1A1AA] mb-2">
+                    <label className="block text-sm font-medium text-text-muted mb-2">
                       {field.label}
                     </label>
                     <input
@@ -232,7 +232,7 @@ export default function Home() {
                       onChange={(e) => field.onChange(Number(e.target.value))}
                       className="w-full"
                     />
-                    <div className="text-sm text-[#71717A] mt-1">
+                    <div className="text-sm text-text-muted mt-1">
                       {(field.value / 1000000).toFixed(2)}M
                     </div>
                   </div>
@@ -241,16 +241,16 @@ export default function Home() {
 
               {/* Outputs */}
               <div className="space-y-4">
-                <div className="bg-[#0A0A0A] border border-[#2A2A2A] rounded p-6">
-                  <div className="text-sm text-[#71717A] uppercase mb-2">Total Points</div>
-                  <div className="text-5xl font-bold text-[#FD3737]">
+                <div className="bg-surface border border-surface-200/60 rounded-xl p-6">
+                  <div className="text-[10px] text-text-muted uppercase tracking-[0.25em] font-medium mb-3">Total Points</div>
+                  <div className="text-5xl md:text-6xl font-heading font-bold text-text-primary">
                     {Math.floor(currentPoints).toLocaleString()}
                   </div>
                 </div>
 
-                <div className="bg-[#0A0A0A] border border-[#2A2A2A] rounded p-6">
-                  <div className="text-sm text-[#71717A] uppercase mb-2">Predicted Position</div>
-                  <div className="text-4xl font-bold">#{Math.round(predictedRank)}</div>
+                <div className="bg-surface border border-surface-200/60 rounded-xl p-6">
+                  <div className="text-[10px] text-text-muted uppercase tracking-[0.25em] font-medium mb-3">Predicted Position</div>
+                  <div className="text-4xl md:text-5xl font-heading font-bold text-text-primary">#{Math.round(predictedRank)}</div>
                 </div>
 
                 <div className="space-y-2">
@@ -258,9 +258,9 @@ export default function Home() {
                     const thresh = thresholds[pos as keyof typeof thresholds];
                     const dist = distanceToThreshold(currentPoints, thresh);
                     return (
-                      <div key={pos} className="bg-[#0A0A0A] border border-[#2A2A2A] rounded p-3 text-sm">
-                        <span className="text-[#A1A1AA]">#{pos}: </span>
-                        <span className={dist.includes('+') ? 'text-green-400' : 'text-amber-400'}>
+                      <div key={pos} className="bg-surface border border-surface-200/60 rounded-lg p-3 text-sm">
+                        <span className="text-text-secondary">#{pos}: </span>
+                        <span className={dist.includes('+') ? 'text-tier-green' : 'text-tier-yellow'}>
                           {dist}
                         </span>
                       </div>
@@ -269,27 +269,27 @@ export default function Home() {
                 </div>
 
                 {/* Path to Target */}
-                <div className="mt-6 pt-6 border-t border-[#2A2A2A]">
+                <div className="mt-6 pt-6 border-t border-surface-200/60">
                   <div className="mb-3">
-                    <label className="text-sm text-[#A1A1AA]">Target Position:</label>
+                    <label className="text-sm text-text-muted">Target Position:</label>
                     <input
                       type="number"
                       min="1"
                       max="100"
                       value={targetPosition}
                       onChange={(e) => setTargetPosition(Number(e.target.value))}
-                      className="w-full bg-[#0A0A0A] border border-[#2A2A2A] rounded px-3 py-2 mt-1 text-[#FAFAFA]"
+                      className="w-full bg-surface border border-surface-200/60 rounded px-3 py-2 mt-1 text-text-primary"
                     />
                   </div>
-                  <div className="text-xs text-[#71717A] space-y-1">
+                  <div className="text-xs text-text-muted space-y-1">
                     <p>Smallest increase to reach #{Math.round(targetPosition)}:</p>
-                    <p className="text-[#FD3737]">
+                    <p className="text-accent">
                       +{(pathToTargetData.subStreamsNeeded / 1000000).toFixed(2)}M premium OR
                     </p>
-                    <p className="text-[#FD3737]">
+                    <p className="text-accent">
                       +{(pathToTargetData.programmedStreamsNeeded / 1000000).toFixed(2)}M programmed OR
                     </p>
-                    <p className="text-[#FD3737]">
+                    <p className="text-accent">
                       +{(pathToTargetData.airplayNeeded / 1000000).toFixed(0)}M airplay
                     </p>
                   </div>
@@ -303,13 +303,13 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="bg-[#1A1A1A] border border-[#2A2A2A] rounded-lg p-8"
+            className="bg-gradient-to-br from-surface-50/80 to-surface/50 border border-surface-200/60 rounded-2xl p-8 md:p-10 hover:scale-[1.01] hover:shadow-lg hover:shadow-accent/5 hover:border-accent/30 transition-all duration-300"
           >
-            <h2 className="text-2xl font-bold mb-4">Methodology & Divisors</h2>
+            <h2 className="text-2xl md:text-3xl font-heading font-bold mb-6 uppercase tracking-[0.15em]">Methodology & Divisors</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-3">
-                <p className="text-[#A1A1AA]">2024 Billboard Hot 100 divisors:</p>
-                <ul className="text-sm space-y-2 text-[#71717A]">
+                <p className="text-text-secondary font-medium">2024 Billboard Hot 100 divisors:</p>
+                <ul className="text-sm space-y-2 text-text-muted">
                   <li>Premium on-demand streams ÷ 125</li>
                   <li>Ad-supported on-demand streams ÷ 375</li>
                   <li>Programmed streams ÷ 500</li>
@@ -317,7 +317,7 @@ export default function Home() {
                   <li>Digital/physical sales ÷ 1</li>
                 </ul>
               </div>
-              <div className="text-sm text-[#71717A]">
+              <div className="text-sm text-text-muted">
                 <p className="mb-2">
                   Our Apr 2026 validation shows these divisors reproduce Luminate Song Equivalent values
                   within 0.3–2% for songs with pure on-demand + airplay profiles.
@@ -335,35 +335,50 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="bg-[#1A1A1A] border border-[#2A2A2A] rounded-lg p-8 overflow-x-auto"
+            className="bg-gradient-to-br from-surface-50/80 to-surface/50 border border-surface-200/60 rounded-2xl p-8 md:p-10 overflow-x-auto hover:scale-[1.01] hover:shadow-lg hover:shadow-accent/5 hover:border-accent/30 transition-all duration-300"
           >
-            <h2 className="text-2xl font-bold mb-6">Validation Results (6-Sample Audit)</h2>
+            <h2 className="text-2xl md:text-3xl font-heading font-bold mb-6 uppercase tracking-[0.15em]">Validation Results (6-Sample Audit)</h2>
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-[#2A2A2A]">
-                  <th className="text-left py-2 px-2 text-[#A1A1AA] font-semibold">Rank</th>
-                  <th className="text-left py-2 px-2 text-[#A1A1AA] font-semibold">Title</th>
-                  <th className="text-left py-2 px-2 text-[#A1A1AA] font-semibold">Artist</th>
-                  <th className="text-right py-2 px-2 text-[#A1A1AA] font-semibold">Actual Pts</th>
-                  <th className="text-right py-2 px-2 text-[#A1A1AA] font-semibold">Predicted Pts</th>
-                  <th className="text-right py-2 px-2 text-[#A1A1AA] font-semibold">Error %</th>
+                <tr className="border-b border-surface-200/60">
+                  <th className="text-left py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Rank</th>
+                  <th className="text-left py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Title</th>
+                  <th className="text-left py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Artist</th>
+                  <th className="text-right py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Actual Pts</th>
+                  <th className="text-right py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Predicted Pts</th>
+                  <th className="text-right py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Accuracy</th>
                 </tr>
               </thead>
               <tbody>
-                {validationSamples.map((row) => (
-                  <tr key={row.rank} className="border-b border-[#2A2A2A] hover:bg-[#0A0A0A]">
-                    <td className="py-3 px-2 text-[#FD3737] font-semibold">#{row.rank}</td>
-                    <td className="py-3 px-2 text-[#FAFAFA]">{row.title}</td>
-                    <td className="py-3 px-2 text-[#A1A1AA]">{row.artist}</td>
-                    <td className="py-3 px-2 text-right">{(row.actualPts / 1000).toFixed(1)}K</td>
-                    <td className="py-3 px-2 text-right">{(row.predictedPts / 1000).toFixed(1)}K</td>
-                    <td className={`py-3 px-2 text-right font-semibold ${
-                      row.errorPct < 2 ? 'text-green-400' : row.errorPct > 10 ? 'text-amber-400' : 'text-[#A1A1AA]'
-                    }`}>
-                      {row.errorPct.toFixed(2)}%
-                    </td>
-                  </tr>
-                ))}
+                {validationSamples.map((row) => {
+                  let tierClass = '';
+                  let tierColor = '';
+                  if (row.errorPct < 2) {
+                    tierClass = 'bg-tier-green/20';
+                    tierColor = 'text-tier-green';
+                  } else if (row.errorPct < 5) {
+                    tierClass = 'bg-tier-yellow/20';
+                    tierColor = 'text-tier-yellow';
+                  } else if (row.errorPct < 10) {
+                    tierClass = 'bg-tier-orange/20';
+                    tierColor = 'text-tier-orange';
+                  } else {
+                    tierClass = 'bg-tier-red/20';
+                    tierColor = 'text-tier-red';
+                  }
+                  return (
+                    <tr key={row.rank} className="border-b border-surface-200/40 hover:bg-surface-100/30">
+                      <td className="py-3 px-2 text-accent font-semibold">#{row.rank}</td>
+                      <td className="py-3 px-2 text-text-primary font-medium">{row.title}</td>
+                      <td className="py-3 px-2 text-text-secondary">{row.artist}</td>
+                      <td className="py-3 px-2 text-right text-text-secondary">{(row.actualPts / 1000).toFixed(1)}K</td>
+                      <td className="py-3 px-2 text-right text-text-secondary">{(row.predictedPts / 1000).toFixed(1)}K</td>
+                      <td className={`py-3 px-2 text-right font-semibold ${tierClass} ${tierColor} rounded px-2`}>
+                        {row.errorPct.toFixed(2)}%
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </motion.section>
@@ -373,20 +388,20 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="bg-[#1A1A1A] border border-[#2A2A2A] rounded-lg p-8"
+            className="bg-gradient-to-br from-surface-50/80 to-surface/50 border border-surface-200/60 rounded-2xl p-8 md:p-10 hover:scale-[1.01] hover:shadow-lg hover:shadow-accent/5 hover:border-accent/30 transition-all duration-300"
           >
-            <h2 className="text-2xl font-bold mb-6">Historical Thresholds</h2>
-            <div className="bg-[#0A0A0A] rounded p-6 mb-6 h-64 flex items-center justify-center">
+            <h2 className="text-2xl md:text-3xl font-heading font-bold mb-6 uppercase tracking-[0.15em]">Historical Thresholds</h2>
+            <div className="bg-surface rounded-lg p-6 mb-6 h-64 flex items-center justify-center">
               <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={historicalData}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#2A2A2A" />
-                  <XAxis dataKey="week" stroke="#71717A" />
-                  <YAxis stroke="#71717A" />
+                  <CartesianGrid strokeDasharray="3 3" stroke="#333333" />
+                  <XAxis dataKey="week" stroke="#B8B8C0" />
+                  <YAxis stroke="#B8B8C0" />
                   <Tooltip
                     contentStyle={{
                       backgroundColor: '#1A1A1A',
-                      border: '1px solid #2A2A2A',
-                      borderRadius: '4px',
+                      border: '1px solid #333333',
+                      borderRadius: '8px',
                     }}
                     labelStyle={{ color: '#FAFAFA' }}
                   />
@@ -400,21 +415,21 @@ export default function Home() {
                   <Line
                     type="monotone"
                     dataKey="rank25"
-                    stroke="#A1A1AA"
+                    stroke="#E4E4E9"
                     strokeWidth={2}
                     name="#25"
                   />
                   <Line
                     type="monotone"
                     dataKey="rank50"
-                    stroke="#71717A"
+                    stroke="#B8B8C0"
                     strokeWidth={2}
                     name="#50"
                   />
                 </LineChart>
               </ResponsiveContainer>
             </div>
-            <p className="text-sm text-[#71717A]">
+            <p className="text-sm text-text-muted">
               Historical threshold data accumulates weekly. First full 12-week stress test will populate
               this view. Data points so far: 1 week (2026-04-09).
             </p>
@@ -425,30 +440,30 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="bg-[#1A1A1A] border border-[#2A2A2A] rounded-lg p-8"
+            className="bg-gradient-to-br from-surface-50/80 to-surface/50 border border-surface-200/60 rounded-2xl p-8 md:p-10 overflow-x-auto hover:scale-[1.01] hover:shadow-lg hover:shadow-accent/5 hover:border-accent/30 transition-all duration-300"
           >
-            <h2 className="text-2xl font-bold mb-6">Hot 100 Chart (Week of Apr 9)</h2>
+            <h2 className="text-2xl md:text-3xl font-heading font-bold mb-6 uppercase tracking-[0.15em]">Hot 100 Chart (Week of Apr 9)</h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-[#2A2A2A]">
-                    <th className="text-left py-2 px-2 text-[#A1A1AA] font-semibold">Rank</th>
-                    <th className="text-left py-2 px-2 text-[#A1A1AA] font-semibold">Title</th>
-                    <th className="text-left py-2 px-2 text-[#A1A1AA] font-semibold">Artist</th>
-                    <th className="text-right py-2 px-2 text-[#A1A1AA] font-semibold">Song Equivalent Pts</th>
+                  <tr className="border-b border-surface-200/60">
+                    <th className="text-left py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Rank</th>
+                    <th className="text-left py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Title</th>
+                    <th className="text-left py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Artist</th>
+                    <th className="text-right py-3 px-2 text-text-muted font-semibold text-[10px] uppercase tracking-[0.25em]">Song Equivalent Pts</th>
                   </tr>
                 </thead>
                 <tbody>
                   {chartRows.map((row) => (
-                    <tr key={row.rank} className="border-b border-[#2A2A2A] hover:bg-[#0A0A0A]">
-                      <td className="py-2 px-2">
-                        <span className="inline-block w-8 h-8 bg-[#FD3737] text-[#0A0A0A] rounded text-center leading-8 text-sm font-bold">
+                    <tr key={row.rank} className="border-b border-surface-200/40 hover:bg-surface-100/30">
+                      <td className="py-3 px-2">
+                        <span className="inline-flex items-center justify-center w-8 h-8 bg-accent text-surface rounded font-heading font-bold text-sm">
                           {row.rank}
                         </span>
                       </td>
-                      <td className="py-2 px-2 text-[#FAFAFA] font-medium">{row.title}</td>
-                      <td className="py-2 px-2 text-[#A1A1AA]">{row.artist}</td>
-                      <td className="py-2 px-2 text-right font-semibold text-[#FD3737]">
+                      <td className="py-3 px-2 text-text-primary font-medium">{row.title}</td>
+                      <td className="py-3 px-2 text-text-secondary">{row.artist}</td>
+                      <td className="py-3 px-2 text-right font-semibold text-accent">
                         {(row.songEquivalent / 1000).toFixed(1)}K
                       </td>
                     </tr>
@@ -461,9 +476,10 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-[#2A2A2A] mt-20 py-8 text-center text-xs text-[#71717A]">
-        <p>CHART CONTROL v0.1 · Crowd Control Digital</p>
-        <p>Data source: Luminate · Formula: 2024 Billboard Hot 100 divisors</p>
+      <footer className="border-t border-surface-200/40 mt-20 py-8 text-center text-xs text-text-muted">
+        <p className="font-heading font-bold uppercase mb-1">CHART CONTROL v0.1</p>
+        <p>Crowd Control Digital · info@crowdcontroldigital.com</p>
+        <p className="mt-2">Data source: Luminate · Formula: 2024 Billboard Hot 100 divisors</p>
       </footer>
     </div>
   );
