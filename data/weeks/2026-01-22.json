@@ -16,7 +16,12 @@
       "artist": "Bruno Mars",
       "actualPts": 223936,
       "consumption": {
-        "programmedStreams": 816681
+        "programmedStreams": 816681,
+        "premiumStreams": 15683735,
+        "adSupportedStreams": 2743759,
+        "airplayAudience": 45600000,
+        "airplaySpins": 19900,
+        "sales": 9300
       }
     },
     "50": {
@@ -25,7 +30,12 @@
       "artist": "Tinashe, Disco Lines",
       "actualPts": 54418,
       "consumption": {
-        "programmedStreams": 374109
+        "programmedStreams": 374109,
+        "premiumStreams": 5207254,
+        "adSupportedStreams": 430547,
+        "airplayAudience": 1600000,
+        "airplaySpins": 1300,
+        "sales": 447
       }
     },
     "100": {
@@ -34,7 +44,12 @@
       "artist": "THE MAR\u00cdAS",
       "actualPts": 33305,
       "consumption": {
-        "programmedStreams": 59332
+        "programmedStreams": 59332,
+        "premiumStreams": 3097397,
+        "adSupportedStreams": 1212617,
+        "airplayAudience": 0,
+        "airplaySpins": 0,
+        "sales": 24
       }
     }
   }

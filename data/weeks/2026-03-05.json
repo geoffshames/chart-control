@@ -16,7 +16,12 @@
       "artist": "Bruno Mars",
       "actualPts": 272890,
       "consumption": {
-        "programmedStreams": 1194158
+        "programmedStreams": 1194158,
+        "premiumStreams": 16319615,
+        "adSupportedStreams": 2436459,
+        "airplayAudience": 83100000,
+        "airplaySpins": 37800,
+        "sales": 1100
       }
     },
     "50": {
@@ -25,7 +30,12 @@
       "artist": "HARDY,Eric Church,Morgan Wallen,Tim McGraw",
       "actualPts": 61836,
       "consumption": {
-        "programmedStreams": 1030551
+        "programmedStreams": 1030551,
+        "premiumStreams": 4859442,
+        "adSupportedStreams": 233577,
+        "airplayAudience": 11800000,
+        "airplaySpins": 5700,
+        "sales": 1200
       }
     },
     "100": {
@@ -34,7 +44,12 @@
       "artist": "J. Cole",
       "actualPts": 34999,
       "consumption": {
-        "programmedStreams": 155667
+        "programmedStreams": 155667,
+        "premiumStreams": 2440703,
+        "adSupportedStreams": 259260,
+        "airplayAudience": 9500000,
+        "airplaySpins": 5400,
+        "sales": 172
       }
     }
   }

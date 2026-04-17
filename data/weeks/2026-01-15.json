@@ -16,7 +16,12 @@
       "artist": "Bruno Mars",
       "actualPts": 269393,
       "consumption": {
-        "programmedStreams": 749342
+        "programmedStreams": 749342,
+        "premiumStreams": 19650678,
+        "adSupportedStreams": 3527605,
+        "airplayAudience": 35400000,
+        "airplaySpins": 13500,
+        "sales": 12800
       }
     },
     "50": {
@@ -25,7 +30,12 @@
       "artist": "JASON ALDEAN",
       "actualPts": 58879,
       "consumption": {
-        "programmedStreams": 738853
+        "programmedStreams": 738853,
+        "premiumStreams": 1935006,
+        "adSupportedStreams": 191598,
+        "airplayAudience": 36400000,
+        "airplaySpins": 14800,
+        "sales": 637
       }
     },
     "100": {
@@ -34,7 +44,12 @@
       "artist": "Ice Spice",
       "actualPts": 38603,
       "consumption": {
-        "programmedStreams": 35955
+        "programmedStreams": 35955,
+        "premiumStreams": 2592071,
+        "adSupportedStreams": 3369750,
+        "airplayAudience": 9300,
+        "airplaySpins": 7,
+        "sales": 262
       }
     }
   },

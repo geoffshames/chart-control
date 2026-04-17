@@ -16,11 +16,11 @@
       "artist": "BTS",
       "actualPts": 331705,
       "consumption": {
-        "premiumStreams": 15711940,
-        "adSupportedStreams": 5199773,
+        "premiumStreams": 15456167,
+        "adSupportedStreams": 4720571,
         "programmedStreams": 734975,
         "airplayAudience": 27900000,
-        "airplaySpins": 0,
+        "airplaySpins": 10500,
         "sales": 95400
       }
     },
@@ -30,7 +30,12 @@
       "artist": "BTS",
       "actualPts": 67274,
       "consumption": {
-        "programmedStreams": 32704
+        "programmedStreams": 32704,
+        "premiumStreams": 6597633,
+        "adSupportedStreams": 854300,
+        "airplayAudience": 3900,
+        "airplaySpins": 5,
+        "sales": 3900
       }
     },
     "100": {
@@ -39,7 +44,12 @@
       "artist": "French Montana,Max B",
       "actualPts": 33859,
       "consumption": {
-        "programmedStreams": 265392
+        "programmedStreams": 265392,
+        "premiumStreams": 1109309,
+        "adSupportedStreams": 93090,
+        "airplayAudience": 18300000,
+        "airplaySpins": 10000,
+        "sales": 349
       }
     }
   }

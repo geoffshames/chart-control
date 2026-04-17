@@ -16,7 +16,12 @@
       "artist": "Ella Langley",
       "actualPts": 263798,
       "consumption": {
-        "programmedStreams": 3533828
+        "programmedStreams": 3533828,
+        "premiumStreams": 19113603,
+        "adSupportedStreams": 2708827,
+        "airplayAudience": 59600000,
+        "airplaySpins": 26000,
+        "sales": 5700
       }
     },
     "50": {
@@ -25,7 +30,12 @@
       "artist": "Zara Larsson",
       "actualPts": 65296,
       "consumption": {
-        "programmedStreams": 154981
+        "programmedStreams": 154981,
+        "premiumStreams": 6007421,
+        "adSupportedStreams": 1714563,
+        "airplayAudience": 2500000,
+        "airplaySpins": 805,
+        "sales": 606
       }
     },
     "100": {
@@ -34,7 +44,12 @@
       "artist": "Juvenile, Genesisthegawd",
       "actualPts": 34332,
       "consumption": {
-        "programmedStreams": 342064
+        "programmedStreams": 342064,
+        "premiumStreams": 3219210,
+        "adSupportedStreams": 567540,
+        "airplayAudience": 3300000,
+        "airplaySpins": 1400,
+        "sales": 393
       }
     }
   }

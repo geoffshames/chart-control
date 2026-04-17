@@ -16,7 +16,12 @@
       "artist": "Ella Langley",
       "actualPts": 254268,
       "consumption": {
-        "programmedStreams": 3311825
+        "programmedStreams": 3311825,
+        "premiumStreams": 18386401,
+        "adSupportedStreams": 2652511,
+        "airplayAudience": 58600000,
+        "airplaySpins": 25200,
+        "sales": 5700
       }
     },
     "50": {
@@ -25,7 +30,12 @@
       "artist": "Tyla",
       "actualPts": 60699,
       "consumption": {
-        "programmedStreams": 221881
+        "programmedStreams": 221881,
+        "premiumStreams": 2642825,
+        "adSupportedStreams": 710277,
+        "airplayAudience": 27100000,
+        "airplaySpins": 14700,
+        "sales": 321
       }
     },
     "100": {
@@ -34,7 +44,12 @@
       "artist": "Don Toliver",
       "actualPts": 33012,
       "consumption": {
-        "programmedStreams": 7241
+        "programmedStreams": 7241,
+        "premiumStreams": 3315037,
+        "adSupportedStreams": 270214,
+        "airplayAudience": 1800,
+        "airplaySpins": 2,
+        "sales": 22
       }
     }
   }

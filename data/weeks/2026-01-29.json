@@ -16,11 +16,11 @@
       "artist": "Harry Styles",
       "actualPts": 218576,
       "consumption": {
-        "premiumStreams": 17984626,
-        "adSupportedStreams": 2298203,
+        "premiumStreams": 17845961,
+        "adSupportedStreams": 1967285,
         "programmedStreams": 469583,
         "airplayAudience": 29200000,
-        "airplaySpins": 0,
+        "airplaySpins": 11800,
         "sales": 3600
       }
     },
@@ -30,7 +30,12 @@
       "artist": "Morgan Wallen, Post Malone",
       "actualPts": 49193,
       "consumption": {
-        "programmedStreams": 799861
+        "programmedStreams": 799861,
+        "premiumStreams": 2805505,
+        "adSupportedStreams": 165619,
+        "airplayAudience": 16200000,
+        "airplaySpins": 7300,
+        "sales": 176
       }
     },
     "100": {
@@ -39,7 +44,12 @@
       "artist": "21 Savage & Drake",
       "actualPts": 29087,
       "consumption": {
-        "programmedStreams": 123306
+        "programmedStreams": 123306,
+        "premiumStreams": 2311536,
+        "adSupportedStreams": 512592,
+        "airplayAudience": 3500000,
+        "airplaySpins": 2200,
+        "sales": 109
       }
     }
   }

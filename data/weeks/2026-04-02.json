@@ -16,7 +16,12 @@
       "artist": "Ella Langley",
       "actualPts": 274292,
       "consumption": {
-        "programmedStreams": 3683163
+        "programmedStreams": 3683163,
+        "premiumStreams": 20480582,
+        "adSupportedStreams": 4000712,
+        "airplayAudience": 59300000,
+        "airplaySpins": 25800,
+        "sales": 7800
       }
     },
     "50": {
@@ -25,7 +30,12 @@
       "artist": "Sabrina Carpenter",
       "actualPts": 60347,
       "consumption": {
-        "programmedStreams": 711775
+        "programmedStreams": 711775,
+        "premiumStreams": 2076752,
+        "adSupportedStreams": 357600,
+        "airplayAudience": 29500000,
+        "airplaySpins": 15200,
+        "sales": 164
       }
     },
     "100": {
@@ -34,7 +44,12 @@
       "artist": "ZACH BRYAN",
       "actualPts": 35330,
       "consumption": {
-        "programmedStreams": 104861
+        "programmedStreams": 104861,
+        "premiumStreams": 3422334,
+        "adSupportedStreams": 346354,
+        "airplayAudience": 247600,
+        "airplaySpins": 224,
+        "sales": 104
       }
     }
   }

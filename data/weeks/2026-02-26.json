@@ -16,7 +16,12 @@
       "artist": "Ella Langley",
       "actualPts": 243732,
       "consumption": {
-        "programmedStreams": 2604945
+        "programmedStreams": 2604945,
+        "premiumStreams": 17756343,
+        "adSupportedStreams": 2593683,
+        "airplayAudience": 55800000,
+        "airplaySpins": 23800,
+        "sales": 5800
       }
     },
     "50": {
@@ -25,7 +30,12 @@
       "artist": "Baby Keem",
       "actualPts": 59528,
       "consumption": {
-        "programmedStreams": 11215
+        "programmedStreams": 11215,
+        "premiumStreams": 6225165,
+        "adSupportedStreams": 612342,
+        "airplayAudience": 43100,
+        "airplaySpins": 17,
+        "sales": 94
       }
     },
     "100": {
@@ -34,7 +44,12 @@
       "artist": "ADDISON RAE",
       "actualPts": 35862,
       "consumption": {
-        "programmedStreams": 30480
+        "programmedStreams": 30480,
+        "premiumStreams": 3478797,
+        "adSupportedStreams": 1170949,
+        "airplayAudience": 9500,
+        "airplaySpins": 57,
+        "sales": 69
       }
     }
   }

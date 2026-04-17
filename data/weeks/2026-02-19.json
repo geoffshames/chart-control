@@ -16,8 +16,8 @@
       "artist": "Taylor Swift",
       "actualPts": 355987,
       "consumption": {
-        "premiumStreams": 10586295,
-        "adSupportedStreams": 1947267,
+        "premiumStreams": 10346368,
+        "adSupportedStreams": 1243497,
         "programmedStreams": 943697,
         "airplayAudience": 67900000,
         "airplaySpins": 29600,
@@ -30,7 +30,12 @@
       "artist": "Morgan Wallen, Post Malone",
       "actualPts": 61323,
       "consumption": {
-        "programmedStreams": 960578
+        "programmedStreams": 960578,
+        "premiumStreams": 3827471,
+        "adSupportedStreams": 186193,
+        "airplayAudience": 18300000,
+        "airplaySpins": 8400,
+        "sales": 210
       }
     },
     "100": {
@@ -39,7 +44,12 @@
       "artist": "Junior H",
       "actualPts": 36484,
       "consumption": {
-        "programmedStreams": 53825
+        "programmedStreams": 53825,
+        "premiumStreams": 3788480,
+        "adSupportedStreams": 610103,
+        "airplayAudience": 0,
+        "airplaySpins": 0,
+        "sales": 43
       }
     }
   }

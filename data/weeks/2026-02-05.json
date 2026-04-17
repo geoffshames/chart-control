@@ -16,7 +16,12 @@
       "artist": "Ella Langley",
       "actualPts": 258281,
       "consumption": {
-        "programmedStreams": 2362472
+        "programmedStreams": 2362472,
+        "premiumStreams": 19626905,
+        "adSupportedStreams": 2542108,
+        "airplayAudience": 46000000,
+        "airplaySpins": 19600,
+        "sales": 12100
       }
     },
     "50": {
@@ -25,7 +30,12 @@
       "artist": "T.I.",
       "actualPts": 65509,
       "consumption": {
-        "programmedStreams": 279494
+        "programmedStreams": 279494,
+        "premiumStreams": 5788560,
+        "adSupportedStreams": 1604853,
+        "airplayAudience": 6100000,
+        "airplaySpins": 3000,
+        "sales": 6600
       }
     },
     "100": {
@@ -34,7 +44,12 @@
       "artist": "CHASE MATTHEW",
       "actualPts": 35215,
       "consumption": {
-        "programmedStreams": 181321
+        "programmedStreams": 181321,
+        "premiumStreams": 927411,
+        "adSupportedStreams": 368482,
+        "airplayAudience": 23400000,
+        "airplaySpins": 7500,
+        "sales": 117
       }
     }
   }

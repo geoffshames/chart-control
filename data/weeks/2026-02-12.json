@@ -16,8 +16,8 @@
       "artist": "Bad Bunny",
       "actualPts": 418162,
       "consumption": {
-        "premiumStreams": 41033120,
-        "adSupportedStreams": 9143112,
+        "premiumStreams": 40985110,
+        "adSupportedStreams": 8111018,
         "programmedStreams": 1080104,
         "airplayAudience": 5800000,
         "airplaySpins": 2300,
@@ -30,7 +30,12 @@
       "artist": "T.I.",
       "actualPts": 72901,
       "consumption": {
-        "programmedStreams": 679785
+        "programmedStreams": 679785,
+        "premiumStreams": 6124338,
+        "adSupportedStreams": 1826151,
+        "airplayAudience": 10500000,
+        "airplaySpins": 5000,
+        "sales": 4500
       }
     },
     "100": {
@@ -39,7 +44,12 @@
       "artist": "J. Cole",
       "actualPts": 46524,
       "consumption": {
-        "programmedStreams": 6502
+        "programmedStreams": 6502,
+        "premiumStreams": 4904324,
+        "adSupportedStreams": 329312,
+        "airplayAudience": 0,
+        "airplaySpins": 2,
+        "sales": 98
       }
     }
   }

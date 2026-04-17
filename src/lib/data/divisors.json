@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T22:15:57.971244+00:00",
+  "generatedAt": "2026-04-17T22:33:56.189946+00:00",
   "model": {
     "priorDivisors": {
       "premium": 125.0,
@@ -9,10 +9,10 @@
       "sales": 1.0
     },
     "currentDivisors": {
-      "premium": 107.8,
-      "adSupported": 496.08,
+      "premium": 106.05,
+      "adSupported": 364.79519999999997,
       "programmed": 700.0,
-      "airplay": 718.4736,
+      "airplay": 846.72,
       "sales": 1.0
     },
     "searchBounds": {
@@ -38,36 +38,76 @@
   "training": {
     "weeksLoaded": 13,
     "weeksWithDrillins": 13,
-    "totalDrillinSamples": 10,
-    "inSampleMAPE": 9.91,
+    "totalDrillinSamples": 42,
+    "inSampleMAPE": 5.35,
     "heldOutWeek": {
+      "2026-01-15": {
+        "heldOutMAPE": 12.42,
+        "maxRelErr": 19.0,
+        "nSamples": 3
+      },
+      "2026-01-22": {
+        "heldOutMAPE": 2.17,
+        "maxRelErr": 2.37,
+        "nSamples": 3
+      },
       "2026-01-29": {
-        "heldOutMAPE": 1.04,
-        "maxRelErr": 1.04,
-        "nSamples": 1
+        "heldOutMAPE": 4.78,
+        "maxRelErr": 5.77,
+        "nSamples": 3
+      },
+      "2026-02-05": {
+        "heldOutMAPE": 7.84,
+        "maxRelErr": 12.03,
+        "nSamples": 3
       },
       "2026-02-12": {
-        "heldOutMAPE": 0.53,
-        "maxRelErr": 0.53,
-        "nSamples": 1
+        "heldOutMAPE": 5.22,
+        "maxRelErr": 11.06,
+        "nSamples": 3
       },
       "2026-02-19": {
-        "heldOutMAPE": 41.69,
-        "maxRelErr": 41.69,
-        "nSamples": 1
+        "heldOutMAPE": 16.28,
+        "maxRelErr": 42.87,
+        "nSamples": 3
+      },
+      "2026-02-26": {
+        "heldOutMAPE": 1.74,
+        "maxRelErr": 2.6,
+        "nSamples": 3
+      },
+      "2026-03-05": {
+        "heldOutMAPE": 2.38,
+        "maxRelErr": 4.12,
+        "nSamples": 3
+      },
+      "2026-03-12": {
+        "heldOutMAPE": 3.01,
+        "maxRelErr": 6.98,
+        "nSamples": 3
+      },
+      "2026-03-19": {
+        "heldOutMAPE": 2.43,
+        "maxRelErr": 2.96,
+        "nSamples": 3
       },
       "2026-03-26": {
-        "heldOutMAPE": 12.28,
-        "maxRelErr": 12.28,
-        "nSamples": 1
+        "heldOutMAPE": 6.03,
+        "maxRelErr": 13.24,
+        "nSamples": 3
+      },
+      "2026-04-02": {
+        "heldOutMAPE": 5.23,
+        "maxRelErr": 6.78,
+        "nSamples": 3
       },
       "2026-04-09": {
-        "heldOutMAPE": 16.24,
-        "maxRelErr": 36.71,
+        "heldOutMAPE": 6.58,
+        "maxRelErr": 16.6,
         "nSamples": 6
       }
     },
-    "confidencePct": 39
+    "confidencePct": 87
   },
   "thresholdHistory": [
     {
