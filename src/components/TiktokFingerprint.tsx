@@ -82,7 +82,7 @@ export default function TiktokFingerprint() {
             <span className="text-[#FAFAFA] font-semibold">Pearson &minus;0.002</span> across our {samples.length}-song sample.
           </p>
           <p className="text-base md:text-lg text-[#B8B8C0] leading-relaxed">
-            But the ratio of lifetime creates to chart points <span className="text-[#FD3737] font-medium">is</span> a genre fingerprint.
+            But the ratio of lifetime creates to chart points{' '}<span className="text-[#FD3737] font-medium">is</span>{' '}a genre fingerprint.
             Low ratio = US radio &amp; streaming engine. High ratio = global TikTok hit the Hot 100 undercounts.
           </p>
         </motion.div>
