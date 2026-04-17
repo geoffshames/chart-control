@@ -1,0 +1,117 @@
+{
+  "pulledAt": "2026-04-17T19:05:00Z",
+  "chartWeek": "2026-04-09",
+  "source": "Cobrand Research Segments",
+  "samples": [
+    {
+      "rank": 1,
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "songEquivalent": 299600,
+      "tiktokCreates": 31360,
+      "creates24h": 969,
+      "sounds": 3,
+      "genre": "Country"
+    },
+    {
+      "rank": 2,
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "songEquivalent": 224225,
+      "tiktokCreates": 2514033,
+      "creates24h": 966,
+      "sounds": 3,
+      "genre": "Pop"
+    },
+    {
+      "rank": 5,
+      "title": "SWIM",
+      "artist": "BTS",
+      "songEquivalent": 173905,
+      "tiktokCreates": 2473812,
+      "creates24h": 2662,
+      "sounds": 10,
+      "genre": "Pop"
+    },
+    {
+      "rank": 6,
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "songEquivalent": 171963,
+      "tiktokCreates": 6770055,
+      "creates24h": 8262,
+      "sounds": 3,
+      "genre": "Pop"
+    },
+    {
+      "rank": 8,
+      "title": "Be Her",
+      "artist": "Ella Langley",
+      "songEquivalent": 158363,
+      "tiktokCreates": 176199,
+      "creates24h": 4549,
+      "sounds": 2,
+      "genre": "Country"
+    },
+    {
+      "rank": 9,
+      "title": "STATESIDE",
+      "artist": "PinkPantheress",
+      "songEquivalent": 147197,
+      "tiktokCreates": 412214,
+      "creates24h": 1843,
+      "sounds": 2,
+      "genre": "Pop"
+    },
+    {
+      "rank": 16,
+      "title": "BABYDOLL",
+      "artist": "Dominic Fike",
+      "songEquivalent": 127356,
+      "tiktokCreates": 587778,
+      "creates24h": 9079,
+      "sounds": 1,
+      "genre": "Alt. Rock"
+    },
+    {
+      "rank": 23,
+      "title": "DtMF",
+      "artist": "Bad Bunny",
+      "songEquivalent": 94978,
+      "tiktokCreates": 2132093,
+      "creates24h": 1292,
+      "sounds": 11,
+      "genre": "Latin - Rhythm"
+    },
+    {
+      "rank": 25,
+      "title": "Body",
+      "artist": "Don Toliver",
+      "songEquivalent": 88931,
+      "tiktokCreates": 135113,
+      "creates24h": 672,
+      "sounds": 4,
+      "genre": "Rap"
+    },
+    {
+      "rank": 49,
+      "title": "Raindance",
+      "artist": "Tems, Dave",
+      "songEquivalent": 58922,
+      "tiktokCreates": 3846517,
+      "creates24h": 26492,
+      "sounds": 4,
+      "genre": "R&B/Hip-Hop"
+    },
+    {
+      "rank": 51,
+      "title": "Freakin' Out",
+      "artist": "Dexter and the Moonrocks",
+      "songEquivalent": 53732,
+      "tiktokCreates": 19730,
+      "creates24h": 688,
+      "sounds": 1,
+      "genre": "Alt. Rock"
+    }
+  ]
+}

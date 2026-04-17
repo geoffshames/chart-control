@@ -6,6 +6,7 @@ import Calculator from '@/components/Calculator';
 import Methodology from '@/components/Methodology';
 import Validation from '@/components/Validation';
 import HistoricalChart from '@/components/HistoricalChart';
+import TiktokFingerprint from '@/components/TiktokFingerprint';
 import ChartTable from '@/components/ChartTable';
 import Footer from '@/components/Footer';
 
@@ -25,6 +26,7 @@ export default function Home() {
       <Methodology />
       <Validation />
       <HistoricalChart />
+      <TiktokFingerprint />
       <ChartTable />
       <Footer />
     </main>
