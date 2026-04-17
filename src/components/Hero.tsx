@@ -36,7 +36,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
               alt="Crowd Control Digital"
               width={640}
               height={90}
-              className="h-12 md:h-14 w-auto"
+              className="h-4 md:h-5 w-auto"
               priority
             />
 
@@ -119,7 +119,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
 
               {/* Composition — NO ANIMATION, LEGIBLE */}
               <div>
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center justify-between mb-5">
                   <div className="text-[10px] tracking-[0.25em] uppercase text-[#B8B8C0] font-medium">
                     POINT COMPOSITION
                   </div>
@@ -128,7 +128,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                   </div>
                 </div>
 
-                <div className="flex h-3 w-full rounded-full overflow-hidden bg-[#1A1A1A] mb-5">
+                <div className="flex h-3 w-full rounded-full overflow-hidden bg-[#1A1A1A] mb-8">
                   {composition.map((seg) => (
                     <div
                       key={seg.label}
@@ -141,7 +141,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
 
                 <div className="grid grid-cols-2 gap-x-6 gap-y-3">
                   {composition.map((seg) => (
-                    <div key={seg.label} className="flex items-center justify-between border-b border-[#333]/30 pb-2">
+                    <div key={seg.label} className="flex items-center justify-between border-b border-[#333]/30 pb-3">
                       <div className="flex items-center gap-2.5">
                         <div className="w-2.5 h-2.5 rounded-sm shrink-0" style={{ backgroundColor: seg.color }} />
                         <span className="text-[10px] tracking-[0.2em] uppercase text-[#B8B8C0] font-medium">

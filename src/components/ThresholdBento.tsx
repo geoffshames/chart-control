@@ -98,7 +98,7 @@ const ThresholdBento = () => {
           {/* #1 - Large tile spanning 5 cols, 2 rows */}
           <motion.div
             variants={tileVariants}
-            className="lg:col-span-5 lg:row-span-2 md:col-span-2 p-6 md:p-8 bg-[#141414] border border-[#333]/50 rounded"
+            className="lg:col-span-5 lg:row-span-2 md:col-span-2 p-6 md:p-8 bg-gradient-to-br from-[#1A0F0F] to-[#0E0E0E] border border-[#FD3737]/40 hover:border-[#FD3737]/80 rounded-xl transition-all duration-300 shadow-[inset_0_1px_0_rgba(253,55,55,0.15),0_0_40px_-10px_rgba(253,55,55,0.25)] relative"
             whileHover={{ boxShadow: '0 0 0 1px rgba(253, 55, 55, 0.3)', scale: 1.01 }}
             transition={{ type: 'spring', stiffness: 100, damping: 20 }}
           >
@@ -108,7 +108,7 @@ const ThresholdBento = () => {
           {/* #10 - 4 cols, 1 row */}
           <motion.div
             variants={tileVariants}
-            className="lg:col-span-4 md:col-span-1 p-6 md:p-8 bg-[#141414] border border-[#333]/50 rounded"
+            className="lg:col-span-4 md:col-span-1 p-6 md:p-8 bg-gradient-to-br from-[#141414] to-[#0E0E0E] border border-[#333]/70 hover:border-[#FD3737]/60 rounded-xl transition-all duration-300 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] hover:shadow-[0_0_0_1px_rgba(253,55,55,0.4),inset_0_1px_0_rgba(255,255,255,0.05)] relative"
             whileHover={{ boxShadow: '0 0 0 1px rgba(253, 55, 55, 0.3)', scale: 1.01 }}
             transition={{ type: 'spring', stiffness: 100, damping: 20 }}
           >
@@ -118,7 +118,7 @@ const ThresholdBento = () => {
           {/* #25 - 3 cols, 1 row */}
           <motion.div
             variants={tileVariants}
-            className="lg:col-span-3 md:col-span-1 p-6 md:p-8 bg-[#141414] border border-[#333]/50 rounded"
+            className="lg:col-span-3 md:col-span-1 p-6 md:p-8 bg-gradient-to-br from-[#141414] to-[#0E0E0E] border border-[#333]/70 hover:border-[#FD3737]/60 rounded-xl transition-all duration-300 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] hover:shadow-[0_0_0_1px_rgba(253,55,55,0.4),inset_0_1px_0_rgba(255,255,255,0.05)] relative"
             whileHover={{ boxShadow: '0 0 0 1px rgba(253, 55, 55, 0.3)', scale: 1.01 }}
             transition={{ type: 'spring', stiffness: 100, damping: 20 }}
           >
@@ -128,7 +128,7 @@ const ThresholdBento = () => {
           {/* #50 - 4 cols, 1 row */}
           <motion.div
             variants={tileVariants}
-            className="lg:col-span-4 md:col-span-1 p-6 md:p-8 bg-[#141414] border border-[#333]/50 rounded"
+            className="lg:col-span-4 md:col-span-1 p-6 md:p-8 bg-gradient-to-br from-[#141414] to-[#0E0E0E] border border-[#333]/70 hover:border-[#FD3737]/60 rounded-xl transition-all duration-300 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] hover:shadow-[0_0_0_1px_rgba(253,55,55,0.4),inset_0_1px_0_rgba(255,255,255,0.05)] relative"
             whileHover={{ boxShadow: '0 0 0 1px rgba(253, 55, 55, 0.3)', scale: 1.01 }}
             transition={{ type: 'spring', stiffness: 100, damping: 20 }}
           >
@@ -138,7 +138,7 @@ const ThresholdBento = () => {
           {/* #75 - 3 cols, 1 row */}
           <motion.div
             variants={tileVariants}
-            className="lg:col-span-3 md:col-span-1 p-6 md:p-8 bg-[#141414] border border-[#333]/50 rounded"
+            className="lg:col-span-3 md:col-span-1 p-6 md:p-8 bg-gradient-to-br from-[#141414] to-[#0E0E0E] border border-[#333]/70 hover:border-[#FD3737]/60 rounded-xl transition-all duration-300 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] hover:shadow-[0_0_0_1px_rgba(253,55,55,0.4),inset_0_1px_0_rgba(255,255,255,0.05)] relative"
             whileHover={{ boxShadow: '0 0 0 1px rgba(253, 55, 55, 0.3)', scale: 1.01 }}
             transition={{ type: 'spring', stiffness: 100, damping: 20 }}
           >
@@ -148,7 +148,7 @@ const ThresholdBento = () => {
           {/* #100 - 5 cols, 1 row - new row */}
           <motion.div
             variants={tileVariants}
-            className="lg:col-span-5 md:col-span-2 p-6 md:p-8 bg-[#141414] border border-[#333]/50 rounded"
+            className="lg:col-span-5 md:col-span-2 p-6 md:p-8 bg-gradient-to-br from-[#141414] to-[#0E0E0E] border border-[#333]/70 hover:border-[#FD3737]/60 rounded-xl transition-all duration-300 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] hover:shadow-[0_0_0_1px_rgba(253,55,55,0.4),inset_0_1px_0_rgba(255,255,255,0.05)] relative"
             whileHover={{ boxShadow: '0 0 0 1px rgba(253, 55, 55, 0.3)', scale: 1.01 }}
             transition={{ type: 'spring', stiffness: 100, damping: 20 }}
           >
