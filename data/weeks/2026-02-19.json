@@ -1,1 +1,40 @@
-{"weekStart":"2026-02-13","weekEnding":"2026-02-19","thresholdPoints":{"1":355987,"10":164937,"25":103585,"50":61323,"75":44643,"100":36484},"drillins":{"1":{"luminateId":"SGC21AFB6070504381A51AA07227FF4190","title":"Opalite","artist":"Taylor Swift","actualPts":355987},"50":{"luminateId":"SGA51AF88FCF5B454295DC692F0F849F66","title":"I Ain't Comin' Back","artist":"Morgan Wallen, Post Malone","actualPts":61323},"100":{"luminateId":"SG4DAFFF443D95400592B3DF5D59EFF12E","title":"DROGA LETAL","artist":"Junior H","actualPts":36484}}}
+{
+  "weekStart": "2026-02-13",
+  "weekEnding": "2026-02-19",
+  "thresholdPoints": {
+    "1": 355987,
+    "10": 164937,
+    "25": 103585,
+    "50": 61323,
+    "75": 44643,
+    "100": 36484
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGC21AFB6070504381A51AA07227FF4190",
+      "title": "Opalite",
+      "artist": "Taylor Swift",
+      "actualPts": 355987,
+      "consumption": {
+        "premiumStreams": 10586295,
+        "adSupportedStreams": 1947267,
+        "programmedStreams": null,
+        "airplayAudience": 67900000,
+        "airplaySpins": 29600,
+        "sales": 23900
+      }
+    },
+    "50": {
+      "luminateId": "SGA51AF88FCF5B454295DC692F0F849F66",
+      "title": "I Ain't Comin' Back",
+      "artist": "Morgan Wallen, Post Malone",
+      "actualPts": 61323
+    },
+    "100": {
+      "luminateId": "SG4DAFFF443D95400592B3DF5D59EFF12E",
+      "title": "DROGA LETAL",
+      "artist": "Junior H",
+      "actualPts": 36484
+    }
+  }
+}

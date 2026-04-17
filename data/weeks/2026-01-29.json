@@ -1,1 +1,40 @@
-{"weekStart":"2026-01-23","weekEnding":"2026-01-29","thresholdPoints":{"1":218576,"10":136803,"25":70199,"50":49193,"75":34799,"100":29087},"drillins":{"1":{"luminateId":"SG74BE4EE5951B4E4692F3A534C6EB3584","title":"Aperture","artist":"Harry Styles","actualPts":218576},"50":{"luminateId":"SGA51AF88FCF5B454295DC692F0F849F66","title":"I Ain't Comin' Back","artist":"Morgan Wallen, Post Malone","actualPts":49193},"100":{"luminateId":"SG7A3838BBF9A3414793E3042B1089680D","title":"MR RECOUP","artist":"21 Savage & Drake","actualPts":29087}}}
+{
+  "weekStart": "2026-01-23",
+  "weekEnding": "2026-01-29",
+  "thresholdPoints": {
+    "1": 218576,
+    "10": 136803,
+    "25": 70199,
+    "50": 49193,
+    "75": 34799,
+    "100": 29087
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SG74BE4EE5951B4E4692F3A534C6EB3584",
+      "title": "Aperture",
+      "artist": "Harry Styles",
+      "actualPts": 218576,
+      "consumption": {
+        "premiumStreams": 17984626,
+        "adSupportedStreams": 2298203,
+        "programmedStreams": null,
+        "airplayAudience": 29200000,
+        "airplaySpins": 0,
+        "sales": 3600
+      }
+    },
+    "50": {
+      "luminateId": "SGA51AF88FCF5B454295DC692F0F849F66",
+      "title": "I Ain't Comin' Back",
+      "artist": "Morgan Wallen, Post Malone",
+      "actualPts": 49193
+    },
+    "100": {
+      "luminateId": "SG7A3838BBF9A3414793E3042B1089680D",
+      "title": "MR RECOUP",
+      "artist": "21 Savage & Drake",
+      "actualPts": 29087
+    }
+  }
+}

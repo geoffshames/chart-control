@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T18:37:45.510827+00:00",
+  "generatedAt": "2026-04-17T18:48:40.776397+00:00",
   "model": {
     "priorDivisors": {
       "premium": 125.0,
@@ -9,10 +9,10 @@
       "sales": 1.0
     },
     "currentDivisors": {
-      "premium": 107.8,
-      "adSupported": 499.95,
+      "premium": 106.722,
+      "adSupported": 499.59,
       "programmed": 500.0,
-      "airplay": 864.0,
+      "airplay": 711.6336,
       "sales": 1.0
     },
     "searchBounds": {
@@ -38,10 +38,36 @@
   "training": {
     "weeksLoaded": 13,
     "weeksWithDrillins": 13,
-    "totalDrillinSamples": 6,
-    "inSampleMAPE": 5.7,
-    "heldOutWeek": {},
-    "confidencePct": 25
+    "totalDrillinSamples": 10,
+    "inSampleMAPE": 9.77,
+    "heldOutWeek": {
+      "2026-01-29": {
+        "heldOutMAPE": 0.37,
+        "maxRelErr": 0.37,
+        "nSamples": 1
+      },
+      "2026-02-12": {
+        "heldOutMAPE": 1.08,
+        "maxRelErr": 1.08,
+        "nSamples": 1
+      },
+      "2026-02-19": {
+        "heldOutMAPE": 41.84,
+        "maxRelErr": 41.84,
+        "nSamples": 1
+      },
+      "2026-03-26": {
+        "heldOutMAPE": 12.31,
+        "maxRelErr": 12.31,
+        "nSamples": 1
+      },
+      "2026-04-09": {
+        "heldOutMAPE": 15.21,
+        "maxRelErr": 34.58,
+        "nSamples": 6
+      }
+    },
+    "confidencePct": 39
   },
   "thresholdHistory": [
     {

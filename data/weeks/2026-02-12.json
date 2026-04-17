@@ -1,1 +1,40 @@
-{"weekStart":"2026-02-06","weekEnding":"2026-02-12","thresholdPoints":{"1":418162,"10":195721,"25":109823,"50":72901,"75":58419,"100":46524},"drillins":{"1":{"luminateId":"SG8F0FC97D25164FF0AE999DF541DE4DDA","title":"DtMF","artist":"Bad Bunny","actualPts":418162},"50":{"luminateId":"SG48CFDF492F694A9BB47036C7C1E765B1","title":"LET 'EM KNOW","artist":"T.I.","actualPts":72901},"100":{"luminateId":"SGF5CA204A9D0A44A19EDAA8D30B9DFFB4","title":"Quik Stop","artist":"J. Cole","actualPts":46524}}}
+{
+  "weekStart": "2026-02-06",
+  "weekEnding": "2026-02-12",
+  "thresholdPoints": {
+    "1": 418162,
+    "10": 195721,
+    "25": 109823,
+    "50": 72901,
+    "75": 58419,
+    "100": 46524
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SG8F0FC97D25164FF0AE999DF541DE4DDA",
+      "title": "DtMF",
+      "artist": "Bad Bunny",
+      "actualPts": 418162,
+      "consumption": {
+        "premiumStreams": 41033120,
+        "adSupportedStreams": 9143112,
+        "programmedStreams": null,
+        "airplayAudience": 5800000,
+        "airplaySpins": 2300,
+        "sales": 11700
+      }
+    },
+    "50": {
+      "luminateId": "SG48CFDF492F694A9BB47036C7C1E765B1",
+      "title": "LET 'EM KNOW",
+      "artist": "T.I.",
+      "actualPts": 72901
+    },
+    "100": {
+      "luminateId": "SGF5CA204A9D0A44A19EDAA8D30B9DFFB4",
+      "title": "Quik Stop",
+      "artist": "J. Cole",
+      "actualPts": 46524
+    }
+  }
+}
