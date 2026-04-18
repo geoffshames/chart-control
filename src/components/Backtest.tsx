@@ -74,7 +74,7 @@ const Backtest = () => {
             Does It Generalize?
           </h2>
           <p className="text-lg text-[#E4E4E9] max-w-3xl">
-            In-sample MAPE is always optimistic. The honest test: fit the model on <em>only</em> prior weeks, then predict the
+            In-sample MAPE is always optimistic. The honest test: fit the model on <em>only</em>{' '}prior weeks, then predict the
             next one without peeking. Here&apos;s how the model performs week-by-week in that strict walk-forward setup.
           </p>
         </motion.div>
@@ -236,10 +236,10 @@ const Backtest = () => {
                   type="monotone"
                   dataKey="leaveOneOut"
                   name="Leave-one-out"
-                  stroke="#FFD600"
+                  stroke="#7DD3FC"
                   strokeWidth={1.2}
                   strokeDasharray="4 3"
-                  dot={{ r: 2.5, fill: '#FFD600' }}
+                  dot={{ r: 2.5, fill: '#7DD3FC' }}
                   activeDot={{ r: 4 }}
                 />
               </LineChart>
@@ -247,10 +247,10 @@ const Backtest = () => {
           </div>
 
           <div className="mt-4 text-xs text-[#B8B8C0] leading-relaxed max-w-4xl">
-            <span className="text-[#FD3737] font-semibold">Walk-forward</span> is the strict test — each point uses divisors
+            <span className="text-[#FD3737] font-semibold">Walk-forward</span>{' '}is the strict test — each point uses divisors
             fit only from weeks before it, simulating how the model would have performed in production. First two weeks are
             omitted (need &ge;2 prior weeks to fit).{' '}
-            <span className="text-[#FFD600] font-semibold">Leave-one-out</span> uses every other week to predict the held-out
+            <span className="text-[#7DD3FC] font-semibold">Leave-one-out</span> uses every other week to predict the held-out
             one — less strict but shows per-week fit quality.
           </div>
         </motion.div>
