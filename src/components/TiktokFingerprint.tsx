@@ -72,7 +72,7 @@ export default function TiktokFingerprint() {
           className="mb-20 md:mb-24 max-w-3xl"
         >
           <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mb-6 font-medium">
-            06 &middot; TIKTOK FINGERPRINT
+            07 &middot; TIKTOK FINGERPRINT
           </div>
           <h2
             className="text-5xl md:text-7xl font-bold leading-[0.9] mb-8 tracking-tight uppercase"

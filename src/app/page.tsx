@@ -5,6 +5,7 @@ import ThresholdBento from '@/components/ThresholdBento';
 import Calculator from '@/components/Calculator';
 import Methodology from '@/components/Methodology';
 import Validation from '@/components/Validation';
+import Backtest from '@/components/Backtest';
 import HistoricalChart from '@/components/HistoricalChart';
 import TiktokFingerprint from '@/components/TiktokFingerprint';
 import ChartTable from '@/components/ChartTable';
@@ -25,6 +26,7 @@ export default function Home() {
       <Calculator id="calculator" />
       <Methodology />
       <Validation />
+      <Backtest />
       <HistoricalChart />
       <TiktokFingerprint />
       <ChartTable />

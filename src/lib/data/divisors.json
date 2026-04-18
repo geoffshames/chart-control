@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T22:33:56.189946+00:00",
+  "generatedAt": "2026-04-18T07:36:08.521591+00:00",
   "model": {
     "priorDivisors": {
       "premium": 125.0,
@@ -107,7 +107,389 @@
         "nSamples": 6
       }
     },
-    "confidencePct": 87
+    "confidencePct": 87,
+    "walkForwardMAPE": 5.85,
+    "walkForwardPerWeek": {
+      "2026-01-15": {
+        "heldOutMAPE": null,
+        "nSamples": 0,
+        "nPriorWeeks": 0,
+        "skipped": true
+      },
+      "2026-01-22": {
+        "heldOutMAPE": null,
+        "nSamples": 0,
+        "nPriorWeeks": 1,
+        "skipped": true
+      },
+      "2026-01-29": {
+        "heldOutMAPE": 2.69,
+        "maxRelErr": 5.47,
+        "nSamples": 3,
+        "nPriorWeeks": 2,
+        "skipped": false
+      },
+      "2026-02-05": {
+        "heldOutMAPE": 7.36,
+        "maxRelErr": 17.05,
+        "nSamples": 3,
+        "nPriorWeeks": 3,
+        "skipped": false
+      },
+      "2026-02-12": {
+        "heldOutMAPE": 8.41,
+        "maxRelErr": 13.55,
+        "nSamples": 3,
+        "nPriorWeeks": 4,
+        "skipped": false
+      },
+      "2026-02-19": {
+        "heldOutMAPE": 17.14,
+        "maxRelErr": 43.9,
+        "nSamples": 3,
+        "nPriorWeeks": 5,
+        "skipped": false
+      },
+      "2026-02-26": {
+        "heldOutMAPE": 2.36,
+        "maxRelErr": 2.84,
+        "nSamples": 3,
+        "nPriorWeeks": 6,
+        "skipped": false
+      },
+      "2026-03-05": {
+        "heldOutMAPE": 2.22,
+        "maxRelErr": 4.32,
+        "nSamples": 3,
+        "nPriorWeeks": 7,
+        "skipped": false
+      },
+      "2026-03-12": {
+        "heldOutMAPE": 2.99,
+        "maxRelErr": 6.8,
+        "nSamples": 3,
+        "nPriorWeeks": 8,
+        "skipped": false
+      },
+      "2026-03-19": {
+        "heldOutMAPE": 2.92,
+        "maxRelErr": 4.1,
+        "nSamples": 3,
+        "nPriorWeeks": 9,
+        "skipped": false
+      },
+      "2026-03-26": {
+        "heldOutMAPE": 5.68,
+        "maxRelErr": 12.74,
+        "nSamples": 3,
+        "nPriorWeeks": 10,
+        "skipped": false
+      },
+      "2026-04-02": {
+        "heldOutMAPE": 5.27,
+        "maxRelErr": 6.11,
+        "nSamples": 3,
+        "nPriorWeeks": 11,
+        "skipped": false
+      },
+      "2026-04-09": {
+        "heldOutMAPE": 6.58,
+        "maxRelErr": 16.6,
+        "nSamples": 6,
+        "nPriorWeeks": 12,
+        "skipped": false
+      }
+    },
+    "walkForwardPredictions": [
+      {
+        "week": "2026-01-29",
+        "rank": 1,
+        "title": "Aperture",
+        "actual": 218576,
+        "predicted": 217183,
+        "relErr": -0.64
+      },
+      {
+        "week": "2026-01-29",
+        "rank": 50,
+        "title": "I Ain't Comin' Back",
+        "actual": 49193,
+        "predicted": 46500,
+        "relErr": -5.47
+      },
+      {
+        "week": "2026-01-29",
+        "rank": 100,
+        "title": "MR RECOUP",
+        "actual": 29087,
+        "predicted": 28513,
+        "relErr": -1.97
+      },
+      {
+        "week": "2026-02-05",
+        "rank": 1,
+        "title": "Choosin' Texas",
+        "actual": 258281,
+        "predicted": 269495,
+        "relErr": 4.34
+      },
+      {
+        "week": "2026-02-05",
+        "rank": 50,
+        "title": "LET 'EM KNOW",
+        "actual": 65509,
+        "predicted": 76680,
+        "relErr": 17.05
+      },
+      {
+        "week": "2026-02-05",
+        "rank": 100,
+        "title": "DARLIN'",
+        "actual": 35215,
+        "predicted": 35452,
+        "relErr": 0.67
+      },
+      {
+        "week": "2026-02-12",
+        "rank": 1,
+        "title": "DtMF",
+        "actual": 418162,
+        "predicted": 446055,
+        "relErr": 6.67
+      },
+      {
+        "week": "2026-02-12",
+        "rank": 50,
+        "title": "LET 'EM KNOW",
+        "actual": 72901,
+        "predicted": 82777,
+        "relErr": 13.55
+      },
+      {
+        "week": "2026-02-12",
+        "rank": 100,
+        "title": "Quik Stop",
+        "actual": 46524,
+        "predicted": 48859,
+        "relErr": 5.02
+      },
+      {
+        "week": "2026-02-19",
+        "rank": 1,
+        "title": "Opalite",
+        "actual": 355987,
+        "predicted": 199703,
+        "relErr": -43.9
+      },
+      {
+        "week": "2026-02-19",
+        "rank": 50,
+        "title": "I Ain't Comin' Back",
+        "actual": 61323,
+        "predicted": 58490,
+        "relErr": -4.62
+      },
+      {
+        "week": "2026-02-19",
+        "rank": 100,
+        "title": "DROGA LETAL",
+        "actual": 36484,
+        "predicted": 37544,
+        "relErr": 2.91
+      },
+      {
+        "week": "2026-02-26",
+        "rank": 1,
+        "title": "Choosin' Texas",
+        "actual": 243732,
+        "predicted": 250647,
+        "relErr": 2.84
+      },
+      {
+        "week": "2026-02-26",
+        "rank": 50,
+        "title": "BIRDS & THE BEES",
+        "actual": 59528,
+        "predicted": 60480,
+        "relErr": 1.6
+      },
+      {
+        "week": "2026-02-26",
+        "rank": 100,
+        "title": "FAME IS A GUN",
+        "actual": 35862,
+        "predicted": 36805,
+        "relErr": 2.63
+      },
+      {
+        "week": "2026-03-05",
+        "rank": 1,
+        "title": "I Just Might",
+        "actual": 272890,
+        "predicted": 261097,
+        "relErr": -4.32
+      },
+      {
+        "week": "2026-03-05",
+        "rank": 50,
+        "title": "McArthur",
+        "actual": 61836,
+        "predicted": 62874,
+        "relErr": 1.68
+      },
+      {
+        "week": "2026-03-05",
+        "rank": 100,
+        "title": "WHO TF IZ U",
+        "actual": 34999,
+        "predicted": 35228,
+        "relErr": 0.65
+      },
+      {
+        "week": "2026-03-12",
+        "rank": 1,
+        "title": "Choosin' Texas",
+        "actual": 263798,
+        "predicted": 268204,
+        "relErr": 1.67
+      },
+      {
+        "week": "2026-03-12",
+        "rank": 50,
+        "title": "Lush Life",
+        "actual": 65296,
+        "predicted": 65634,
+        "relErr": 0.52
+      },
+      {
+        "week": "2026-03-12",
+        "rank": 100,
+        "title": "B.B.B.",
+        "actual": 34332,
+        "predicted": 36665,
+        "relErr": 6.8
+      },
+      {
+        "week": "2026-03-19",
+        "rank": 1,
+        "title": "Choosin' Texas",
+        "actual": 254268,
+        "predicted": 260489,
+        "relErr": 2.45
+      },
+      {
+        "week": "2026-03-19",
+        "rank": 50,
+        "title": "CHANEL",
+        "actual": 60699,
+        "predicted": 59358,
+        "relErr": -2.21
+      },
+      {
+        "week": "2026-03-19",
+        "rank": 100,
+        "title": "Call Back",
+        "actual": 33012,
+        "predicted": 31657,
+        "relErr": -4.1
+      },
+      {
+        "week": "2026-03-26",
+        "rank": 1,
+        "title": "SWIM",
+        "actual": 331705,
+        "predicted": 289432,
+        "relErr": -12.74
+      },
+      {
+        "week": "2026-03-26",
+        "rank": 50,
+        "title": "2.0",
+        "actual": 67274,
+        "predicted": 68067,
+        "relErr": 1.18
+      },
+      {
+        "week": "2026-03-26",
+        "rank": 100,
+        "title": "Ever Since U Left Me",
+        "actual": 33859,
+        "predicted": 32803,
+        "relErr": -3.12
+      },
+      {
+        "week": "2026-04-02",
+        "rank": 1,
+        "title": "Choosin' Texas",
+        "actual": 274292,
+        "predicted": 288299,
+        "relErr": 5.11
+      },
+      {
+        "week": "2026-04-02",
+        "rank": 50,
+        "title": "When Did You Get Hot?",
+        "actual": 60347,
+        "predicted": 56661,
+        "relErr": -6.11
+      },
+      {
+        "week": "2026-04-02",
+        "rank": 100,
+        "title": "Plastic Cigarette",
+        "actual": 35330,
+        "predicted": 33710,
+        "relErr": -4.58
+      },
+      {
+        "week": "2026-04-09",
+        "rank": 1,
+        "title": "Choosin' Texas",
+        "actual": 299600,
+        "predicted": 340070,
+        "relErr": 13.51
+      },
+      {
+        "week": "2026-04-09",
+        "rank": 10,
+        "title": "Folded",
+        "actual": 146717,
+        "predicted": 152384,
+        "relErr": 3.86
+      },
+      {
+        "week": "2026-04-09",
+        "rank": 25,
+        "title": "Body",
+        "actual": 88931,
+        "predicted": 89614,
+        "relErr": 0.77
+      },
+      {
+        "week": "2026-04-09",
+        "rank": 50,
+        "title": "Porch Light",
+        "actual": 55619,
+        "predicted": 54979,
+        "relErr": -1.15
+      },
+      {
+        "week": "2026-04-09",
+        "rank": 75,
+        "title": "DA\u00d1O",
+        "actual": 36298,
+        "predicted": 42325,
+        "relErr": 16.6
+      },
+      {
+        "week": "2026-04-09",
+        "rank": 100,
+        "title": "Sweet Boy",
+        "actual": 31079,
+        "predicted": 29964,
+        "relErr": -3.59
+      }
+    ]
   },
   "thresholdHistory": [
     {

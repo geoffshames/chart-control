@@ -24,7 +24,7 @@ const ChartTable = () => {
           className="mb-12 md:mb-20"
         >
           <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mb-4">
-            07 &middot; THE CHART
+            08 &middot; THE CHART
           </div>
           <h2
             className="text-4xl md:text-6xl font-bold leading-[0.95] mb-5 tracking-tight uppercase"

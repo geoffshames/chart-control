@@ -197,6 +197,46 @@ def crossval(drillins: List[DrillIn]) -> Dict[str, Dict[str, float]]:
 
 
 # ------------------------------------------------------------------
+# Walk-forward backtest: for each week N, fit on weeks 1..N-1 ONLY
+# (no peeking at future), then predict week N's drill-ins.  Stricter
+# than leave-one-out; matches how the model would actually be used
+# in production.
+# ------------------------------------------------------------------
+def walk_forward(drillins: List[DrillIn]) -> Dict[str, Dict]:
+    weeks_sorted = sorted(set(d.week for d in drillins))
+    out = {}
+    predictions = []  # per-drill-in predicted vs actual
+    for idx, w in enumerate(weeks_sorted):
+        # Need at least 2 prior weeks to avoid degenerate fits
+        prior_weeks = weeks_sorted[:idx]
+        if len(prior_weeks) < 2:
+            out[w] = {"heldOutMAPE": None, "nSamples": 0,
+                      "nPriorWeeks": len(prior_weeks), "skipped": True}
+            continue
+        train = [d for d in drillins if d.week in prior_weeks]
+        test  = [d for d in drillins if d.week == w]
+        fit_div = fit(train)
+        errs = []
+        for s in test:
+            pred = predict_points(s, fit_div)
+            rel = abs(pred - s.actual) / max(1.0, s.actual)
+            errs.append(rel)
+            predictions.append({
+                "week": s.week, "rank": s.rank, "title": s.title,
+                "actual": round(s.actual), "predicted": round(pred),
+                "relErr": round(100 * (pred - s.actual) / max(1.0, s.actual), 2),
+            })
+        out[w] = {
+            "heldOutMAPE": round(100 * statistics.mean(errs), 2),
+            "maxRelErr":   round(100 * max(errs), 2),
+            "nSamples":    len(test),
+            "nPriorWeeks": len(prior_weeks),
+            "skipped":     False,
+        }
+    return {"perWeek": out, "predictions": predictions}
+
+
+# ------------------------------------------------------------------
 # Main
 # ------------------------------------------------------------------
 def main():
@@ -241,6 +281,16 @@ def main():
     # Confidence — rises with N drill-ins (cap at 100%)
     confidence_pct = min(100, int(100 * (1 - math.exp(-n_usable / 20))))
 
+    # Walk-forward backtest (only if we have >=3 weeks of data)
+    if len(set(d.week for d in drillins)) >= 3:
+        wf = walk_forward(drillins)
+        # Compute aggregate walk-forward MAPE (excluding skipped weeks)
+        wf_errs = [abs(p["relErr"]) / 100 for p in wf["predictions"]]
+        wf_mape = round(100 * statistics.mean(wf_errs), 2) if wf_errs else None
+    else:
+        wf = {"perWeek": {}, "predictions": []}
+        wf_mape = None
+
     out = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "model": {
@@ -256,6 +306,9 @@ def main():
             "inSampleMAPE":        in_sample_mape,
             "heldOutWeek":         cv,
             "confidencePct":       confidence_pct,
+            "walkForwardMAPE":     wf_mape,
+            "walkForwardPerWeek":  wf["perWeek"],
+            "walkForwardPredictions": wf["predictions"],
         },
         "thresholdHistory": threshold_history,
     }

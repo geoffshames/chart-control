@@ -16,6 +16,28 @@ export type Divisors = {
 export const divisors: Divisors =
   calibration.model.currentDivisors as Divisors;
 
+type WFPerWeek = {
+  heldOutMAPE: number | null;
+  nSamples: number;
+  nPriorWeeks: number;
+  skipped: boolean;
+  maxRelErr?: number;
+};
+type WFPrediction = {
+  week: string;
+  rank: number;
+  title: string;
+  actual: number;
+  predicted: number;
+  relErr: number;
+};
+type TrainingExtra = {
+  walkForwardMAPE?: number;
+  walkForwardPerWeek?: Record<string, WFPerWeek>;
+  walkForwardPredictions?: WFPrediction[];
+};
+const trainingExtra = calibration.training as unknown as TrainingExtra;
+
 export const calibrationMeta = {
   generatedAt:           calibration.generatedAt,
   weeksLoaded:           calibration.training.weeksLoaded,
@@ -25,6 +47,9 @@ export const calibrationMeta = {
   confidencePct:         calibration.training.confidencePct,
   heldOutWeek:           calibration.training.heldOutWeek,
   priorDivisors:         calibration.model.priorDivisors,
+  walkForwardMAPE:       trainingExtra.walkForwardMAPE ?? null,
+  walkForwardPerWeek:    trainingExtra.walkForwardPerWeek ?? {},
+  walkForwardPredictions: trainingExtra.walkForwardPredictions ?? [],
 };
 
 export const thresholdHistory = calibration.thresholdHistory as Array<{

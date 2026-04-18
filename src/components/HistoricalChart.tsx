@@ -44,7 +44,7 @@ const HistoricalChart = () => {
           className="mb-12 md:mb-16"
         >
           <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mb-4">
-            05 &middot; HISTORICAL
+            06 &middot; HISTORICAL
           </div>
           <h2
             className="text-4xl md:text-5xl font-bold leading-tight mb-3 tracking-tight uppercase"
