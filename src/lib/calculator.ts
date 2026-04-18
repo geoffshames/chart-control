@@ -45,7 +45,7 @@ export const calibrationMeta = {
   totalDrillinSamples:   calibration.training.totalDrillinSamples,
   inSampleMAPE:          calibration.training.inSampleMAPE,
   confidencePct:         calibration.training.confidencePct,
-  heldOutWeek:           calibration.training.heldOutWeek,
+  heldOutWeek:           calibration.training.heldOutWeek as Record<string, { heldOutMAPE: number; maxRelErr: number; nSamples: number }>,
   priorDivisors:         calibration.model.priorDivisors,
   walkForwardMAPE:       trainingExtra.walkForwardMAPE ?? null,
   walkForwardPerWeek:    trainingExtra.walkForwardPerWeek ?? {},
