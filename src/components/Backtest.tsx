@@ -195,9 +195,9 @@ const Backtest = () => {
                   }}
                   labelStyle={{ color: '#FAFAFA', marginBottom: 4 }}
                   itemStyle={{ color: '#E4E4E9' }}
-                  formatter={(v: unknown, name: string) => [
+                  formatter={(v, name) => [
                     typeof v === 'number' ? `${v.toFixed(2)}%` : '—',
-                    name,
+                    String(name ?? ''),
                   ]}
                 />
                 <Legend
