@@ -3,16 +3,17 @@
 import { motion } from 'framer-motion';
 
 const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
-  // Choosin' Texas #1 composition — per week-1 validation with old PDF divisors
-  // Premium: 24,764,046 / 125 = 198,112 (66.1%)
-  // Airplay: 55.8M / 800 = 69,750 (23.3%)
-  // Ad-Supported: 8,098,719 / 375 = 21,597 (7.2%)
-  // Sales: 8,900 (3.0%)
+  // Choosin' Texas #1 composition — week 2026-04-16, calibrated divisors
+  // Premium: 28,387,359 / 107.1 = 265,055 (73.0%)
+  // Airplay: 54.2M / 875.52 = 61,906 (17.1%)
+  // Ad-Supported + Programmed (combined): 20,946 + 5,678 = 26,624 (7.3%)
+  // Sales: 9,500 (2.6%)
+  // Segments scaled so they sum to actual 339,299 pts
   const composition = [
-    { label: 'PREMIUM', pts: 198112, share: 66.1, color: '#FD3737' },
-    { label: 'AIRPLAY', pts: 69750, share: 23.3, color: '#FD6B6B' },
-    { label: 'AD-SUPP', pts: 21597, share: 7.2, color: '#FF9797' },
-    { label: 'SALES', pts: 8900, share: 3.0, color: '#FFC4C4' },
+    { label: 'PREMIUM', pts: 247691, share: 73.0, color: '#FD3737' },
+    { label: 'AIRPLAY', pts: 57850, share: 17.0, color: '#FD6B6B' },
+    { label: 'AD-SUPP', pts: 24880, share: 7.3, color: '#FF9797' },
+    { label: 'SALES', pts: 8878, share: 2.6, color: '#FFC4C4' },
   ];
 
   return (
@@ -99,7 +100,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                 </div>
                 <div className="text-right shrink-0 ml-4">
                   <div className="text-[9px] tracking-[0.25em] uppercase text-[#B8B8C0] mb-1">PEAK</div>
-                  <div className="font-mono text-sm text-[#FAFAFA] tabular-nums">#1 &middot; W25</div>
+                  <div className="font-mono text-sm text-[#FAFAFA] tabular-nums">#1 &middot; W26</div>
                 </div>
               </div>
 
@@ -108,7 +109,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                   className="font-bold tracking-tight text-[#FAFAFA] font-mono tabular-nums"
                   style={{ fontFamily: "'N27', sans-serif", fontSize: 'clamp(3.25rem, 6vw, 5rem)', lineHeight: 0.95 }}
                 >
-                  299,600
+                  339,299
                 </div>
                 <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mt-2 font-medium">
                   SONG EQUIVALENT POINTS
