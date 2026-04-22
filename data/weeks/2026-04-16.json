@@ -1,0 +1,106 @@
+{
+  "weekStart": "2026-04-10",
+  "weekEnding": "2026-04-16",
+  "thresholdPoints": {
+    "1": 339299,
+    "10": 141423,
+    "25": 105892,
+    "50": 61502,
+    "75": 44202,
+    "100": 32883
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "actualPts": 339299,
+      "consumption": {
+        "premiumStreams": 28387359,
+        "adSupportedStreams": 7418426,
+        "programmedStreams": 3974583,
+        "airplayAudience": 54200000,
+        "airplaySpins": 24900,
+        "sales": 9500,
+        "programmedSplit": {"adSupported": 2861245, "premium": 1113338}
+      }
+    },
+    "10": {
+      "luminateId": "SG1E2F4BC34150467EAB07378E58B69995",
+      "title": "SWIM",
+      "artist": "BTS",
+      "actualPts": 141423,
+      "consumption": {
+        "premiumStreams": 9709218,
+        "adSupportedStreams": 2095509,
+        "programmedStreams": 830193,
+        "airplayAudience": 26000000,
+        "airplaySpins": 13400,
+        "sales": 11300,
+        "programmedSplit": {"adSupported": 553240, "premium": 276953}
+      }
+    },
+    "25": {
+      "luminateId": "SGC7275C062D254335BD71DC012C9D816D",
+      "title": "HOMEWRECKER",
+      "artist": "SOMBR",
+      "actualPts": 105892,
+      "consumption": {
+        "premiumStreams": 7258727,
+        "adSupportedStreams": 1222674,
+        "programmedStreams": 1333873,
+        "airplayAudience": 30100000,
+        "airplaySpins": 15800,
+        "sales": 732,
+        "programmedSplit": {"adSupported": 421861, "premium": 912012}
+      }
+    },
+    "50": {
+      "luminateId": "SG09CE7C87C84C445BB661F12FCB93FC3E",
+      "title": "RUNWAY",
+      "artist": "Lady Gaga, Doechii",
+      "actualPts": 61502,
+      "consumption": {
+        "premiumStreams": 5056116,
+        "adSupportedStreams": 438458,
+        "programmedStreams": 152284,
+        "airplayAudience": 6300000,
+        "airplaySpins": 3300,
+        "sales": 3500,
+        "programmedSplit": {"adSupported": 152284, "premium": 0}
+      }
+    },
+    "75": {
+      "luminateId": "SG7566482B99DA4741963DFFD1945D1AE5",
+      "title": "SOMETHIN' SIMPLE",
+      "artist": "ELLA LANGLEY",
+      "actualPts": 44202,
+      "consumption": {
+        "premiumStreams": 4371444,
+        "adSupportedStreams": 307278,
+        "programmedStreams": 164102,
+        "airplayAudience": 110400,
+        "airplaySpins": 30,
+        "sales": 511,
+        "programmedSplit": {"adSupported": 152441, "premium": 11661}
+      }
+    },
+    "100": {
+      "luminateId": "SG59F753C1423A41609AC09FED485F7421",
+      "title": "WOMAN",
+      "artist": "Kane Brown",
+      "actualPts": 32883,
+      "consumption": {
+        "premiumStreams": 2644572,
+        "adSupportedStreams": 553127,
+        "programmedStreams": 1322004,
+        "airplayAudience": 12800000,
+        "airplaySpins": 5800,
+        "sales": 266,
+        "programmedSplit": {"adSupported": 484093, "premium": 837911}
+      }
+    }
+  },
+  "tiktokSnapshots": [],
+  "tiktokSnapshotsNote": "Cobrand session expired; skipped per task spec"
+}

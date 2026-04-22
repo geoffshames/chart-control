@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T07:36:08.521591+00:00",
+  "generatedAt": "2026-04-22T16:19:39.261226+00:00",
   "model": {
     "priorDivisors": {
       "premium": 125.0,
@@ -9,10 +9,10 @@
       "sales": 1.0
     },
     "currentDivisors": {
-      "premium": 106.05,
-      "adSupported": 364.79519999999997,
+      "premium": 107.1,
+      "adSupported": 354.1725,
       "programmed": 700.0,
-      "airplay": 846.72,
+      "airplay": 875.52,
       "sales": 1.0
     },
     "searchBounds": {
@@ -36,79 +36,84 @@
     "lambdaReg": 5e-05
   },
   "training": {
-    "weeksLoaded": 13,
-    "weeksWithDrillins": 13,
-    "totalDrillinSamples": 42,
-    "inSampleMAPE": 5.35,
+    "weeksLoaded": 14,
+    "weeksWithDrillins": 14,
+    "totalDrillinSamples": 48,
+    "inSampleMAPE": 5.66,
     "heldOutWeek": {
       "2026-01-15": {
-        "heldOutMAPE": 12.42,
+        "heldOutMAPE": 11.61,
         "maxRelErr": 19.0,
         "nSamples": 3
       },
       "2026-01-22": {
-        "heldOutMAPE": 2.17,
-        "maxRelErr": 2.37,
+        "heldOutMAPE": 3.35,
+        "maxRelErr": 3.95,
         "nSamples": 3
       },
       "2026-01-29": {
-        "heldOutMAPE": 4.78,
-        "maxRelErr": 5.77,
+        "heldOutMAPE": 5.42,
+        "maxRelErr": 6.21,
         "nSamples": 3
       },
       "2026-02-05": {
-        "heldOutMAPE": 7.84,
-        "maxRelErr": 12.03,
+        "heldOutMAPE": 5.71,
+        "maxRelErr": 11.25,
         "nSamples": 3
       },
       "2026-02-12": {
-        "heldOutMAPE": 5.22,
-        "maxRelErr": 11.06,
+        "heldOutMAPE": 4.72,
+        "maxRelErr": 9.99,
         "nSamples": 3
       },
       "2026-02-19": {
-        "heldOutMAPE": 16.28,
-        "maxRelErr": 42.87,
+        "heldOutMAPE": 17.01,
+        "maxRelErr": 43.61,
         "nSamples": 3
       },
       "2026-02-26": {
-        "heldOutMAPE": 1.74,
-        "maxRelErr": 2.6,
+        "heldOutMAPE": 1.18,
+        "maxRelErr": 1.63,
         "nSamples": 3
       },
       "2026-03-05": {
-        "heldOutMAPE": 2.38,
-        "maxRelErr": 4.12,
+        "heldOutMAPE": 2.47,
+        "maxRelErr": 6.18,
         "nSamples": 3
       },
       "2026-03-12": {
-        "heldOutMAPE": 3.01,
-        "maxRelErr": 6.98,
+        "heldOutMAPE": 2.53,
+        "maxRelErr": 6.32,
         "nSamples": 3
       },
       "2026-03-19": {
-        "heldOutMAPE": 2.43,
-        "maxRelErr": 2.96,
+        "heldOutMAPE": 3.05,
+        "maxRelErr": 4.56,
         "nSamples": 3
       },
       "2026-03-26": {
-        "heldOutMAPE": 6.03,
-        "maxRelErr": 13.24,
+        "heldOutMAPE": 6.77,
+        "maxRelErr": 13.9,
         "nSamples": 3
       },
       "2026-04-02": {
-        "heldOutMAPE": 5.23,
-        "maxRelErr": 6.78,
+        "heldOutMAPE": 5.76,
+        "maxRelErr": 8.96,
         "nSamples": 3
       },
       "2026-04-09": {
-        "heldOutMAPE": 6.58,
-        "maxRelErr": 16.6,
+        "heldOutMAPE": 6.32,
+        "maxRelErr": 15.53,
+        "nSamples": 6
+      },
+      "2026-04-16": {
+        "heldOutMAPE": 8.49,
+        "maxRelErr": 32.97,
         "nSamples": 6
       }
     },
-    "confidencePct": 87,
-    "walkForwardMAPE": 5.85,
+    "confidencePct": 90,
+    "walkForwardMAPE": 6.23,
     "walkForwardPerWeek": {
       "2026-01-15": {
         "heldOutMAPE": null,
@@ -197,6 +202,13 @@
         "maxRelErr": 16.6,
         "nSamples": 6,
         "nPriorWeeks": 12,
+        "skipped": false
+      },
+      "2026-04-16": {
+        "heldOutMAPE": 8.49,
+        "maxRelErr": 32.97,
+        "nSamples": 6,
+        "nPriorWeeks": 13,
         "skipped": false
       }
     },
@@ -488,6 +500,54 @@
         "actual": 31079,
         "predicted": 29964,
         "relErr": -3.59
+      },
+      {
+        "week": "2026-04-16",
+        "rank": 1,
+        "title": "Choosin' Texas",
+        "actual": 339299,
+        "predicted": 367205,
+        "relErr": 8.22
+      },
+      {
+        "week": "2026-04-16",
+        "rank": 10,
+        "title": "SWIM",
+        "actual": 141423,
+        "predicted": 140490,
+        "relErr": -0.66
+      },
+      {
+        "week": "2026-04-16",
+        "rank": 25,
+        "title": "HOMEWRECKER",
+        "actual": 105892,
+        "predicted": 109984,
+        "relErr": 3.86
+      },
+      {
+        "week": "2026-04-16",
+        "rank": 50,
+        "title": "RUNWAY",
+        "actual": 61502,
+        "predicted": 60037,
+        "relErr": -2.38
+      },
+      {
+        "week": "2026-04-16",
+        "rank": 75,
+        "title": "SOMETHIN' SIMPLE",
+        "actual": 44202,
+        "predicted": 42939,
+        "relErr": -2.86
+      },
+      {
+        "week": "2026-04-16",
+        "rank": 100,
+        "title": "WOMAN",
+        "actual": 32883,
+        "predicted": 43725,
+        "relErr": 32.97
       }
     ]
   },
@@ -646,6 +706,18 @@
         "50": 55619,
         "75": 36298,
         "100": 31079
+      }
+    },
+    {
+      "weekEnding": "2026-04-16",
+      "weekStart": "2026-04-10",
+      "thresholds": {
+        "1": 339299,
+        "10": 141423,
+        "25": 105892,
+        "50": 61502,
+        "75": 44202,
+        "100": 32883
       }
     }
   ]
