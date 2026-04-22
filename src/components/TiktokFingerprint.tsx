@@ -166,23 +166,20 @@ export default function TiktokFingerprint() {
             </div>
           </div>
 
-          <div
-            className="grid gap-3 md:gap-4"
-            style={{ gridTemplateColumns: `repeat(auto-fit, minmax(180px, 1fr))` }}
-          >
+          <div className="grid grid-cols-1 sm:[grid-template-columns:repeat(auto-fit,minmax(180px,1fr))] gap-3 md:gap-4">
             {benchmarks.map((bm) => {
               const color = GENRE_COLORS[bm.genre];
               return (
                 <div
                   key={bm.genre}
-                  className="relative p-5 md:p-6 rounded-lg"
+                  className="relative p-5 md:p-6 pl-6 md:pl-7 rounded-lg overflow-hidden"
                   style={{
                     background: 'linear-gradient(145deg, rgba(20,20,20,0.9), rgba(14,14,14,0.9))',
                     border: `1px solid ${color}40`,
                   }}
                 >
                   <div className="absolute left-0 top-0 bottom-0 w-[3px] rounded-l-lg" style={{ background: color }} />
-                  <div className="pl-3">
+                  <div className="min-w-0">
                     <div
                       className="text-[10px] tracking-[0.25em] uppercase font-bold mb-3"
                       style={{ color }}

@@ -51,7 +51,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
             <p className="text-xl md:text-2xl tracking-[0.05em] uppercase text-[#E4E4E9] font-medium leading-tight">
               THE HOT 100,
               <br className="md:hidden" />
-              <span className="text-[#FD3737]">&nbsp;REVERSE-ENGINEERED.</span>
+              <span className="text-[#FD3737]"><span className="hidden md:inline">&nbsp;</span>REVERSE-ENGINEERED.</span>
             </p>
 
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mt-2">
@@ -140,14 +140,14 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
 
                 <div className="grid grid-cols-2 gap-x-6 gap-y-3">
                   {composition.map((seg) => (
-                    <div key={seg.label} className="flex items-center justify-between border-b border-[#333]/30 pb-3">
-                      <div className="flex items-center gap-2.5">
+                    <div key={seg.label} className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-0 border-b border-[#333]/30 pb-3">
+                      <div className="flex items-center gap-2.5 min-w-0">
                         <div className="w-2.5 h-2.5 rounded-sm shrink-0" style={{ backgroundColor: seg.color }} />
-                        <span className="text-[10px] tracking-[0.2em] uppercase text-[#B8B8C0] font-medium">
+                        <span className="text-[10px] tracking-[0.2em] uppercase text-[#B8B8C0] font-medium truncate">
                           {seg.label}
                         </span>
                       </div>
-                      <div className="flex items-baseline gap-2">
+                      <div className="flex items-baseline gap-2 pl-5 sm:pl-0">
                         <span className="font-mono text-sm text-[#FAFAFA] tabular-nums font-medium">
                           {(seg.pts / 1000).toFixed(1)}K
                         </span>
