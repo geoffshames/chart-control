@@ -2,11 +2,11 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { week20260409 } from '@/lib/data/week-2026-04-09';
+import { week20260416 } from '@/lib/data/week-2026-04-16';
 import { CaretDown, CaretUp } from '@phosphor-icons/react';
 
 const ChartTable = () => {
-  const chartRows = week20260409.rows;
+  const chartRows = week20260416.rows;
   const [showAll, setShowAll] = useState(false);
 
   const top10 = chartRows.filter((r) => r.rank <= 10);
@@ -32,7 +32,7 @@ const ChartTable = () => {
           >
             Billboard Hot 100
             <br className="hidden md:block" />
-            <span className="text-[#B8B8C0]"> &middot; Week of Apr 3 &ndash; 9, 2026</span>
+            <span className="text-[#B8B8C0]"> &middot; Week of Apr 10 &ndash; 16, 2026</span>
           </h2>
           <p className="text-base md:text-lg text-[#E4E4E9] max-w-2xl leading-relaxed">
             All 100 charting songs, ranked by Song Equivalent units. Top 10 featured; remainder expandable.
