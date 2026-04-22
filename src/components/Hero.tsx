@@ -61,11 +61,11 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
               </div>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                WEEK OF APR 3 &ndash; 9, 2026
+                WEEK OF APR 10 &ndash; 16, 2026
               </span>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                PUBLISHED APR 15
+                PUBLISHED APR 21
               </span>
             </div>
 
