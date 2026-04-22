@@ -22,7 +22,10 @@
         "airplayAudience": 54200000,
         "airplaySpins": 24900,
         "sales": 9500,
-        "programmedSplit": {"adSupported": 2861245, "premium": 1113338}
+        "programmedSplit": {
+          "adSupported": 2861245,
+          "premium": 1113338
+        }
       }
     },
     "10": {
@@ -37,7 +40,10 @@
         "airplayAudience": 26000000,
         "airplaySpins": 13400,
         "sales": 11300,
-        "programmedSplit": {"adSupported": 553240, "premium": 276953}
+        "programmedSplit": {
+          "adSupported": 553240,
+          "premium": 276953
+        }
       }
     },
     "25": {
@@ -52,7 +58,10 @@
         "airplayAudience": 30100000,
         "airplaySpins": 15800,
         "sales": 732,
-        "programmedSplit": {"adSupported": 421861, "premium": 912012}
+        "programmedSplit": {
+          "adSupported": 421861,
+          "premium": 912012
+        }
       }
     },
     "50": {
@@ -67,7 +76,10 @@
         "airplayAudience": 6300000,
         "airplaySpins": 3300,
         "sales": 3500,
-        "programmedSplit": {"adSupported": 152284, "premium": 0}
+        "programmedSplit": {
+          "adSupported": 152284,
+          "premium": 0
+        }
       }
     },
     "75": {
@@ -82,7 +94,10 @@
         "airplayAudience": 110400,
         "airplaySpins": 30,
         "sales": 511,
-        "programmedSplit": {"adSupported": 152441, "premium": 11661}
+        "programmedSplit": {
+          "adSupported": 152441,
+          "premium": 11661
+        }
       }
     },
     "100": {
@@ -97,10 +112,238 @@
         "airplayAudience": 12800000,
         "airplaySpins": 5800,
         "sales": 266,
-        "programmedSplit": {"adSupported": 484093, "premium": 837911}
+        "programmedSplit": {
+          "adSupported": 484093,
+          "premium": 837911
+        }
       }
     }
   },
-  "tiktokSnapshots": [],
-  "tiktokSnapshotsNote": "Cobrand session expired; skipped per task spec"
+  "tiktokSnapshots": [
+    {
+      "rank": 1,
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "source": "research_segment",
+      "lifetimeCreates": 34447,
+      "creates24h": 403,
+      "soundsCount": 3
+    },
+    {
+      "rank": 2,
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "source": "research_segment",
+      "lifetimeCreates": 2516488,
+      "creates24h": -727,
+      "soundsCount": 3
+    },
+    {
+      "rank": 3,
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "source": "global_sound_search",
+      "lifetimeCreates": 838309,
+      "creates24h": 6310,
+      "soundsCount": 96
+    },
+    {
+      "rank": 4,
+      "title": "BE HER",
+      "artist": "Ella Langley",
+      "source": "research_segment",
+      "lifetimeCreates": 203491,
+      "creates24h": 3750,
+      "soundsCount": 2
+    },
+    {
+      "rank": 5,
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "source": "global_sound_search",
+      "lifetimeCreates": 13565452,
+      "creates24h": 76759,
+      "soundsCount": 92
+    },
+    {
+      "rank": 6,
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "source": "research_segment",
+      "lifetimeCreates": 6834328,
+      "creates24h": -1798,
+      "soundsCount": 3
+    },
+    {
+      "rank": 7,
+      "title": "Golden",
+      "artist": "AUDREY NUNA, EJAE, Kpop Demon Hunters Cast, REI AMI, HUNTR/X",
+      "source": "global_sound_search",
+      "lifetimeCreates": 1564,
+      "creates24h": 0,
+      "soundsCount": 2
+    },
+    {
+      "rank": 8,
+      "title": "STATESIDE",
+      "artist": "PinkPantheress, Zara Larsson",
+      "source": "research_segment",
+      "lifetimeCreates": 419635,
+      "creates24h": 2386,
+      "soundsCount": 2
+    },
+    {
+      "rank": 9,
+      "title": "Folded",
+      "artist": "Kehlani",
+      "source": "global_sound_search",
+      "lifetimeCreates": 1494895,
+      "creates24h": 13892,
+      "soundsCount": 62
+    },
+    {
+      "rank": 10,
+      "title": "SWIM",
+      "artist": "BTS",
+      "source": "research_segment",
+      "lifetimeCreates": 2485002,
+      "creates24h": 2870,
+      "soundsCount": 10
+    },
+    {
+      "rank": 11,
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift",
+      "source": "global_sound_search",
+      "lifetimeCreates": 7955127,
+      "creates24h": 13171,
+      "soundsCount": 97
+    },
+    {
+      "rank": 12,
+      "title": "Risk It All",
+      "artist": "Bruno Mars",
+      "source": "global_sound_search",
+      "lifetimeCreates": 1821108,
+      "creates24h": 21244,
+      "soundsCount": 100
+    },
+    {
+      "rank": 13,
+      "title": "YUKON",
+      "artist": "Justin Bieber",
+      "source": "global_sound_search",
+      "lifetimeCreates": 847053,
+      "creates24h": 75941,
+      "soundsCount": 99
+    },
+    {
+      "rank": 14,
+      "title": "WHERE IS MY HUSBAND!",
+      "artist": "RAYE",
+      "source": "research_segment",
+      "lifetimeCreates": 348091,
+      "creates24h": 499,
+      "soundsCount": 2
+    },
+    {
+      "rank": 15,
+      "title": "Dracula",
+      "artist": "TAME IMPALA",
+      "source": "global_sound_search",
+      "lifetimeCreates": 763004,
+      "creates24h": 21801,
+      "soundsCount": 98
+    },
+    {
+      "rank": 16,
+      "title": "SLEEPLESS IN A HOTEL ROOM",
+      "artist": "Luke Combs",
+      "source": "research_segment",
+      "lifetimeCreates": 71511,
+      "creates24h": 145,
+      "soundsCount": 2
+    },
+    {
+      "rank": 17,
+      "title": "Opalite",
+      "artist": "Taylor Swift",
+      "source": "global_sound_search",
+      "lifetimeCreates": 5786021,
+      "creates24h": 7109,
+      "soundsCount": 95
+    },
+    {
+      "rank": 18,
+      "title": "DAISIES",
+      "artist": "Justin Bieber",
+      "source": "global_sound_search",
+      "lifetimeCreates": 2804025,
+      "creates24h": 127720,
+      "soundsCount": 100
+    },
+    {
+      "rank": 19,
+      "title": "BABYDOLL",
+      "artist": "Dominic Fike",
+      "source": "research_segment",
+      "lifetimeCreates": 635977,
+      "creates24h": 7963,
+      "soundsCount": 1
+    },
+    {
+      "rank": 20,
+      "title": "BOTTOM OF YOUR BOOTS",
+      "artist": "ELLA LANGLEY",
+      "source": "global_sound_search",
+      "lifetimeCreates": 25917,
+      "creates24h": 880,
+      "soundsCount": 53
+    },
+    {
+      "rank": 21,
+      "title": "LOVING LIFE AGAIN",
+      "artist": "ELLA LANGLEY",
+      "source": "global_sound_search",
+      "lifetimeCreates": 243920,
+      "creates24h": 3874,
+      "soundsCount": 100
+    },
+    {
+      "rank": 22,
+      "title": "iloveitiloveitiloveit",
+      "artist": "Bella Kay",
+      "source": "global_sound_search",
+      "lifetimeCreates": 1229448,
+      "creates24h": 7496,
+      "soundsCount": 100
+    },
+    {
+      "rank": 23,
+      "title": "E85",
+      "artist": "Don Toliver",
+      "source": "global_sound_search",
+      "lifetimeCreates": 865984,
+      "creates24h": 2074,
+      "soundsCount": 87
+    },
+    {
+      "rank": 24,
+      "title": "BE BY YOU",
+      "artist": "Luke Combs",
+      "source": "global_sound_search",
+      "lifetimeCreates": 190120,
+      "creates24h": 538,
+      "soundsCount": 100
+    },
+    {
+      "rank": 25,
+      "title": "HOMEWRECKER",
+      "artist": "SOMBR",
+      "source": "global_sound_search",
+      "lifetimeCreates": 291425,
+      "creates24h": 729,
+      "soundsCount": 99
+    }
+  ]
 }

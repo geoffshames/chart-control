@@ -42,8 +42,43 @@
     },
     {
       "weekEnding": "2026-04-16",
-      "genreBenchmarks": [],
-      "note": "Cobrand session expired; no TikTok samples collected this week"
+      "genreBenchmarks": [
+        {
+          "genre": "COUNTRY",
+          "n": 6,
+          "median": 0.76,
+          "min": 0.1,
+          "max": 2.08
+        },
+        {
+          "genre": "ROCK",
+          "n": 4,
+          "median": 5.43,
+          "min": 2.75,
+          "max": 11.05
+        },
+        {
+          "genre": "HIP-HOP",
+          "n": 1,
+          "median": 7.82,
+          "min": 7.82,
+          "max": 7.82
+        },
+        {
+          "genre": "R&B",
+          "n": 1,
+          "median": 10.09,
+          "min": 10.09,
+          "max": 10.09
+        },
+        {
+          "genre": "POP",
+          "n": 13,
+          "median": 13.08,
+          "min": 0.01,
+          "max": 73.15
+        }
+      ]
     }
   ]
 }
