@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T16:19:39.261226+00:00",
+  "generatedAt": "2026-04-29T16:23:11.524686+00:00",
   "model": {
     "priorDivisors": {
       "premium": 125.0,
@@ -9,8 +9,8 @@
       "sales": 1.0
     },
     "currentDivisors": {
-      "premium": 107.1,
-      "adSupported": 354.1725,
+      "premium": 106.05,
+      "adSupported": 425.7792,
       "programmed": 700.0,
       "airplay": 875.52,
       "sales": 1.0
@@ -36,84 +36,89 @@
     "lambdaReg": 5e-05
   },
   "training": {
-    "weeksLoaded": 14,
-    "weeksWithDrillins": 14,
-    "totalDrillinSamples": 48,
-    "inSampleMAPE": 5.66,
+    "weeksLoaded": 15,
+    "weeksWithDrillins": 15,
+    "totalDrillinSamples": 54,
+    "inSampleMAPE": 5.46,
     "heldOutWeek": {
       "2026-01-15": {
-        "heldOutMAPE": 11.61,
-        "maxRelErr": 19.0,
+        "heldOutMAPE": 11.29,
+        "maxRelErr": 18.67,
         "nSamples": 3
       },
       "2026-01-22": {
-        "heldOutMAPE": 3.35,
-        "maxRelErr": 3.95,
+        "heldOutMAPE": 3.26,
+        "maxRelErr": 3.72,
         "nSamples": 3
       },
       "2026-01-29": {
-        "heldOutMAPE": 5.42,
-        "maxRelErr": 6.21,
+        "heldOutMAPE": 5.22,
+        "maxRelErr": 6.31,
         "nSamples": 3
       },
       "2026-02-05": {
-        "heldOutMAPE": 5.71,
-        "maxRelErr": 11.25,
+        "heldOutMAPE": 5.7,
+        "maxRelErr": 10.59,
         "nSamples": 3
       },
       "2026-02-12": {
-        "heldOutMAPE": 4.72,
-        "maxRelErr": 9.99,
+        "heldOutMAPE": 3.75,
+        "maxRelErr": 9.27,
         "nSamples": 3
       },
       "2026-02-19": {
-        "heldOutMAPE": 17.01,
-        "maxRelErr": 43.61,
+        "heldOutMAPE": 16.88,
+        "maxRelErr": 43.51,
         "nSamples": 3
       },
       "2026-02-26": {
-        "heldOutMAPE": 1.18,
-        "maxRelErr": 1.63,
+        "heldOutMAPE": 1.02,
+        "maxRelErr": 1.29,
         "nSamples": 3
       },
       "2026-03-05": {
-        "heldOutMAPE": 2.47,
-        "maxRelErr": 6.18,
+        "heldOutMAPE": 2.37,
+        "maxRelErr": 5.66,
         "nSamples": 3
       },
       "2026-03-12": {
-        "heldOutMAPE": 2.53,
-        "maxRelErr": 6.32,
+        "heldOutMAPE": 2.63,
+        "maxRelErr": 5.88,
         "nSamples": 3
       },
       "2026-03-19": {
-        "heldOutMAPE": 3.05,
-        "maxRelErr": 4.56,
+        "heldOutMAPE": 2.82,
+        "maxRelErr": 4.1,
         "nSamples": 3
       },
       "2026-03-26": {
-        "heldOutMAPE": 6.77,
-        "maxRelErr": 13.9,
+        "heldOutMAPE": 6.9,
+        "maxRelErr": 14.11,
         "nSamples": 3
       },
       "2026-04-02": {
-        "heldOutMAPE": 5.76,
-        "maxRelErr": 8.96,
+        "heldOutMAPE": 5.61,
+        "maxRelErr": 8.92,
         "nSamples": 3
       },
       "2026-04-09": {
-        "heldOutMAPE": 6.32,
-        "maxRelErr": 15.53,
+        "heldOutMAPE": 5.72,
+        "maxRelErr": 14.41,
         "nSamples": 6
       },
       "2026-04-16": {
-        "heldOutMAPE": 8.49,
-        "maxRelErr": 32.97,
+        "heldOutMAPE": 8.39,
+        "maxRelErr": 32.5,
+        "nSamples": 6
+      },
+      "2026-04-23": {
+        "heldOutMAPE": 3.95,
+        "maxRelErr": 10.68,
         "nSamples": 6
       }
     },
-    "confidencePct": 90,
-    "walkForwardMAPE": 6.23,
+    "confidencePct": 93,
+    "walkForwardMAPE": 5.94,
     "walkForwardPerWeek": {
       "2026-01-15": {
         "heldOutMAPE": null,
@@ -209,6 +214,13 @@
         "maxRelErr": 32.97,
         "nSamples": 6,
         "nPriorWeeks": 13,
+        "skipped": false
+      },
+      "2026-04-23": {
+        "heldOutMAPE": 3.95,
+        "maxRelErr": 10.68,
+        "nSamples": 6,
+        "nPriorWeeks": 14,
         "skipped": false
       }
     },
@@ -548,6 +560,54 @@
         "actual": 32883,
         "predicted": 43725,
         "relErr": 32.97
+      },
+      {
+        "week": "2026-04-23",
+        "rank": 1,
+        "title": "drop dead",
+        "actual": 342362,
+        "predicted": 331733,
+        "relErr": -3.1
+      },
+      {
+        "week": "2026-04-23",
+        "rank": 10,
+        "title": "Folded",
+        "actual": 147795,
+        "predicted": 146956,
+        "relErr": -0.57
+      },
+      {
+        "week": "2026-04-23",
+        "rank": 25,
+        "title": "E85",
+        "actual": 103985,
+        "predicted": 100536,
+        "relErr": -3.32
+      },
+      {
+        "week": "2026-04-23",
+        "rank": 50,
+        "title": "Motion Party",
+        "actual": 65728,
+        "predicted": 68326,
+        "relErr": 3.95
+      },
+      {
+        "week": "2026-04-23",
+        "rank": 75,
+        "title": "RETHINK SOME THINGS",
+        "actual": 37677,
+        "predicted": 36899,
+        "relErr": -2.07
+      },
+      {
+        "week": "2026-04-23",
+        "rank": 100,
+        "title": "Jane!",
+        "actual": 31309,
+        "predicted": 34654,
+        "relErr": 10.68
       }
     ]
   },
@@ -718,6 +778,18 @@
         "50": 61502,
         "75": 44202,
         "100": 32883
+      }
+    },
+    {
+      "weekEnding": "2026-04-23",
+      "weekStart": "2026-04-17",
+      "thresholds": {
+        "1": 342362,
+        "10": 147795,
+        "25": 103985,
+        "50": 65728,
+        "75": 37677,
+        "100": 31309
       }
     }
   ]

@@ -1,0 +1,301 @@
+{
+  "weekStart": "2026-04-17",
+  "weekEnding": "2026-04-23",
+  "thresholdPoints": {
+    "1": 342362,
+    "10": 147795,
+    "25": 103985,
+    "50": 65728,
+    "75": 37677,
+    "100": 31309
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SG622DDCE0CDE142BD8473E600CD393843",
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "actualPts": 342362,
+      "consumption": {
+        "premiumStreams": 27423003,
+        "adSupportedStreams": 4821562,
+        "programmedStreams": 682275,
+        "airplayAudience": 26687400,
+        "airplaySpins": 9696,
+        "sales": 30613,
+        "programmedSplit": {
+          "adSupported": 341603,
+          "premium": 340672
+        }
+      }
+    },
+    "10": {
+      "luminateId": "SG405C130DC6094EEF94DDFB8795512C96",
+      "title": "Folded",
+      "artist": "Kehlani",
+      "actualPts": 147795,
+      "consumption": {
+        "premiumStreams": 5534428,
+        "adSupportedStreams": 2381264,
+        "programmedStreams": 940762,
+        "airplayAudience": 76007100,
+        "airplaySpins": 30591,
+        "sales": 400,
+        "programmedSplit": {
+          "adSupported": 839917,
+          "premium": 100845
+        }
+      }
+    },
+    "25": {
+      "luminateId": "SG7220020221B342269D1294EE957FD3E9",
+      "title": "E85",
+      "artist": "Don Toliver",
+      "actualPts": 103985,
+      "consumption": {
+        "premiumStreams": 9437085,
+        "adSupportedStreams": 1300071,
+        "programmedStreams": 194764,
+        "airplayAudience": 7262500,
+        "airplaySpins": 4247,
+        "sales": 177,
+        "programmedSplit": {
+          "adSupported": 124949,
+          "premium": 69815
+        }
+      }
+    },
+    "50": {
+      "luminateId": "SGB53BDD4BE74B4D4E9D073BD84B6F6A24",
+      "title": "Motion Party",
+      "artist": "BossMan Dlow",
+      "actualPts": 65728,
+      "consumption": {
+        "premiumStreams": 5504702,
+        "adSupportedStreams": 1729965,
+        "programmedStreams": 403799,
+        "airplayAudience": 9653600,
+        "airplaySpins": 5040,
+        "sales": 441,
+        "programmedSplit": {
+          "adSupported": 323134,
+          "premium": 80665
+        }
+      }
+    },
+    "75": {
+      "luminateId": "SG29A562A0E29040E09B955951F5ED5C35",
+      "title": "RETHINK SOME THINGS",
+      "artist": "LUKE COMBS",
+      "actualPts": 37677,
+      "consumption": {
+        "premiumStreams": 3604123,
+        "adSupportedStreams": 779024,
+        "programmedStreams": 640796,
+        "airplayAudience": 43600,
+        "airplaySpins": 30,
+        "sales": 82,
+        "programmedSplit": {
+          "adSupported": 640796,
+          "premium": 0
+        }
+      }
+    },
+    "100": {
+      "luminateId": "SG887C7B4056CC4B9FA7B1E6C00E9A12FB",
+      "title": "Jane!",
+      "artist": "The Long Faces",
+      "actualPts": 31309,
+      "consumption": {
+        "premiumStreams": 3172667,
+        "adSupportedStreams": 1751955,
+        "programmedStreams": 8890,
+        "airplayAudience": 500,
+        "airplaySpins": 1,
+        "sales": 71,
+        "programmedSplit": {
+          "adSupported": 8890,
+          "premium": 0
+        }
+      }
+    }
+  },
+  "tiktokSnapshots": [],
+  "tiktokSnapshotsNote": "Cobrand session expired during automation run; Top-25 metadata available for backfill",
+  "top25Meta": [
+    {
+      "rank": 1,
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "actualPts": 342362
+    },
+    {
+      "rank": 2,
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "actualPts": 315259
+    },
+    {
+      "rank": 3,
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "actualPts": 205712
+    },
+    {
+      "rank": 4,
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 204921
+    },
+    {
+      "rank": 5,
+      "title": "BE HER",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "actualPts": 198039
+    },
+    {
+      "rank": 6,
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "genre": "Pop",
+      "actualPts": 181149
+    },
+    {
+      "rank": 7,
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 176305
+    },
+    {
+      "rank": 8,
+      "title": "DAISIES",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "actualPts": 175630
+    },
+    {
+      "rank": 9,
+      "title": "Golden",
+      "artist": "AUDREY NUNA, EJAE, Kpop Demon Hunters Cast, REI AMI, HUNTR/X",
+      "genre": "Pop",
+      "actualPts": 153255
+    },
+    {
+      "rank": 10,
+      "title": "Folded",
+      "artist": "Kehlani",
+      "genre": "R&B",
+      "actualPts": 147795
+    },
+    {
+      "rank": 11,
+      "title": "Beauty And A Beat",
+      "artist": "Justin Bieber, Nicki Minaj",
+      "genre": "Pop",
+      "actualPts": 144237
+    },
+    {
+      "rank": 12,
+      "title": "YUKON",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "actualPts": 141313
+    },
+    {
+      "rank": 13,
+      "title": "STATESIDE",
+      "artist": "PinkPantheress, Zara Larsson",
+      "genre": "Pop",
+      "actualPts": 139349
+    },
+    {
+      "rank": 14,
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 137259
+    },
+    {
+      "rank": 15,
+      "title": "Risk It All",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "actualPts": 132974
+    },
+    {
+      "rank": 16,
+      "title": "Dracula",
+      "artist": "TAME IMPALA",
+      "genre": "Alt. Rock",
+      "actualPts": 132102
+    },
+    {
+      "rank": 17,
+      "title": "Opalite",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 129886
+    },
+    {
+      "rank": 18,
+      "title": "SLEEPLESS IN A HOTEL ROOM",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "actualPts": 128111
+    },
+    {
+      "rank": 19,
+      "title": "WHERE IS MY HUSBAND!",
+      "artist": "RAYE",
+      "genre": "Pop",
+      "actualPts": 124163
+    },
+    {
+      "rank": 20,
+      "title": "BABYDOLL",
+      "artist": "Dominic Fike",
+      "genre": "Alt. Rock",
+      "actualPts": 115368
+    },
+    {
+      "rank": 21,
+      "title": "Elizabeth Taylor",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 114511
+    },
+    {
+      "rank": 22,
+      "title": "SWIM",
+      "artist": "BTS",
+      "genre": "Pop",
+      "actualPts": 112865
+    },
+    {
+      "rank": 23,
+      "title": "HOMEWRECKER",
+      "artist": "SOMBR",
+      "genre": "Alt. Rock",
+      "actualPts": 111837
+    },
+    {
+      "rank": 24,
+      "title": "BE BY YOU",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "actualPts": 105668
+    },
+    {
+      "rank": 25,
+      "title": "E85",
+      "artist": "Don Toliver",
+      "genre": "Rap",
+      "actualPts": 103985
+    }
+  ]
+}
