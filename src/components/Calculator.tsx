@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { calculatePoints, predictPosition } from '@/lib/calculator';
-import { week20260416 } from '@/lib/data/week-2026-04-16';
+import { week20260423 } from '@/lib/data/week-2026-04-23';
 
 interface CalculatorProps {
   id?: string;
@@ -69,7 +69,7 @@ const Calculator = ({ id }: CalculatorProps) => {
     sales
   );
 
-  const thresholds = week20260416.thresholdPoints;
+  const thresholds = week20260423.thresholdPoints;
   const predictedRank = Math.round(
     predictPosition(totalPoints, thresholds as Record<number, number>)
   );

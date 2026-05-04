@@ -3,56 +3,56 @@
 import { motion } from 'framer-motion';
 
 const Validation = () => {
-  // Week ending 2026-04-16 — predictions use currently-calibrated divisors
-  // (premium 107.1, ad-supp 354.17, programmed 700, airplay 875.52, sales 1)
+  // Week ending 2026-04-23 — predictions use currently-calibrated divisors
+  // (premium 106.05, ad-supp 425.78, programmed 700, airplay 875.52, sales 1)
   const samples = [
     {
       rank: 1,
-      title: "Choosin' Texas",
-      artist: 'Ella Langley',
-      actualPts: 339299,
-      predictedPts: 363085,
-      errorPct: 7.01,
+      title: 'drop dead',
+      artist: 'Olivia Rodrigo',
+      actualPts: 342362,
+      predictedPts: 331980,
+      errorPct: 3.03,
     },
     {
       rank: 10,
-      title: 'SWIM',
-      artist: 'BTS',
-      actualPts: 141423,
-      predictedPts: 138755,
-      errorPct: 1.89,
+      title: 'Folded',
+      artist: 'Kehlani',
+      actualPts: 147795,
+      predictedPts: 146334,
+      errorPct: 0.99,
     },
     {
       rank: 25,
-      title: 'HOMEWRECKER',
-      artist: 'SOMBR',
-      actualPts: 105892,
-      predictedPts: 108245,
-      errorPct: 2.22,
+      title: 'E85',
+      artist: 'Don Toliver',
+      actualPts: 103985,
+      predictedPts: 100790,
+      errorPct: 3.07,
     },
     {
       rank: 50,
-      title: 'RUNWAY',
-      artist: 'Lady Gaga, Doechii',
-      actualPts: 61502,
-      predictedPts: 59361,
+      title: 'Motion Party',
+      artist: 'BossMan Dlow',
+      actualPts: 65728,
+      predictedPts: 68014,
       errorPct: 3.48,
     },
     {
       rank: 75,
-      title: "SOMETHIN' SIMPLE",
-      artist: 'ELLA LANGLEY',
-      actualPts: 44202,
-      predictedPts: 42556,
-      errorPct: 3.72,
+      title: 'RETHINK SOME THINGS',
+      artist: 'LUKE COMBS',
+      actualPts: 37677,
+      predictedPts: 36862,
+      errorPct: 2.16,
     },
     {
       rank: 100,
-      title: 'WOMAN',
-      artist: 'Kane Brown',
-      actualPts: 32883,
-      predictedPts: 43029,
-      errorPct: 30.85,
+      title: 'Jane!',
+      artist: 'The Long Faces',
+      actualPts: 31309,
+      predictedPts: 34117,
+      errorPct: 8.97,
     },
   ];
 

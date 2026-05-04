@@ -3,17 +3,17 @@
 import { motion } from 'framer-motion';
 
 const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
-  // Choosin' Texas #1 composition — week 2026-04-16, calibrated divisors
-  // Premium: 28,387,359 / 107.1 = 265,055 (73.0%)
-  // Airplay: 54.2M / 875.52 = 61,906 (17.1%)
-  // Ad-Supported + Programmed (combined): 20,946 + 5,678 = 26,624 (7.3%)
-  // Sales: 9,500 (2.6%)
-  // Segments scaled so they sum to actual 339,299 pts
+  // drop dead #1 composition — week 2026-04-23, calibrated divisors
+  // Premium:    27,423,003 / 106.05 = 258,587 (77.9%)
+  // Airplay:    26,687,400 / 875.52 = 30,481  (9.2%)
+  // Ad-Supp + Programmed combined:    11,324 + 975 = 12,299 (3.7%)
+  // Sales:      30,613 (9.2%)
+  // Segments scaled so they sum to actual 342,362 pts
   const composition = [
-    { label: 'PREMIUM', pts: 247691, share: 73.0, color: '#FD3737' },
-    { label: 'AIRPLAY', pts: 57850, share: 17.0, color: '#FD6B6B' },
-    { label: 'AD-SUPP', pts: 24880, share: 7.3, color: '#FF9797' },
-    { label: 'SALES', pts: 8878, share: 2.6, color: '#FFC4C4' },
+    { label: 'PREMIUM', pts: 266672, share: 77.9, color: '#FD3737' },
+    { label: 'AIRPLAY', pts: 31434, share: 9.2, color: '#FD6B6B' },
+    { label: 'SALES', pts: 31571, share: 9.2, color: '#FFC4C4' },
+    { label: 'AD-SUPP', pts: 12685, share: 3.7, color: '#FF9797' },
   ];
 
   return (
@@ -61,11 +61,11 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
               </div>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                WEEK OF APR 10 &ndash; 16, 2026
+                WEEK OF APR 17 &ndash; 23, 2026
               </span>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                PUBLISHED APR 21
+                PUBLISHED APR 28
               </span>
             </div>
 
@@ -94,13 +94,13 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                     THIS WEEK &middot; #1
                   </div>
                   <h3 className="text-2xl font-medium text-[#FAFAFA] leading-tight tracking-tight">
-                    Choosin&apos; Texas
+                    drop dead
                   </h3>
-                  <p className="text-sm text-[#B8B8C0] mt-1">Ella Langley &middot; Columbia</p>
+                  <p className="text-sm text-[#B8B8C0] mt-1">Olivia Rodrigo &middot; Geffen</p>
                 </div>
                 <div className="text-right shrink-0 ml-4">
                   <div className="text-[9px] tracking-[0.25em] uppercase text-[#B8B8C0] mb-1">PEAK</div>
-                  <div className="font-mono text-sm text-[#FAFAFA] tabular-nums">#1 &middot; W26</div>
+                  <div className="font-mono text-sm text-[#FAFAFA] tabular-nums">#1 &middot; DEBUT</div>
                 </div>
               </div>
 
@@ -109,7 +109,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                   className="font-bold tracking-tight text-[#FAFAFA] font-mono tabular-nums"
                   style={{ fontFamily: "'N27', sans-serif", fontSize: 'clamp(3.25rem, 6vw, 5rem)', lineHeight: 0.95 }}
                 >
-                  339,299
+                  342,362
                 </div>
                 <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mt-2 font-medium">
                   SONG EQUIVALENT POINTS
