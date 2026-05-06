@@ -3,56 +3,56 @@
 import { motion } from 'framer-motion';
 
 const Validation = () => {
-  // Week ending 2026-04-23 — predictions use currently-calibrated divisors
-  // (premium 106.05, ad-supp 425.78, programmed 700, airplay 875.52, sales 1)
+  // Week ending 2026-04-30 - predictions use currently-calibrated divisors
+  // (premium 107.10, ad-supp 396.00, programmed 700, airplay 864.00, sales 1)
   const samples = [
     {
       rank: 1,
-      title: 'drop dead',
-      artist: 'Olivia Rodrigo',
-      actualPts: 342362,
-      predictedPts: 331980,
-      errorPct: 3.03,
+      title: 'Choosin\' Texas',
+      artist: 'Ella Langley',
+      actualPts: 299949,
+      predictedPts: 321051,
+      errorPct: 7.04,
     },
     {
       rank: 10,
       title: 'Folded',
       artist: 'Kehlani',
-      actualPts: 147795,
-      predictedPts: 146334,
-      errorPct: 0.99,
+      actualPts: 170348,
+      predictedPts: 168511,
+      errorPct: 1.08,
     },
     {
       rank: 25,
-      title: 'E85',
-      artist: 'Don Toliver',
-      actualPts: 103985,
-      predictedPts: 100790,
-      errorPct: 3.07,
+      title: 'Opalite',
+      artist: 'Taylor Swift',
+      actualPts: 117108,
+      predictedPts: 112724,
+      errorPct: 3.74,
     },
     {
       rank: 50,
-      title: 'Motion Party',
-      artist: 'BossMan Dlow',
-      actualPts: 65728,
-      predictedPts: 68014,
-      errorPct: 3.48,
+      title: 'Dan',
+      artist: 'Noah Kahan',
+      actualPts: 79052,
+      predictedPts: 75223,
+      errorPct: 4.84,
     },
     {
       rank: 75,
-      title: 'RETHINK SOME THINGS',
-      artist: 'LUKE COMBS',
-      actualPts: 37677,
-      predictedPts: 36862,
-      errorPct: 2.16,
+      title: 'I SAW YOUR FACE',
+      artist: 'Malcolm Todd',
+      actualPts: 50423,
+      predictedPts: 50095,
+      errorPct: 0.65,
     },
     {
       rank: 100,
-      title: 'Jane!',
-      artist: 'The Long Faces',
-      actualPts: 31309,
-      predictedPts: 34117,
-      errorPct: 8.97,
+      title: 'silent treatment',
+      artist: 'Freya Skye',
+      actualPts: 34515,
+      predictedPts: 33829,
+      errorPct: 1.99,
     },
   ];
 

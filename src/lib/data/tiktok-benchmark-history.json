@@ -79,6 +79,32 @@
           "max": 73.15
         }
       ]
+    },
+    {
+      "weekEnding": "2026-04-30",
+      "genreBenchmarks": [
+        {
+          "genre": "ROCK",
+          "n": 1,
+          "median": 0.3904,
+          "min": 0.3904,
+          "max": 0.3904
+        },
+        {
+          "genre": "COUNTRY",
+          "n": 3,
+          "median": 0.5722,
+          "min": 0.1339,
+          "max": 1.084
+        },
+        {
+          "genre": "POP",
+          "n": 3,
+          "median": 13.0529,
+          "min": 3.1543,
+          "max": 38.5546
+        }
+      ]
     }
   ]
 }

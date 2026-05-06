@@ -1,0 +1,551 @@
+{
+  "weekStart": "2026-04-24",
+  "weekEnding": "2026-04-30",
+  "thresholdPoints": {
+    "1": 299949,
+    "10": 170348,
+    "25": 117108,
+    "50": 79052,
+    "75": 50423,
+    "100": 34515
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "actualPts": 299949,
+      "consumption": {
+        "premiumStreams": 24198107,
+        "adSupportedStreams": 7217127,
+        "programmedStreams": 3831777,
+        "airplayAudience": 54946200,
+        "airplaySpins": 25270,
+        "sales": 7817,
+        "programmedSplit": {
+          "adSupported": 2751464,
+          "premium": 1080313
+        }
+      }
+    },
+    "10": {
+      "luminateId": "SG405C130DC6094EEF94DDFB8795512C96",
+      "title": "Folded",
+      "artist": "Kehlani",
+      "actualPts": 170348,
+      "consumption": {
+        "premiumStreams": 7598434,
+        "adSupportedStreams": 2346709,
+        "programmedStreams": 872261,
+        "airplayAudience": 77273400,
+        "airplaySpins": 31725,
+        "sales": 955,
+        "programmedSplit": {
+          "adSupported": 768583,
+          "premium": 103678
+        }
+      }
+    },
+    "25": {
+      "luminateId": "SGC21AFB6070504381A51AA07227FF4190",
+      "title": "Opalite",
+      "artist": "Taylor Swift",
+      "actualPts": 117108,
+      "consumption": {
+        "premiumStreams": 6117560,
+        "adSupportedStreams": 1303242,
+        "programmedStreams": 915321,
+        "airplayAudience": 43241000,
+        "airplaySpins": 14650,
+        "sales": 958,
+        "programmedSplit": {
+          "adSupported": 685076,
+          "premium": 230245
+        }
+      }
+    },
+    "50": {
+      "luminateId": "SGB982A39854AD49E291951C7F24C9590B",
+      "title": "Dan",
+      "artist": "Noah Kahan",
+      "actualPts": 79052,
+      "consumption": {
+        "premiumStreams": 7946300,
+        "adSupportedStreams": 299931,
+        "programmedStreams": 18615,
+        "airplayAudience": 0,
+        "airplaySpins": 0,
+        "sales": 244,
+        "programmedSplit": {
+          "adSupported": 18615,
+          "premium": 0
+        }
+      }
+    },
+    "75": {
+      "luminateId": "SG02EE7E78F863461DB503CC529511125D",
+      "title": "I SAW YOUR FACE",
+      "artist": "Malcolm Todd",
+      "actualPts": 50423,
+      "consumption": {
+        "premiumStreams": 5120997,
+        "adSupportedStreams": 860172,
+        "programmedStreams": 44561,
+        "airplayAudience": 1800,
+        "airplaySpins": 5,
+        "sales": 42,
+        "programmedSplit": {
+          "adSupported": 34327,
+          "premium": 10234
+        }
+      }
+    },
+    "100": {
+      "luminateId": "SG8BB084B86F384281B9F5C6399715354B",
+      "title": "silent treatment",
+      "artist": "Freya Skye",
+      "actualPts": 34515,
+      "consumption": {
+        "premiumStreams": 1622993,
+        "adSupportedStreams": 299098,
+        "programmedStreams": 327378,
+        "airplayAudience": 14955200,
+        "airplaySpins": 9901,
+        "sales": 143,
+        "programmedSplit": {
+          "adSupported": 106680,
+          "premium": 220698
+        }
+      }
+    }
+  },
+  "top25Meta": [
+    {
+      "rank": 1,
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "actualPts": 299949
+    },
+    {
+      "rank": 2,
+      "luminateId": "SGF94BEE8684DE40FBB02614F434A115C8",
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "actualPts": 201463
+    },
+    {
+      "rank": 3,
+      "luminateId": "SGE168AB2A27BE4EC5B73B06A14CE4954F",
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 194775
+    },
+    {
+      "rank": 4,
+      "luminateId": "SG622DDCE0CDE142BD8473E600CD393843",
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "actualPts": 194621
+    },
+    {
+      "rank": 5,
+      "luminateId": "SGD57E5018E89C4A09852530EE06EA1F5B",
+      "title": "BE HER",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "actualPts": 194360
+    },
+    {
+      "rank": 6,
+      "luminateId": "SG76E219D57BE24C519B00B25BBA43C727",
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 182896
+    },
+    {
+      "rank": 7,
+      "luminateId": "SG06205DB4BADB4032B0E3DEC106D9A265",
+      "title": "I CAN'T LOVE YOU ANYMORE",
+      "artist": "ELLA LANGLEY & MORGAN WALLEN",
+      "genre": "Country",
+      "actualPts": 178960
+    },
+    {
+      "rank": 8,
+      "luminateId": "SGE7166623E2A04864AABD59D863D25C09",
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "genre": "Pop",
+      "actualPts": 178244
+    },
+    {
+      "rank": 9,
+      "luminateId": "SGE0E1CCE0762F4D8CA98774C2F77B8CAC",
+      "title": "Doors",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 174978
+    },
+    {
+      "rank": 10,
+      "luminateId": "SG405C130DC6094EEF94DDFB8795512C96",
+      "title": "Folded",
+      "artist": "Kehlani",
+      "genre": "R&B",
+      "actualPts": 170348
+    },
+    {
+      "rank": 11,
+      "luminateId": "SG6710A6FC741F439ABEB9FF8D95642947",
+      "title": "The Great Divide",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 161448
+    },
+    {
+      "rank": 12,
+      "luminateId": "SG53961D1F844140019FE9C80151F133F0",
+      "title": "DAISIES",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "actualPts": 153747
+    },
+    {
+      "rank": 13,
+      "luminateId": "SGB45813CEEE7348A8A37786459728F22F",
+      "title": "Golden",
+      "artist": "AUDREY NUNA, EJAE, Kpop Demon Hunters Cast, REI AMI, HUNTR/X",
+      "genre": "Pop",
+      "actualPts": 146164
+    },
+    {
+      "rank": 14,
+      "luminateId": "SG62AEA942404841C3BA39743E84FDFDAD",
+      "title": "End of August",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 144951
+    },
+    {
+      "rank": 15,
+      "luminateId": "SG3B1DD3F870FA4580A8D9735DF1546EE0",
+      "title": "STATESIDE",
+      "artist": "PinkPantheress, Zara Larsson",
+      "genre": "Pop",
+      "actualPts": 136710
+    },
+    {
+      "rank": 16,
+      "luminateId": "SG194AF411D8E542F7BEE98895B77063D5",
+      "title": "American Cars",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 135369
+    },
+    {
+      "rank": 17,
+      "luminateId": "SG1D584E2778FF4D43B5AA15A3890F05A1",
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 133142
+    },
+    {
+      "rank": 18,
+      "luminateId": "SG14D5D69C184B4DD0BBDBCC0B95961C5A",
+      "title": "Dracula",
+      "artist": "TAME IMPALA",
+      "genre": "Alt. Rock",
+      "actualPts": 132289
+    },
+    {
+      "rank": 19,
+      "luminateId": "SGBC180CB177344CCD9ECD8A7EC1EF74D8",
+      "title": "Dashboard",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 131337
+    },
+    {
+      "rank": 20,
+      "luminateId": "SG3A638A472B93487F9B46DE68A006B4C6",
+      "title": "Risk It All",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "actualPts": 130733
+    },
+    {
+      "rank": 21,
+      "luminateId": "SGD7249D38C1DF4BA298FFACFC966B035D",
+      "title": "Porch Light",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 130311
+    },
+    {
+      "rank": 22,
+      "luminateId": "SG9097DCBB44EF4BB7BE2B0BE0CE15139D",
+      "title": "SLEEPLESS IN A HOTEL ROOM",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "actualPts": 127860
+    },
+    {
+      "rank": 23,
+      "luminateId": "SGAD57C3695C404046A88D12E8065147A0",
+      "title": "Downfall",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 123346
+    },
+    {
+      "rank": 24,
+      "luminateId": "SG1BCAD54AC9D843A1AA26F3C9EF4D66B5",
+      "title": "YUKON",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "actualPts": 119008
+    },
+    {
+      "rank": 25,
+      "luminateId": "SGC21AFB6070504381A51AA07227FF4190",
+      "title": "Opalite",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 117108
+    }
+  ],
+  "tiktokSnapshots": [
+    {
+      "rank": 1,
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "lifetimeCreates": 40172,
+      "creates24h": 398,
+      "sounds": 3
+    },
+    {
+      "rank": 2,
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 3,
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "lifetimeCreates": 2542380,
+      "creates24h": 625,
+      "sounds": 3
+    },
+    {
+      "rank": 4,
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 5,
+      "title": "BE HER",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "lifetimeCreates": 210694,
+      "creates24h": 468,
+      "sounds": 2
+    },
+    {
+      "rank": 6,
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "lifetimeCreates": 7051481,
+      "creates24h": 10107,
+      "sounds": 3
+    },
+    {
+      "rank": 7,
+      "title": "I CAN'T LOVE YOU ANYMORE",
+      "artist": "ELLA LANGLEY & MORGAN WALLEN",
+      "genre": "Country",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 8,
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 9,
+      "title": "Doors",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 10,
+      "title": "Folded",
+      "artist": "Kehlani",
+      "genre": "R&B",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 11,
+      "title": "The Great Divide",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "lifetimeCreates": 63036,
+      "creates24h": 110,
+      "sounds": 3
+    },
+    {
+      "rank": 12,
+      "title": "DAISIES",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 13,
+      "title": "Golden",
+      "artist": "AUDREY NUNA, EJAE, Kpop Demon Hunters Cast, REI AMI, HUNTR/X",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 14,
+      "title": "End of August",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 15,
+      "title": "STATESIDE",
+      "artist": "PinkPantheress, Zara Larsson",
+      "genre": "Pop",
+      "lifetimeCreates": 431220,
+      "creates24h": 176,
+      "sounds": 2
+    },
+    {
+      "rank": 16,
+      "title": "American Cars",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 17,
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 18,
+      "title": "Dracula",
+      "artist": "TAME IMPALA",
+      "genre": "Alt. Rock",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 19,
+      "title": "Dashboard",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 20,
+      "title": "Risk It All",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 21,
+      "title": "Porch Light",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 22,
+      "title": "SLEEPLESS IN A HOTEL ROOM",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "lifetimeCreates": 73157,
+      "creates24h": 40,
+      "sounds": 2
+    },
+    {
+      "rank": 23,
+      "title": "Downfall",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 24,
+      "title": "YUKON",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    },
+    {
+      "rank": 25,
+      "title": "Opalite",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "lifetimeCreates": null,
+      "creates24h": null,
+      "sounds": null
+    }
+  ]
+}

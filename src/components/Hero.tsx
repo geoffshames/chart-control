@@ -3,17 +3,17 @@
 import { motion } from 'framer-motion';
 
 const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
-  // drop dead #1 composition — week 2026-04-23, calibrated divisors
-  // Premium:    27,423,003 / 106.05 = 258,587 (77.9%)
-  // Airplay:    26,687,400 / 875.52 = 30,481  (9.2%)
-  // Ad-Supp + Programmed combined:    11,324 + 975 = 12,299 (3.7%)
-  // Sales:      30,613 (9.2%)
-  // Segments scaled so they sum to actual 342,362 pts
+  // Choosin' Texas #1 composition - week 2026-04-30, calibrated divisors
+  // PREMIUM: 211,089 pts (70.4%)
+  // AIRPLAY: 59,415 pts (19.8%)
+  // AD-SUPP: 22,141 pts (7.4%)
+  // SALES: 7,303 pts (2.4%)
+  // Segments scaled so they sum to actual 299,949 pts
   const composition = [
-    { label: 'PREMIUM', pts: 266672, share: 77.9, color: '#FD3737' },
-    { label: 'AIRPLAY', pts: 31434, share: 9.2, color: '#FD6B6B' },
-    { label: 'SALES', pts: 31571, share: 9.2, color: '#FFC4C4' },
-    { label: 'AD-SUPP', pts: 12685, share: 3.7, color: '#FF9797' },
+    { label: 'PREMIUM', pts: 211089, share: 70.4, color: '#FD3737' },
+    { label: 'AIRPLAY', pts: 59415, share: 19.8, color: '#FD6B6B' },
+    { label: 'AD-SUPP', pts: 22141, share: 7.4, color: '#FF9797' },
+    { label: 'SALES', pts: 7303, share: 2.4, color: '#FFC4C4' },
   ];
 
   return (
@@ -61,11 +61,11 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
               </div>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                WEEK OF APR 17 &ndash; 23, 2026
+                WEEK OF APR 24 &ndash; 30, 2026
               </span>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                PUBLISHED APR 28
+                PUBLISHED MAY 5
               </span>
             </div>
 
@@ -94,9 +94,9 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                     THIS WEEK &middot; #1
                   </div>
                   <h3 className="text-2xl font-medium text-[#FAFAFA] leading-tight tracking-tight">
-                    drop dead
+                    Choosin&apos; Texas
                   </h3>
-                  <p className="text-sm text-[#B8B8C0] mt-1">Olivia Rodrigo &middot; Geffen</p>
+                  <p className="text-sm text-[#B8B8C0] mt-1">Ella Langley &middot; -</p>
                 </div>
                 <div className="text-right shrink-0 ml-4">
                   <div className="text-[9px] tracking-[0.25em] uppercase text-[#B8B8C0] mb-1">PEAK</div>
@@ -109,7 +109,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                   className="font-bold tracking-tight text-[#FAFAFA] font-mono tabular-nums"
                   style={{ fontFamily: "'N27', sans-serif", fontSize: 'clamp(3.25rem, 6vw, 5rem)', lineHeight: 0.95 }}
                 >
-                  342,362
+                  299,949
                 </div>
                 <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mt-2 font-medium">
                   SONG EQUIVALENT POINTS
