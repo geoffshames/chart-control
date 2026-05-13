@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T16:22:38.231508+00:00",
+  "generatedAt": "2026-05-13T16:19:29.277768+00:00",
   "model": {
     "priorDivisors": {
       "premium": 125.0,
@@ -9,10 +9,10 @@
       "sales": 1.0
     },
     "currentDivisors": {
-      "premium": 107.1,
-      "adSupported": 396.0,
+      "premium": 105.0,
+      "adSupported": 493.9704,
       "programmed": 700.0,
-      "airplay": 864.0,
+      "airplay": 912.0,
       "sales": 1.0
     },
     "searchBounds": {
@@ -36,94 +36,99 @@
     "lambdaReg": 5e-05
   },
   "training": {
-    "weeksLoaded": 16,
-    "weeksWithDrillins": 16,
-    "totalDrillinSamples": 60,
-    "inSampleMAPE": 5.26,
+    "weeksLoaded": 17,
+    "weeksWithDrillins": 17,
+    "totalDrillinSamples": 66,
+    "inSampleMAPE": 5.6,
     "heldOutWeek": {
       "2026-01-15": {
-        "heldOutMAPE": 11.61,
-        "maxRelErr": 19.0,
+        "heldOutMAPE": 10.38,
+        "maxRelErr": 18.77,
         "nSamples": 3
       },
       "2026-01-22": {
-        "heldOutMAPE": 3.6,
-        "maxRelErr": 3.92,
+        "heldOutMAPE": 3.96,
+        "maxRelErr": 4.4,
         "nSamples": 3
       },
       "2026-01-29": {
-        "heldOutMAPE": 5.09,
-        "maxRelErr": 6.34,
+        "heldOutMAPE": 7.01,
+        "maxRelErr": 7.76,
         "nSamples": 3
       },
       "2026-02-05": {
-        "heldOutMAPE": 5.66,
-        "maxRelErr": 10.52,
+        "heldOutMAPE": 3.82,
+        "maxRelErr": 10.21,
         "nSamples": 3
       },
       "2026-02-12": {
-        "heldOutMAPE": 3.66,
-        "maxRelErr": 9.14,
+        "heldOutMAPE": 4.27,
+        "maxRelErr": 8.58,
         "nSamples": 3
       },
       "2026-02-19": {
-        "heldOutMAPE": 16.53,
-        "maxRelErr": 43.29,
+        "heldOutMAPE": 17.12,
+        "maxRelErr": 44.28,
         "nSamples": 3
       },
       "2026-02-26": {
-        "heldOutMAPE": 0.82,
-        "maxRelErr": 1.11,
+        "heldOutMAPE": 1.05,
+        "maxRelErr": 1.94,
         "nSamples": 3
       },
       "2026-03-05": {
-        "heldOutMAPE": 2.41,
-        "maxRelErr": 5.74,
+        "heldOutMAPE": 3.9,
+        "maxRelErr": 7.77,
         "nSamples": 3
       },
       "2026-03-12": {
-        "heldOutMAPE": 2.55,
-        "maxRelErr": 5.42,
+        "heldOutMAPE": 2.46,
+        "maxRelErr": 5.78,
         "nSamples": 3
       },
       "2026-03-19": {
-        "heldOutMAPE": 2.84,
-        "maxRelErr": 4.2,
+        "heldOutMAPE": 4.16,
+        "maxRelErr": 6.16,
         "nSamples": 3
       },
       "2026-03-26": {
-        "heldOutMAPE": 6.66,
-        "maxRelErr": 14.05,
+        "heldOutMAPE": 7.78,
+        "maxRelErr": 14.68,
         "nSamples": 3
       },
       "2026-04-02": {
-        "heldOutMAPE": 5.5,
-        "maxRelErr": 8.36,
+        "heldOutMAPE": 6.26,
+        "maxRelErr": 10.59,
         "nSamples": 3
       },
       "2026-04-09": {
-        "heldOutMAPE": 5.95,
-        "maxRelErr": 13.58,
+        "heldOutMAPE": 5.71,
+        "maxRelErr": 13.32,
         "nSamples": 6
       },
       "2026-04-16": {
-        "heldOutMAPE": 8.37,
-        "maxRelErr": 32.38,
+        "heldOutMAPE": 7.67,
+        "maxRelErr": 30.23,
         "nSamples": 6
       },
       "2026-04-23": {
-        "heldOutMAPE": 3.71,
-        "maxRelErr": 10.56,
+        "heldOutMAPE": 3.88,
+        "maxRelErr": 9.37,
         "nSamples": 6
       },
       "2026-04-30": {
-        "heldOutMAPE": 3.18,
-        "maxRelErr": 7.08,
+        "heldOutMAPE": 4.62,
+        "maxRelErr": 6.27,
+        "nSamples": 6
+      },
+      "2026-05-07": {
+        "heldOutMAPE": 9.31,
+        "maxRelErr": 25.11,
         "nSamples": 6
       }
     },
-    "confidencePct": 95,
-    "walkForwardMAPE": 5.64,
+    "confidencePct": 96,
+    "walkForwardMAPE": 6.0,
     "walkForwardPerWeek": {
       "2026-01-15": {
         "heldOutMAPE": null,
@@ -233,6 +238,13 @@
         "maxRelErr": 7.08,
         "nSamples": 6,
         "nPriorWeeks": 15,
+        "skipped": false
+      },
+      "2026-05-07": {
+        "heldOutMAPE": 9.31,
+        "maxRelErr": 25.11,
+        "nSamples": 6,
+        "nPriorWeeks": 16,
         "skipped": false
       }
     },
@@ -668,6 +680,54 @@
         "actual": 34515,
         "predicted": 33699,
         "relErr": -2.37
+      },
+      {
+        "week": "2026-05-07",
+        "rank": 1,
+        "title": "Choosin' Texas",
+        "actual": 305018,
+        "predicted": 326566,
+        "relErr": 7.06
+      },
+      {
+        "week": "2026-05-07",
+        "rank": 10,
+        "title": "Dracula",
+        "actual": 142074,
+        "predicted": 145027,
+        "relErr": 2.08
+      },
+      {
+        "week": "2026-05-07",
+        "rank": 25,
+        "title": "YUKON",
+        "actual": 104035,
+        "predicted": 101645,
+        "relErr": -2.3
+      },
+      {
+        "week": "2026-05-07",
+        "rank": 50,
+        "title": "Brunette",
+        "actual": 70631,
+        "predicted": 77315,
+        "relErr": 9.46
+      },
+      {
+        "week": "2026-05-07",
+        "rank": 75,
+        "title": "WHAT YOU NEED",
+        "actual": 48957,
+        "predicted": 53771,
+        "relErr": 9.83
+      },
+      {
+        "week": "2026-05-07",
+        "rank": 100,
+        "title": "Rocky Mountain Low",
+        "actual": 34853,
+        "predicted": 43606,
+        "relErr": 25.11
       }
     ]
   },
@@ -862,6 +922,18 @@
         "50": 79052,
         "75": 50423,
         "100": 34515
+      }
+    },
+    {
+      "weekEnding": "2026-05-07",
+      "weekStart": "2026-05-01",
+      "thresholds": {
+        "1": 305018,
+        "10": 142074,
+        "25": 104035,
+        "50": 70631,
+        "75": 48957,
+        "100": 34853
       }
     }
   ]

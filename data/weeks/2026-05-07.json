@@ -1,0 +1,325 @@
+{
+  "weekStart": "2026-05-01",
+  "weekEnding": "2026-05-07",
+  "thresholdPoints": {
+    "1": 305018,
+    "10": 142074,
+    "25": 104035,
+    "50": 70631,
+    "75": 48957,
+    "100": 34853
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "actualPts": 305018,
+      "consumption": {
+        "premiumStreams": 24279501,
+        "adSupportedStreams": 7184343,
+        "programmedStreams": 3779746,
+        "airplayAudience": 59265800,
+        "airplaySpins": 26187,
+        "sales": 7730,
+        "programmedSplit": {
+          "adSupported": 2817990,
+          "premium": 961756
+        }
+      }
+    },
+    "10": {
+      "luminateId": "SG14D5D69C184B4DD0BBDBCC0B95961C5A",
+      "title": "Dracula",
+      "artist": "TAME IMPALA",
+      "actualPts": 142074,
+      "consumption": {
+        "premiumStreams": 11389167,
+        "adSupportedStreams": 2346611,
+        "programmedStreams": 914534,
+        "airplayAudience": 25349300,
+        "airplaySpins": 13156,
+        "sales": 2114,
+        "programmedSplit": {
+          "adSupported": 415843,
+          "premium": 498691
+        }
+      }
+    },
+    "25": {
+      "luminateId": "SG1BCAD54AC9D843A1AA26F3C9EF4D66B5",
+      "title": "YUKON",
+      "artist": "Justin Bieber",
+      "actualPts": 104035,
+      "consumption": {
+        "premiumStreams": 6465337,
+        "adSupportedStreams": 1598400,
+        "programmedStreams": 764762,
+        "airplayAudience": 30792800,
+        "airplaySpins": 13457,
+        "sales": 509,
+        "programmedSplit": {
+          "adSupported": 673184,
+          "premium": 91578
+        }
+      }
+    },
+    "50": {
+      "luminateId": "SGE428E19F60BD4542884566DCD8D5FE0D",
+      "title": "Brunette",
+      "artist": "Tucker Wetmore",
+      "actualPts": 70631,
+      "consumption": {
+        "premiumStreams": 3062313,
+        "adSupportedStreams": 675798,
+        "programmedStreams": 395124,
+        "airplayAudience": 39869300,
+        "airplaySpins": 16055,
+        "sales": 306,
+        "programmedSplit": {
+          "adSupported": 220126,
+          "premium": 174998
+        }
+      }
+    },
+    "75": {
+      "luminateId": "SGB34A93BE8A1F453E853EED9BA9A9D89F",
+      "title": "WHAT YOU NEED",
+      "artist": "TEMS",
+      "actualPts": 48957,
+      "consumption": {
+        "premiumStreams": 4102983,
+        "adSupportedStreams": 2111367,
+        "programmedStreams": 835041,
+        "airplayAudience": 7282200,
+        "airplaySpins": 2840,
+        "sales": 508,
+        "programmedSplit": {
+          "adSupported": 835041,
+          "premium": 0
+        }
+      }
+    },
+    "100": {
+      "luminateId": "SG209798CCEFFB49D7B3E64CC7CA8B9609",
+      "title": "Rocky Mountain Low",
+      "artist": "Corey Kent,Koe Wetzel",
+      "actualPts": 34853,
+      "consumption": {
+        "premiumStreams": 1313904,
+        "adSupportedStreams": 249793,
+        "programmedStreams": 709753,
+        "airplayAudience": 25421100,
+        "airplaySpins": 10477,
+        "sales": 271,
+        "programmedSplit": {
+          "adSupported": 165776,
+          "premium": 543977
+        }
+      }
+    }
+  },
+  "top25Meta": [
+    {
+      "rank": 1,
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "actualPts": 305018
+    },
+    {
+      "rank": 2,
+      "luminateId": "SGD57E5018E89C4A09852530EE06EA1F5B",
+      "title": "BE HER",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "actualPts": 198208
+    },
+    {
+      "rank": 3,
+      "luminateId": "SG622DDCE0CDE142BD8473E600CD393843",
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "actualPts": 195593
+    },
+    {
+      "rank": 4,
+      "luminateId": "SGE168AB2A27BE4EC5B73B06A14CE4954F",
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 195219
+    },
+    {
+      "rank": 5,
+      "luminateId": "SGF94BEE8684DE40FBB02614F434A115C8",
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "actualPts": 193400
+    },
+    {
+      "rank": 6,
+      "luminateId": "SG76E219D57BE24C519B00B25BBA43C727",
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 177176
+    },
+    {
+      "rank": 7,
+      "luminateId": "SGE7166623E2A04864AABD59D863D25C09",
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "genre": "Pop",
+      "actualPts": 177119
+    },
+    {
+      "rank": 8,
+      "luminateId": "SG06205DB4BADB4032B0E3DEC106D9A265",
+      "title": "I CAN'T LOVE YOU ANYMORE",
+      "artist": "ELLA LANGLEY & MORGAN WALLEN",
+      "genre": "Country",
+      "actualPts": 155931
+    },
+    {
+      "rank": 9,
+      "luminateId": "SG405C130DC6094EEF94DDFB8795512C96",
+      "title": "Folded",
+      "artist": "Kehlani",
+      "genre": "R&B",
+      "actualPts": 154394
+    },
+    {
+      "rank": 10,
+      "luminateId": "SG14D5D69C184B4DD0BBDBCC0B95961C5A",
+      "title": "Dracula",
+      "artist": "TAME IMPALA",
+      "genre": "Alt. Rock",
+      "actualPts": 142074
+    },
+    {
+      "rank": 11,
+      "luminateId": "SGB45813CEEE7348A8A37786459728F22F",
+      "title": "Golden",
+      "artist": "AUDREY NUNA, EJAE, Kpop Demon Hunters Cast, REI AMI, HUNTR/X",
+      "genre": "Pop",
+      "actualPts": 141609
+    },
+    {
+      "rank": 12,
+      "luminateId": "SG53961D1F844140019FE9C80151F133F0",
+      "title": "DAISIES",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "actualPts": 139182
+    },
+    {
+      "rank": 13,
+      "luminateId": "SG3B1DD3F870FA4580A8D9735DF1546EE0",
+      "title": "STATESIDE",
+      "artist": "PinkPantheress, Zara Larsson",
+      "genre": "Pop",
+      "actualPts": 138602
+    },
+    {
+      "rank": 14,
+      "luminateId": "SG1D584E2778FF4D43B5AA15A3890F05A1",
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 129634
+    },
+    {
+      "rank": 15,
+      "luminateId": "SG3A638A472B93487F9B46DE68A006B4C6",
+      "title": "Risk It All",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "actualPts": 129029
+    },
+    {
+      "rank": 16,
+      "luminateId": "SG9097DCBB44EF4BB7BE2B0BE0CE15139D",
+      "title": "SLEEPLESS IN A HOTEL ROOM",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "actualPts": 125530
+    },
+    {
+      "rank": 17,
+      "luminateId": "SGA07373ED675A49E3BC3D88F04C3C1C3D",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "genre": "R&B",
+      "actualPts": 122023
+    },
+    {
+      "rank": 18,
+      "luminateId": "SG6710A6FC741F439ABEB9FF8D95642947",
+      "title": "The Great Divide",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 115957
+    },
+    {
+      "rank": 19,
+      "luminateId": "SGC21AFB6070504381A51AA07227FF4190",
+      "title": "Opalite",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 115386
+    },
+    {
+      "rank": 20,
+      "luminateId": "SGE0E1CCE0762F4D8CA98774C2F77B8CAC",
+      "title": "Doors",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 110451
+    },
+    {
+      "rank": 21,
+      "luminateId": "SGD09FC7F149F14C37962814F94D60DA59",
+      "title": "BABYDOLL",
+      "artist": "DOMINIC FIKE",
+      "genre": "Alt. Rock",
+      "actualPts": 107584
+    },
+    {
+      "rank": 22,
+      "luminateId": "SGC7275C062D254335BD71DC012C9D816D",
+      "title": "HOMEWRECKER",
+      "artist": "SOMBR",
+      "genre": "Alt. Rock",
+      "actualPts": 107562
+    },
+    {
+      "rank": 23,
+      "luminateId": "SG19279749C59A4F9DBD45FBDE65B17545",
+      "title": "Midnight Sun",
+      "artist": "Zara Larsson",
+      "genre": "Pop",
+      "actualPts": 105281
+    },
+    {
+      "rank": 24,
+      "luminateId": "SG67CA4B8DAB304ADD96E3277E4E77188A",
+      "title": "BE BY YOU",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "actualPts": 104403
+    },
+    {
+      "rank": 25,
+      "luminateId": "SG1BCAD54AC9D843A1AA26F3C9EF4D66B5",
+      "title": "YUKON",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "actualPts": 104035
+    }
+  ],
+  "tiktokSnapshots": []
+}
