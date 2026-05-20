@@ -3,17 +3,17 @@
 import { motion } from 'framer-motion';
 
 const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
-  // Choosin' Texas #1 composition - week 2026-04-30, calibrated divisors
-  // PREMIUM: 211,089 pts (70.4%)
-  // AIRPLAY: 59,415 pts (19.8%)
-  // AD-SUPP: 22,141 pts (7.4%)
-  // SALES: 7,303 pts (2.4%)
-  // Segments scaled so they sum to actual 299,949 pts
+  // Choosin' Texas #1 composition - week 2026-05-14, calibrated divisors
+  // PREMIUM: 230,208 pts (73.2%)
+  // AIRPLAY: 63,162 pts (20.1%)
+  // AD-SUPP: 14,286 pts (4.5%)
+  // SALES: 6,641 pts (2.1%)
+  // Segments scaled so they sum to actual 314,297 pts
   const composition = [
-    { label: 'PREMIUM', pts: 211089, share: 70.4, color: '#FD3737' },
-    { label: 'AIRPLAY', pts: 59415, share: 19.8, color: '#FD6B6B' },
-    { label: 'AD-SUPP', pts: 22141, share: 7.4, color: '#FF9797' },
-    { label: 'SALES', pts: 7303, share: 2.4, color: '#FFC4C4' },
+    { label: 'PREMIUM', pts: 230208, share: 73.2, color: '#FD3737' },
+    { label: 'AIRPLAY', pts: 63162, share: 20.1, color: '#FD6B6B' },
+    { label: 'AD-SUPP', pts: 14286, share: 4.5, color: '#FF9797' },
+    { label: 'SALES', pts: 6641, share: 2.1, color: '#FFC4C4' },
   ];
 
   return (
@@ -61,11 +61,11 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
               </div>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                WEEK OF APR 24 &ndash; 30, 2026
+                WEEK OF MAY 8 &ndash; 14, 2026
               </span>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                PUBLISHED MAY 5
+                PUBLISHED MAY 19
               </span>
             </div>
 

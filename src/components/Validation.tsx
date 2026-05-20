@@ -3,56 +3,56 @@
 import { motion } from 'framer-motion';
 
 const Validation = () => {
-  // Week ending 2026-04-30 - predictions use currently-calibrated divisors
-  // (premium 107.10, ad-supp 396.00, programmed 700, airplay 864.00, sales 1)
+  // Week ending 2026-05-14 - predictions use currently-calibrated divisors
+  // (premium 105.00, ad-supp 493.97, programmed 700, airplay 921.12, sales 1)
   const samples = [
     {
       rank: 1,
       title: 'Choosin\' Texas',
       artist: 'Ella Langley',
-      actualPts: 299949,
-      predictedPts: 321051,
-      errorPct: 7.04,
+      actualPts: 314297,
+      predictedPts: 330578,
+      errorPct: 5.18,
     },
     {
       rank: 10,
-      title: 'Folded',
-      artist: 'Kehlani',
-      actualPts: 170348,
-      predictedPts: 168511,
-      errorPct: 1.08,
+      title: 'DRACULA',
+      artist: 'TAME IMPALA, JENNIE & BOYS NOIZE',
+      actualPts: 144765,
+      predictedPts: 146199,
+      errorPct: 0.99,
     },
     {
       rank: 25,
-      title: 'Opalite',
-      artist: 'Taylor Swift',
-      actualPts: 117108,
-      predictedPts: 112724,
-      errorPct: 3.74,
+      title: 'Midnight Sun',
+      artist: 'Zara Larsson',
+      actualPts: 102347,
+      predictedPts: 101960,
+      errorPct: 0.38,
     },
     {
       rank: 50,
-      title: 'Dan',
-      artist: 'Noah Kahan',
-      actualPts: 79052,
-      predictedPts: 75223,
-      errorPct: 4.84,
+      title: 'Elizabeth Taylor',
+      artist: 'Taylor Swift',
+      actualPts: 66246,
+      predictedPts: 68057,
+      errorPct: 2.73,
     },
     {
       rank: 75,
-      title: 'I SAW YOUR FACE',
-      artist: 'Malcolm Todd',
-      actualPts: 50423,
-      predictedPts: 50095,
-      errorPct: 0.65,
+      title: 'Deny Deny Deny',
+      artist: 'Noah Kahan',
+      actualPts: 46112,
+      predictedPts: 44569,
+      errorPct: 3.35,
     },
     {
       rank: 100,
-      title: 'silent treatment',
-      artist: 'Freya Skye',
-      actualPts: 34515,
-      predictedPts: 33829,
-      errorPct: 1.99,
+      title: 'Go Away',
+      artist: 'Weezer',
+      actualPts: 32203,
+      predictedPts: 31155,
+      errorPct: 3.25,
     },
   ];
 

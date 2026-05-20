@@ -1,0 +1,325 @@
+{
+  "weekStart": "2026-05-08",
+  "weekEnding": "2026-05-14",
+  "thresholdPoints": {
+    "1": 314297,
+    "10": 144765,
+    "25": 102347,
+    "50": 66246,
+    "75": 46112,
+    "100": 32203
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "actualPts": 314297,
+      "consumption": {
+        "premiumStreams": 24987142,
+        "adSupportedStreams": 7294812,
+        "programmedStreams": 3975905,
+        "airplayAudience": 60142300,
+        "airplaySpins": 25944,
+        "sales": 6865,
+        "programmedSplit": {
+          "adSupported": 2977073,
+          "premium": 998832
+        }
+      }
+    },
+    "10": {
+      "luminateId": "SG90A0A237C9F34B4592DED17B31925F45",
+      "title": "DRACULA",
+      "artist": "TAME IMPALA, JENNIE & BOYS NOIZE",
+      "actualPts": 144765,
+      "consumption": {
+        "premiumStreams": 11274067,
+        "adSupportedStreams": 2322081,
+        "programmedStreams": 954122,
+        "airplayAudience": 28267700,
+        "airplaySpins": 14251,
+        "sales": 2075,
+        "programmedSplit": {
+          "adSupported": 415090,
+          "premium": 539032
+        }
+      }
+    },
+    "25": {
+      "luminateId": "SG19279749C59A4F9DBD45FBDE65B17545",
+      "title": "Midnight Sun",
+      "artist": "Zara Larsson",
+      "actualPts": 102347,
+      "consumption": {
+        "premiumStreams": 7060711,
+        "adSupportedStreams": 1467399,
+        "programmedStreams": 722654,
+        "airplayAudience": 27334600,
+        "airplaySpins": 15247,
+        "sales": 1037,
+        "programmedSplit": {
+          "adSupported": 216648,
+          "premium": 506006
+        }
+      }
+    },
+    "50": {
+      "luminateId": "SG1C2D81EE71B14BDFA7FC2EACF523CCDC",
+      "title": "Elizabeth Taylor",
+      "artist": "Taylor Swift",
+      "actualPts": 66246,
+      "consumption": {
+        "premiumStreams": 3171469,
+        "adSupportedStreams": 375734,
+        "programmedStreams": 931871,
+        "airplayAudience": 32658700,
+        "airplaySpins": 16423,
+        "sales": 305,
+        "programmedSplit": {
+          "adSupported": 145454,
+          "premium": 786417
+        }
+      }
+    },
+    "75": {
+      "luminateId": "SG1F7C2AD7942941019B850542017541EA",
+      "title": "Deny Deny Deny",
+      "artist": "Noah Kahan",
+      "actualPts": 46112,
+      "consumption": {
+        "premiumStreams": 4623256,
+        "adSupportedStreams": 211616,
+        "programmedStreams": 38825,
+        "airplayAudience": 0,
+        "airplaySpins": 1,
+        "sales": 54,
+        "programmedSplit": {
+          "adSupported": 38825,
+          "premium": 0
+        }
+      }
+    },
+    "100": {
+      "luminateId": "SG3C7CDA9AF7B545B3B7F120DAB1D6F95E",
+      "title": "Go Away",
+      "artist": "Weezer",
+      "actualPts": 32203,
+      "consumption": {
+        "premiumStreams": 2528496,
+        "adSupportedStreams": 1416953,
+        "programmedStreams": 26017,
+        "airplayAudience": 3720000,
+        "airplaySpins": 2387,
+        "sales": 130,
+        "programmedSplit": {
+          "adSupported": 14251,
+          "premium": 11766
+        }
+      }
+    }
+  },
+  "top25Meta": [
+    {
+      "rank": 1,
+      "luminateId": "SGFABFA59A35564C4DBF9D4EF5551C42D4",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "actualPts": 314297
+    },
+    {
+      "rank": 2,
+      "luminateId": "SGD57E5018E89C4A09852530EE06EA1F5B",
+      "title": "BE HER",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "actualPts": 202136
+    },
+    {
+      "rank": 3,
+      "luminateId": "SGE168AB2A27BE4EC5B73B06A14CE4954F",
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 187286
+    },
+    {
+      "rank": 4,
+      "luminateId": "SGF94BEE8684DE40FBB02614F434A115C8",
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "actualPts": 184991
+    },
+    {
+      "rank": 5,
+      "luminateId": "SG76E219D57BE24C519B00B25BBA43C727",
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 175913
+    },
+    {
+      "rank": 6,
+      "luminateId": "SGE7166623E2A04864AABD59D863D25C09",
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "genre": "Pop",
+      "actualPts": 175466
+    },
+    {
+      "rank": 7,
+      "luminateId": "SG622DDCE0CDE142BD8473E600CD393843",
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "actualPts": 158007
+    },
+    {
+      "rank": 8,
+      "luminateId": "SG3A638A472B93487F9B46DE68A006B4C6",
+      "title": "Risk It All",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "actualPts": 150157
+    },
+    {
+      "rank": 9,
+      "luminateId": "SG405C130DC6094EEF94DDFB8795512C96",
+      "title": "Folded",
+      "artist": "Kehlani",
+      "genre": "R&B",
+      "actualPts": 147549
+    },
+    {
+      "rank": 10,
+      "luminateId": "SG90A0A237C9F34B4592DED17B31925F45",
+      "title": "DRACULA",
+      "artist": "TAME IMPALA, JENNIE & BOYS NOIZE",
+      "genre": "Dance/Electronic",
+      "actualPts": 144765
+    },
+    {
+      "rank": 11,
+      "luminateId": "SG06205DB4BADB4032B0E3DEC106D9A265",
+      "title": "I CAN'T LOVE YOU ANYMORE",
+      "artist": "ELLA LANGLEY & MORGAN WALLEN",
+      "genre": "Country",
+      "actualPts": 142903
+    },
+    {
+      "rank": 12,
+      "luminateId": "SG3B1DD3F870FA4580A8D9735DF1546EE0",
+      "title": "STATESIDE",
+      "artist": "PinkPantheress, Zara Larsson",
+      "genre": "Pop",
+      "actualPts": 142510
+    },
+    {
+      "rank": 13,
+      "luminateId": "SGB45813CEEE7348A8A37786459728F22F",
+      "title": "Golden",
+      "artist": "AUDREY NUNA, EJAE, Kpop Demon Hunters Cast, REI AMI, HUNTR/X",
+      "genre": "Pop",
+      "actualPts": 138200
+    },
+    {
+      "rank": 14,
+      "luminateId": "SG1D584E2778FF4D43B5AA15A3890F05A1",
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 130318
+    },
+    {
+      "rank": 15,
+      "luminateId": "SGA07373ED675A49E3BC3D88F04C3C1C3D",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "genre": "R&B",
+      "actualPts": 128978
+    },
+    {
+      "rank": 16,
+      "luminateId": "SG53961D1F844140019FE9C80151F133F0",
+      "title": "DAISIES",
+      "artist": "Justin Bieber",
+      "genre": "Pop",
+      "actualPts": 122231
+    },
+    {
+      "rank": 17,
+      "luminateId": "SG9097DCBB44EF4BB7BE2B0BE0CE15139D",
+      "title": "SLEEPLESS IN A HOTEL ROOM",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "actualPts": 114393
+    },
+    {
+      "rank": 18,
+      "luminateId": "SGC21AFB6070504381A51AA07227FF4190",
+      "title": "Opalite",
+      "artist": "Taylor Swift",
+      "genre": "Pop",
+      "actualPts": 110199
+    },
+    {
+      "rank": 19,
+      "luminateId": "SGC7275C062D254335BD71DC012C9D816D",
+      "title": "HOMEWRECKER",
+      "artist": "SOMBR",
+      "genre": "Alt. Rock",
+      "actualPts": 108211
+    },
+    {
+      "rank": 20,
+      "luminateId": "SGFB9F17BBD21C443F823F358E6A34942C",
+      "title": "Boston",
+      "artist": "STELLA LEFTY",
+      "genre": "Country",
+      "actualPts": 106638
+    },
+    {
+      "rank": 21,
+      "luminateId": "SGA541A0EDE8A543838F78C3C85595FB25",
+      "title": "Human Nature",
+      "artist": "MICHAEL JACKSON",
+      "genre": "R&B",
+      "actualPts": 104844
+    },
+    {
+      "rank": 22,
+      "luminateId": "SG67CA4B8DAB304ADD96E3277E4E77188A",
+      "title": "BE BY YOU",
+      "artist": "Luke Combs",
+      "genre": "Country",
+      "actualPts": 103887
+    },
+    {
+      "rank": 23,
+      "luminateId": "SG6710A6FC741F439ABEB9FF8D95642947",
+      "title": "The Great Divide",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 103826
+    },
+    {
+      "rank": 24,
+      "luminateId": "SGD09FC7F149F14C37962814F94D60DA59",
+      "title": "BABYDOLL",
+      "artist": "DOMINIC FIKE",
+      "genre": "Alt. Rock",
+      "actualPts": 102530
+    },
+    {
+      "rank": 25,
+      "luminateId": "SG19279749C59A4F9DBD45FBDE65B17545",
+      "title": "Midnight Sun",
+      "artist": "Zara Larsson",
+      "genre": "Pop",
+      "actualPts": 102347
+    }
+  ],
+  "tiktokSnapshots": []
+}
