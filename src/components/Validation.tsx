@@ -3,56 +3,56 @@
 import { motion } from 'framer-motion';
 
 const Validation = () => {
-  // Week ending 2026-05-14 - predictions use currently-calibrated divisors
-  // (premium 105.00, ad-supp 493.97, programmed 700, airplay 921.12, sales 1)
+  // Week ending 2026-05-21 - predictions use currently-calibrated divisors
+  // (will be re-calibrated after this week pushes; values shown use last week's divisors)
   const samples = [
     {
       rank: 1,
-      title: 'Choosin\' Texas',
-      artist: 'Ella Langley',
-      actualPts: 314297,
-      predictedPts: 330578,
-      errorPct: 5.18,
+      title: 'Janice STFU',
+      artist: 'Drake',
+      actualPts: 403328,
+      predictedPts: 411893,
+      errorPct: 2.12,
     },
     {
       rank: 10,
-      title: 'DRACULA',
-      artist: 'TAME IMPALA, JENNIE & BOYS NOIZE',
-      actualPts: 144765,
-      predictedPts: 146199,
-      errorPct: 0.99,
+      title: '... Make Them Pay ...',
+      artist: 'Drake',
+      actualPts: 248677,
+      predictedPts: 250480,
+      errorPct: 0.72,
     },
     {
       rank: 25,
-      title: 'Midnight Sun',
-      artist: 'Zara Larsson',
-      actualPts: 102347,
-      predictedPts: 101960,
-      errorPct: 0.38,
+      title: 'DRACULA',
+      artist: 'TAME IMPALA, JENNIE & BOYS NOIZE',
+      actualPts: 148295,
+      predictedPts: 146810,
+      errorPct: 1.00,
     },
     {
       rank: 50,
-      title: 'Elizabeth Taylor',
-      artist: 'Taylor Swift',
-      actualPts: 66246,
-      predictedPts: 68057,
-      errorPct: 2.73,
+      title: 'E85',
+      artist: 'Don Toliver',
+      actualPts: 93060,
+      predictedPts: 91767,
+      errorPct: 1.39,
     },
     {
       rank: 75,
-      title: 'Deny Deny Deny',
-      artist: 'Noah Kahan',
-      actualPts: 46112,
-      predictedPts: 44569,
-      errorPct: 3.35,
+      title: 'Lush Life',
+      artist: 'Zara Larsson',
+      actualPts: 65320,
+      predictedPts: 63850,
+      errorPct: 2.25,
     },
     {
       rank: 100,
-      title: 'Go Away',
-      artist: 'Weezer',
-      actualPts: 32203,
-      predictedPts: 31155,
-      errorPct: 3.25,
+      title: 'Dashboard',
+      artist: 'Noah Kahan',
+      actualPts: 49806,
+      predictedPts: 48248,
+      errorPct: 3.13,
     },
   ];
 

@@ -3,17 +3,19 @@
 import { motion } from 'framer-motion';
 
 const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
-  // Choosin' Texas #1 composition - week 2026-05-14, calibrated divisors
-  // PREMIUM: 230,208 pts (73.2%)
-  // AIRPLAY: 63,162 pts (20.1%)
-  // AD-SUPP: 14,286 pts (4.5%)
-  // SALES: 6,641 pts (2.1%)
-  // Segments scaled so they sum to actual 314,297 pts
+  // Janice STFU #1 composition - week 2026-05-21, calibrated divisors
+  // Drake's album release flooded the top of the chart; #1 is brand new (debut).
+  // PREMIUM: 389,201 pts (96.5%)
+  // AD-SUPP: 9,011 pts (2.2%)
+  // SALES: 2,529 pts (0.6%)
+  // AIRPLAY: 2,474 pts (0.6%)
+  // PROGRAMMED: 113 pts (0.0%)
+  // Segments scaled so they sum to actual 403,328 pts
   const composition = [
-    { label: 'PREMIUM', pts: 230208, share: 73.2, color: '#FD3737' },
-    { label: 'AIRPLAY', pts: 63162, share: 20.1, color: '#FD6B6B' },
-    { label: 'AD-SUPP', pts: 14286, share: 4.5, color: '#FF9797' },
-    { label: 'SALES', pts: 6641, share: 2.1, color: '#FFC4C4' },
+    { label: 'PREMIUM', pts: 389201, share: 96.5, color: '#FD3737' },
+    { label: 'AD-SUPP', pts: 9011, share: 2.2, color: '#FD6B6B' },
+    { label: 'SALES', pts: 2529, share: 0.6, color: '#FF9797' },
+    { label: 'AIRPLAY', pts: 2474, share: 0.6, color: '#FFC4C4' },
   ];
 
   return (
@@ -61,11 +63,11 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
               </div>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                WEEK OF MAY 8 &ndash; 14, 2026
+                WEEK OF MAY 15 &ndash; 21, 2026
               </span>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                PUBLISHED MAY 19
+                PUBLISHED MAY 26
               </span>
             </div>
 
@@ -94,9 +96,9 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                     THIS WEEK &middot; #1
                   </div>
                   <h3 className="text-2xl font-medium text-[#FAFAFA] leading-tight tracking-tight">
-                    Choosin&apos; Texas
+                    Janice STFU
                   </h3>
-                  <p className="text-sm text-[#B8B8C0] mt-1">Ella Langley &middot; -</p>
+                  <p className="text-sm text-[#B8B8C0] mt-1">Drake &middot; -</p>
                 </div>
                 <div className="text-right shrink-0 ml-4">
                   <div className="text-[9px] tracking-[0.25em] uppercase text-[#B8B8C0] mb-1">PEAK</div>
@@ -109,7 +111,7 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
                   className="font-bold tracking-tight text-[#FAFAFA] font-mono tabular-nums"
                   style={{ fontFamily: "'N27', sans-serif", fontSize: 'clamp(3.25rem, 6vw, 5rem)', lineHeight: 0.95 }}
                 >
-                  299,949
+                  403,328
                 </div>
                 <div className="text-[10px] tracking-[0.3em] uppercase text-[#B8B8C0] mt-2 font-medium">
                   SONG EQUIVALENT POINTS

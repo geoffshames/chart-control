@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T16:18:12.085037+00:00",
+  "generatedAt": "2026-05-27T16:24:33.858510+00:00",
   "model": {
     "priorDivisors": {
       "premium": 125.0,
@@ -10,7 +10,7 @@
     },
     "currentDivisors": {
       "premium": 105.0,
-      "adSupported": 493.9704,
+      "adSupported": 490.05,
       "programmed": 700.0,
       "airplay": 921.12,
       "sales": 1.0
@@ -36,104 +36,109 @@
     "lambdaReg": 5e-05
   },
   "training": {
-    "weeksLoaded": 18,
-    "weeksWithDrillins": 18,
-    "totalDrillinSamples": 72,
-    "inSampleMAPE": 5.38,
+    "weeksLoaded": 19,
+    "weeksWithDrillins": 19,
+    "totalDrillinSamples": 78,
+    "inSampleMAPE": 5.1,
     "heldOutWeek": {
       "2026-01-15": {
-        "heldOutMAPE": 10.38,
-        "maxRelErr": 18.77,
+        "heldOutMAPE": 10.36,
+        "maxRelErr": 18.72,
         "nSamples": 3
       },
       "2026-01-22": {
-        "heldOutMAPE": 4.63,
-        "maxRelErr": 5.01,
+        "heldOutMAPE": 3.38,
+        "maxRelErr": 4.06,
         "nSamples": 3
       },
       "2026-01-29": {
-        "heldOutMAPE": 7.01,
-        "maxRelErr": 7.76,
+        "heldOutMAPE": 6.86,
+        "maxRelErr": 7.49,
         "nSamples": 3
       },
       "2026-02-05": {
-        "heldOutMAPE": 3.59,
-        "maxRelErr": 10.06,
+        "heldOutMAPE": 3.61,
+        "maxRelErr": 10.1,
         "nSamples": 3
       },
       "2026-02-12": {
-        "heldOutMAPE": 4.18,
-        "maxRelErr": 8.37,
+        "heldOutMAPE": 4.21,
+        "maxRelErr": 8.41,
         "nSamples": 3
       },
       "2026-02-19": {
-        "heldOutMAPE": 17.3,
-        "maxRelErr": 44.48,
+        "heldOutMAPE": 17.32,
+        "maxRelErr": 44.47,
         "nSamples": 3
       },
       "2026-02-26": {
         "heldOutMAPE": 0.97,
-        "maxRelErr": 1.94,
+        "maxRelErr": 1.95,
         "nSamples": 3
       },
       "2026-03-05": {
-        "heldOutMAPE": 3.21,
-        "maxRelErr": 7.42,
+        "heldOutMAPE": 3.06,
+        "maxRelErr": 7.07,
         "nSamples": 3
       },
       "2026-03-12": {
-        "heldOutMAPE": 2.54,
-        "maxRelErr": 5.65,
+        "heldOutMAPE": 2.52,
+        "maxRelErr": 5.69,
         "nSamples": 3
       },
       "2026-03-19": {
-        "heldOutMAPE": 3.22,
-        "maxRelErr": 7.04,
+        "heldOutMAPE": 3.2,
+        "maxRelErr": 7.02,
         "nSamples": 3
       },
       "2026-03-26": {
-        "heldOutMAPE": 7.66,
-        "maxRelErr": 14.57,
+        "heldOutMAPE": 8.14,
+        "maxRelErr": 14.53,
         "nSamples": 3
       },
       "2026-04-02": {
-        "heldOutMAPE": 6.37,
-        "maxRelErr": 11.1,
+        "heldOutMAPE": 5.95,
+        "maxRelErr": 11.47,
         "nSamples": 3
       },
       "2026-04-09": {
-        "heldOutMAPE": 5.87,
-        "maxRelErr": 13.29,
+        "heldOutMAPE": 5.78,
+        "maxRelErr": 13.78,
         "nSamples": 6
       },
       "2026-04-16": {
-        "heldOutMAPE": 7.6,
-        "maxRelErr": 29.94,
+        "heldOutMAPE": 7.61,
+        "maxRelErr": 29.95,
         "nSamples": 6
       },
       "2026-04-23": {
-        "heldOutMAPE": 3.97,
-        "maxRelErr": 9.28,
+        "heldOutMAPE": 3.98,
+        "maxRelErr": 9.5,
         "nSamples": 6
       },
       "2026-04-30": {
         "heldOutMAPE": 4.26,
-        "maxRelErr": 6.27,
+        "maxRelErr": 6.26,
         "nSamples": 6
       },
       "2026-05-07": {
-        "heldOutMAPE": 8.88,
-        "maxRelErr": 23.55,
+        "heldOutMAPE": 8.9,
+        "maxRelErr": 23.56,
         "nSamples": 6
       },
       "2026-05-14": {
-        "heldOutMAPE": 2.74,
-        "maxRelErr": 5.39,
+        "heldOutMAPE": 2.73,
+        "maxRelErr": 5.43,
+        "nSamples": 6
+      },
+      "2026-05-21": {
+        "heldOutMAPE": 1.77,
+        "maxRelErr": 3.13,
         "nSamples": 6
       }
     },
     "confidencePct": 97,
-    "walkForwardMAPE": 5.71,
+    "walkForwardMAPE": 5.38,
     "walkForwardPerWeek": {
       "2026-01-15": {
         "heldOutMAPE": null,
@@ -257,6 +262,13 @@
         "maxRelErr": 5.39,
         "nSamples": 6,
         "nPriorWeeks": 17,
+        "skipped": false
+      },
+      "2026-05-21": {
+        "heldOutMAPE": 1.77,
+        "maxRelErr": 3.13,
+        "nSamples": 6,
+        "nPriorWeeks": 18,
         "skipped": false
       }
     },
@@ -788,6 +800,54 @@
         "actual": 32203,
         "predicted": 31196,
         "relErr": -3.13
+      },
+      {
+        "week": "2026-05-21",
+        "rank": 1,
+        "title": "Janice STFU",
+        "actual": 403328,
+        "predicted": 411893,
+        "relErr": 2.12
+      },
+      {
+        "week": "2026-05-21",
+        "rank": 10,
+        "title": "... Make Them Pay ...",
+        "actual": 248677,
+        "predicted": 250480,
+        "relErr": 0.72
+      },
+      {
+        "week": "2026-05-21",
+        "rank": 25,
+        "title": "DRACULA",
+        "actual": 148295,
+        "predicted": 146810,
+        "relErr": -1.0
+      },
+      {
+        "week": "2026-05-21",
+        "rank": 50,
+        "title": "E85",
+        "actual": 93060,
+        "predicted": 91767,
+        "relErr": -1.39
+      },
+      {
+        "week": "2026-05-21",
+        "rank": 75,
+        "title": "Lush Life",
+        "actual": 65320,
+        "predicted": 63850,
+        "relErr": -2.25
+      },
+      {
+        "week": "2026-05-21",
+        "rank": 100,
+        "title": "Dashboard",
+        "actual": 49806,
+        "predicted": 48248,
+        "relErr": -3.13
       }
     ]
   },
@@ -1006,6 +1066,18 @@
         "50": 66246,
         "75": 46112,
         "100": 32203
+      }
+    },
+    {
+      "weekEnding": "2026-05-21",
+      "weekStart": "2026-05-15",
+      "thresholds": {
+        "1": 403328,
+        "10": 248677,
+        "25": 148295,
+        "50": 93060,
+        "75": 65320,
+        "100": 49806
       }
     }
   ]

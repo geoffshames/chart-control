@@ -4,16 +4,16 @@ import { motion } from 'framer-motion';
 import { ArrowUp, ArrowDown } from '@phosphor-icons/react';
 
 const ThresholdBento = () => {
-  // Week ending 2026-05-14 thresholds + WoW deltas
-  // prev: #1 305018 #10 142074 #25 104035 #50 70631 #75 48957 #100 34853
-  // new:  #1 314297 #10 144765 #25 102347 #50 66246 #75 46112 #100 32203
+  // Week ending 2026-05-21 thresholds + WoW deltas
+  // prev: #1 314297 #10 144765 #25 102347 #50 66246 #75 46112 #100 32203
+  // new:  #1 403328 #10 248677 #25 148295 #50 93060 #75 65320 #100 49806
   const thresholds = [
-    { rank: 1, points: 314297, change: 3.0 },
-    { rank: 10, points: 144765, change: 1.9 },
-    { rank: 25, points: 102347, change: -1.6 },
-    { rank: 50, points: 66246, change: -6.2 },
-    { rank: 75, points: 46112, change: -5.8 },
-    { rank: 100, points: 32203, change: -7.6 },
+    { rank: 1, points: 403328, change: 28.3 },
+    { rank: 10, points: 248677, change: 71.8 },
+    { rank: 25, points: 148295, change: 44.9 },
+    { rank: 50, points: 93060, change: 40.5 },
+    { rank: 75, points: 65320, change: 41.7 },
+    { rank: 100, points: 49806, change: 54.7 },
   ];
 
   const TileContent = ({ rank, points, change }: (typeof thresholds)[0]) => (

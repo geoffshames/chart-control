@@ -1,0 +1,127 @@
+{
+  "weekStart": "2026-05-15",
+  "weekEnding": "2026-05-21",
+  "chartPublishDate": "2026-05-26",
+  "pulledAt": "2026-05-27T16:22:37.812251Z",
+  "source": "luminate",
+  "thresholdPoints": {
+    "1": 403328,
+    "10": 248677,
+    "25": 148295,
+    "50": 93060,
+    "75": 65320,
+    "100": 49806
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGE93E9440988D4341975E27621D828835",
+      "title": "Janice STFU",
+      "artist": "Drake",
+      "actualPts": 403328,
+      "consumption": {
+        "premiumStreams": 41733960,
+        "adSupportedStreams": 4545881,
+        "programmedStreams": 80611,
+        "airplayAudience": 2326800,
+        "airplaySpins": 917,
+        "sales": 2583,
+        "programmedSplit": {
+          "adSupported": 80312,
+          "premium": 299
+        }
+      }
+    },
+    "10": {
+      "luminateId": "SG3DC75973972D4CD79DADE8BA8F6CD220",
+      "title": "... Make Them Pay ...",
+      "artist": "Drake",
+      "actualPts": 248677,
+      "consumption": {
+        "premiumStreams": 25603514,
+        "adSupportedStreams": 2304670,
+        "programmedStreams": 58760,
+        "airplayAudience": 1076900,
+        "airplaySpins": 346,
+        "sales": 718,
+        "programmedSplit": {
+          "adSupported": 32570,
+          "premium": 26190
+        }
+      }
+    },
+    "25": {
+      "luminateId": "SG14D5D69C184B4DD0BBDBCC0B95961C5A",
+      "title": "DRACULA",
+      "artist": "TAME IMPALA, JENNIE & BOYS NOIZE",
+      "actualPts": 148295,
+      "consumption": {
+        "premiumStreams": 10838663,
+        "adSupportedStreams": 2280958,
+        "programmedStreams": 915224,
+        "airplayAudience": 33285700,
+        "airplaySpins": 15383,
+        "sales": 1523,
+        "programmedSplit": {
+          "adSupported": 433330,
+          "premium": 481894
+        }
+      }
+    },
+    "50": {
+      "luminateId": "SG7220020221B342269D1294EE957FD3E9",
+      "title": "E85",
+      "artist": "Don Toliver",
+      "actualPts": 93060,
+      "consumption": {
+        "premiumStreams": 8015587,
+        "adSupportedStreams": 1204747,
+        "programmedStreams": 193657,
+        "airplayAudience": 11553600,
+        "airplaySpins": 7152,
+        "sales": 170,
+        "programmedSplit": {
+          "adSupported": 112717,
+          "premium": 80940
+        }
+      }
+    },
+    "75": {
+      "luminateId": "SGC59CFBEFD537408DBAC608430EC9DBE5",
+      "title": "Lush Life",
+      "artist": "Zara Larsson",
+      "actualPts": 65320,
+      "consumption": {
+        "premiumStreams": 5429739,
+        "adSupportedStreams": 1642717,
+        "programmedStreams": 315353,
+        "airplayAudience": 7031600,
+        "airplaySpins": 3359,
+        "sales": 728,
+        "programmedSplit": {
+          "adSupported": 315353,
+          "premium": 0
+        }
+      }
+    },
+    "100": {
+      "luminateId": "SGBC180CB177344CCD9ECD8A7EC1EF74D8",
+      "title": "Dashboard",
+      "artist": "Noah Kahan",
+      "actualPts": 49806,
+      "consumption": {
+        "premiumStreams": 4982630,
+        "adSupportedStreams": 301720,
+        "programmedStreams": 63084,
+        "airplayAudience": 0,
+        "airplaySpins": 0,
+        "sales": 93,
+        "programmedSplit": {
+          "adSupported": 63084,
+          "premium": 0
+        }
+      }
+    }
+  },
+  "tiktokSnapshots": [],
+  "tiktokNote": "Cobrand session expired; no snapshots captured this week."
+}
