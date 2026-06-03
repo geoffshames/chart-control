@@ -78,6 +78,23 @@ export default function TiktokFingerprint() {
   // Real minus glyph to match the dashboard's typography.
   const pearsonStr = (pearsonR < 0 ? '\u2212' : '') + Math.abs(pearsonR).toFixed(3);
 
+  // Adaptive copy — describes what the Pearson actually says without overstating.
+  // Buckets follow Cohen's rough rule of thumb for effect size.
+  const ar = Math.abs(pearsonR);
+  const strengthPhrase =
+    ar < 0.10 ? 'barely move with' :
+    ar < 0.30 ? 'correlate only weakly with' :
+    ar < 0.50 ? 'correlate moderately with' :
+                'correlate strongly with';
+  // Direction note: rank goes UP as chart position falls, so a negative r means
+  // higher-creates songs cluster at LOWER rank numbers (i.e., closer to #1).
+  // Phrased so it reads naturally for both signs and for ~zero.
+  const leanNote =
+    ar < 0.10 ? null
+              : pearsonR < 0
+              ? 'higher-creates songs lean toward the upper chart'
+              : 'higher-creates songs lean toward the lower chart';
+
   const benchmarks = computeBenchmarks(samples);
 
   const greenCount = samples.filter(s => s.tiktokCreates / s.songEquivalent < 2).length;
@@ -108,11 +125,12 @@ export default function TiktokFingerprint() {
             Creates Per Point
           </h2>
           <p className="text-lg md:text-xl text-[#E4E4E9] leading-snug mb-6">
-            TikTok creates don&apos;t correlate with Hot 100 position directly.{' '}
-            <span className="text-[#FAFAFA] font-semibold">Pearson {pearsonStr}</span> across our {samples.length}-song sample.
+            TikTok creates {strengthPhrase} Hot 100 position.{' '}
+            <span className="text-[#FAFAFA] font-semibold">Pearson {pearsonStr}</span> across our {samples.length}-song sample
+            {leanNote ? <> &mdash; {leanNote}.</> : <>.</>}
           </p>
           <p className="text-base md:text-lg text-[#B8B8C0] leading-relaxed">
-            But the ratio of lifetime creates to chart points{' '}<span className="text-[#FD3737] font-medium">is</span>{' '}a genre fingerprint.
+            The real signal is the ratio of lifetime creates to chart points &mdash; that ratio{' '}<span className="text-[#FD3737] font-medium">is</span>{' '}a genre fingerprint.
             Low ratio = US radio &amp; streaming engine. High ratio = global TikTok hit the Hot 100 undercounts.
           </p>
         </motion.div>
