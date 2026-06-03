@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T16:24:33.858510+00:00",
+  "generatedAt": "2026-06-03T16:18:45.693732+00:00",
   "model": {
     "priorDivisors": {
       "premium": 125.0,
@@ -10,7 +10,7 @@
     },
     "currentDivisors": {
       "premium": 105.0,
-      "adSupported": 490.05,
+      "adSupported": 493.9704,
       "programmed": 700.0,
       "airplay": 921.12,
       "sales": 1.0
@@ -36,10 +36,10 @@
     "lambdaReg": 5e-05
   },
   "training": {
-    "weeksLoaded": 19,
-    "weeksWithDrillins": 19,
-    "totalDrillinSamples": 78,
-    "inSampleMAPE": 5.1,
+    "weeksLoaded": 20,
+    "weeksWithDrillins": 20,
+    "totalDrillinSamples": 84,
+    "inSampleMAPE": 5.0,
     "heldOutWeek": {
       "2026-01-15": {
         "heldOutMAPE": 10.36,
@@ -47,23 +47,23 @@
         "nSamples": 3
       },
       "2026-01-22": {
-        "heldOutMAPE": 3.38,
-        "maxRelErr": 4.06,
+        "heldOutMAPE": 3.27,
+        "maxRelErr": 3.98,
         "nSamples": 3
       },
       "2026-01-29": {
-        "heldOutMAPE": 6.86,
-        "maxRelErr": 7.49,
+        "heldOutMAPE": 6.65,
+        "maxRelErr": 7.68,
         "nSamples": 3
       },
       "2026-02-05": {
-        "heldOutMAPE": 3.61,
-        "maxRelErr": 10.1,
+        "heldOutMAPE": 3.69,
+        "maxRelErr": 10.33,
         "nSamples": 3
       },
       "2026-02-12": {
-        "heldOutMAPE": 4.21,
-        "maxRelErr": 8.41,
+        "heldOutMAPE": 4.37,
+        "maxRelErr": 8.65,
         "nSamples": 3
       },
       "2026-02-19": {
@@ -72,18 +72,18 @@
         "nSamples": 3
       },
       "2026-02-26": {
-        "heldOutMAPE": 0.97,
-        "maxRelErr": 1.95,
+        "heldOutMAPE": 0.92,
+        "maxRelErr": 2.06,
         "nSamples": 3
       },
       "2026-03-05": {
-        "heldOutMAPE": 3.06,
-        "maxRelErr": 7.07,
+        "heldOutMAPE": 3.2,
+        "maxRelErr": 7.4,
         "nSamples": 3
       },
       "2026-03-12": {
-        "heldOutMAPE": 2.52,
-        "maxRelErr": 5.69,
+        "heldOutMAPE": 2.46,
+        "maxRelErr": 5.84,
         "nSamples": 3
       },
       "2026-03-19": {
@@ -92,53 +92,58 @@
         "nSamples": 3
       },
       "2026-03-26": {
-        "heldOutMAPE": 8.14,
-        "maxRelErr": 14.53,
+        "heldOutMAPE": 8.16,
+        "maxRelErr": 14.47,
         "nSamples": 3
       },
       "2026-04-02": {
-        "heldOutMAPE": 5.95,
-        "maxRelErr": 11.47,
+        "heldOutMAPE": 5.97,
+        "maxRelErr": 11.5,
         "nSamples": 3
       },
       "2026-04-09": {
         "heldOutMAPE": 5.78,
-        "maxRelErr": 13.78,
+        "maxRelErr": 13.96,
         "nSamples": 6
       },
       "2026-04-16": {
-        "heldOutMAPE": 7.61,
-        "maxRelErr": 29.95,
+        "heldOutMAPE": 7.5,
+        "maxRelErr": 29.47,
         "nSamples": 6
       },
       "2026-04-23": {
-        "heldOutMAPE": 3.98,
-        "maxRelErr": 9.5,
+        "heldOutMAPE": 3.97,
+        "maxRelErr": 9.28,
         "nSamples": 6
       },
       "2026-04-30": {
-        "heldOutMAPE": 4.26,
-        "maxRelErr": 6.26,
+        "heldOutMAPE": 4.29,
+        "maxRelErr": 6.24,
         "nSamples": 6
       },
       "2026-05-07": {
-        "heldOutMAPE": 8.9,
-        "maxRelErr": 23.56,
+        "heldOutMAPE": 8.56,
+        "maxRelErr": 22.71,
         "nSamples": 6
       },
       "2026-05-14": {
-        "heldOutMAPE": 2.73,
-        "maxRelErr": 5.43,
+        "heldOutMAPE": 2.65,
+        "maxRelErr": 5.18,
         "nSamples": 6
       },
       "2026-05-21": {
-        "heldOutMAPE": 1.77,
-        "maxRelErr": 3.13,
+        "heldOutMAPE": 1.71,
+        "maxRelErr": 3.08,
+        "nSamples": 6
+      },
+      "2026-05-28": {
+        "heldOutMAPE": 3.73,
+        "maxRelErr": 9.92,
         "nSamples": 6
       }
     },
-    "confidencePct": 97,
-    "walkForwardMAPE": 5.38,
+    "confidencePct": 98,
+    "walkForwardMAPE": 5.25,
     "walkForwardPerWeek": {
       "2026-01-15": {
         "heldOutMAPE": null,
@@ -269,6 +274,13 @@
         "maxRelErr": 3.13,
         "nSamples": 6,
         "nPriorWeeks": 18,
+        "skipped": false
+      },
+      "2026-05-28": {
+        "heldOutMAPE": 3.73,
+        "maxRelErr": 9.92,
+        "nSamples": 6,
+        "nPriorWeeks": 19,
         "skipped": false
       }
     },
@@ -848,6 +860,54 @@
         "actual": 49806,
         "predicted": 48248,
         "relErr": -3.13
+      },
+      {
+        "week": "2026-05-28",
+        "rank": 1,
+        "title": "Janice STFU",
+        "actual": 317956,
+        "predicted": 326044,
+        "relErr": 2.54
+      },
+      {
+        "week": "2026-05-28",
+        "rank": 10,
+        "title": "Man I Need",
+        "actual": 170119,
+        "predicted": 161552,
+        "relErr": -5.04
+      },
+      {
+        "week": "2026-05-28",
+        "rank": 25,
+        "title": "Midnight Sun",
+        "actual": 107021,
+        "predicted": 105431,
+        "relErr": -1.49
+      },
+      {
+        "week": "2026-05-28",
+        "rank": 50,
+        "title": "Don't We",
+        "actual": 72404,
+        "predicted": 79588,
+        "relErr": 9.92
+      },
+      {
+        "week": "2026-05-28",
+        "rank": 75,
+        "title": "Dry Spell",
+        "actual": 52046,
+        "predicted": 51872,
+        "relErr": -0.33
+      },
+      {
+        "week": "2026-05-28",
+        "rank": 100,
+        "title": "Staying Still",
+        "actual": 38227,
+        "predicted": 37058,
+        "relErr": -3.06
       }
     ]
   },
@@ -1078,6 +1138,18 @@
         "50": 93060,
         "75": 65320,
         "100": 49806
+      }
+    },
+    {
+      "weekEnding": "2026-05-28",
+      "weekStart": "2026-05-22",
+      "thresholds": {
+        "1": 317956,
+        "10": 170119,
+        "25": 107021,
+        "50": 72404,
+        "75": 52046,
+        "100": 38227
       }
     }
   ]

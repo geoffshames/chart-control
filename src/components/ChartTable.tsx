@@ -2,11 +2,11 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { week20260521 } from '@/lib/data/week-2026-05-21';
+import { week20260528 } from '@/lib/data/week-2026-05-28';
 import { CaretDown, CaretUp } from '@phosphor-icons/react';
 
 const ChartTable = () => {
-  const chartRows = week20260521.rows;
+  const chartRows = week20260528.rows;
   const [showAll, setShowAll] = useState(false);
 
   const top10 = chartRows.filter((r) => r.rank <= 10);

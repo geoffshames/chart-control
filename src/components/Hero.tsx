@@ -3,19 +3,19 @@
 import { motion } from 'framer-motion';
 
 const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
-  // Janice STFU #1 composition - week 2026-05-21, calibrated divisors
-  // Drake's album release flooded the top of the chart; #1 is brand new (debut).
-  // PREMIUM: 389,201 pts (96.5%)
-  // AD-SUPP: 9,011 pts (2.2%)
-  // SALES: 2,529 pts (0.6%)
-  // AIRPLAY: 2,474 pts (0.6%)
-  // PROGRAMMED: 113 pts (0.0%)
-  // Segments scaled so they sum to actual 403,328 pts
+  // Janice STFU #1 composition - week 2026-05-28, calibrated divisors
+  // Holds #1 in week 2 (post-album cooldown: 403K -> 318K, -21% WoW).
+  // PREMIUM: 299,195 pts (94.1%)
+  // AD-SUPP: 7,690 pts (2.4%)
+  // SALES: 1,613 pts (0.5%)
+  // AIRPLAY: 8,960 pts (2.8%)
+  // PROGRAMMED: 497 pts (0.2%)
+  // Segments scaled so they sum to actual 317,956 pts
   const composition = [
-    { label: 'PREMIUM', pts: 389201, share: 96.5, color: '#FD3737' },
-    { label: 'AD-SUPP', pts: 9011, share: 2.2, color: '#FD6B6B' },
-    { label: 'SALES', pts: 2529, share: 0.6, color: '#FF9797' },
-    { label: 'AIRPLAY', pts: 2474, share: 0.6, color: '#FFC4C4' },
+    { label: 'PREMIUM', pts: 299195, share: 94.1, color: '#FD3737' },
+    { label: 'AD-SUPP', pts: 7690, share: 2.4, color: '#FD6B6B' },
+    { label: 'SALES', pts: 1613, share: 0.5, color: '#FF9797' },
+    { label: 'AIRPLAY', pts: 8960, share: 2.8, color: '#FFC4C4' },
   ];
 
   return (
@@ -63,11 +63,11 @@ const Hero = ({ onCalculatorClick }: { onCalculatorClick: () => void }) => {
               </div>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                WEEK OF MAY 15 &ndash; 21, 2026
+                WEEK OF MAY 22 &ndash; 28, 2026
               </span>
               <span className="h-3 w-px bg-[#333]"></span>
               <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-[#B8B8C0]">
-                PUBLISHED MAY 26
+                PUBLISHED JUN 2
               </span>
             </div>
 

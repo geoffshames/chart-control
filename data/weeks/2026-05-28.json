@@ -1,0 +1,133 @@
+{
+  "weekStart": "2026-05-22",
+  "weekEnding": "2026-05-28",
+  "chartPublishDate": "2026-06-02",
+  "pulledAt": "2026-06-03T16:18:39.446576Z",
+  "source": "luminate",
+  "thresholdPoints": {
+    "1": 317956,
+    "10": 170119,
+    "25": 107021,
+    "50": 72404,
+    "75": 52046,
+    "100": 38227
+  },
+  "drillins": {
+    "1": {
+      "luminateId": "SGE93E9440988D4341975E27621D828835",
+      "title": "Janice STFU",
+      "artist": "Drake",
+      "genre": "Rap",
+      "actualPts": 317956,
+      "consumption": {
+        "premiumStreams": 32208444,
+        "adSupportedStreams": 3894505,
+        "programmedStreams": 356748,
+        "airplayAudience": 8461900,
+        "airplaySpins": 4172,
+        "sales": 1654,
+        "programmedSplit": {
+          "adSupported": 229365,
+          "premium": 127383
+        }
+      }
+    },
+    "10": {
+      "luminateId": "SGE168AB2A27BE4EC5B73B06A14CE4954F",
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "actualPts": 170119,
+      "consumption": {
+        "premiumStreams": 9418218,
+        "adSupportedStreams": 2024547,
+        "programmedStreams": 975448,
+        "airplayAudience": 59820200,
+        "airplaySpins": 21335,
+        "sales": 1387,
+        "programmedSplit": {
+          "adSupported": 759365,
+          "premium": 216083
+        }
+      }
+    },
+    "25": {
+      "luminateId": "SG19279749C59A4F9DBD45FBDE65B17545",
+      "title": "Midnight Sun",
+      "artist": "Zara Larsson",
+      "genre": "Pop",
+      "actualPts": 107021,
+      "consumption": {
+        "premiumStreams": 6782181,
+        "adSupportedStreams": 1606041,
+        "programmedStreams": 713413,
+        "airplayAudience": 32867700,
+        "airplaySpins": 17379,
+        "sales": 860,
+        "programmedSplit": {
+          "adSupported": 232957,
+          "premium": 480456
+        }
+      }
+    },
+    "50": {
+      "luminateId": "SG87542FD441884453A5501E541FDB20E5",
+      "title": "Don't We",
+      "artist": "Morgan Wallen",
+      "genre": "Country",
+      "actualPts": 72404,
+      "consumption": {
+        "premiumStreams": 4568633,
+        "adSupportedStreams": 959403,
+        "programmedStreams": 1177018,
+        "airplayAudience": 29347600,
+        "airplaySpins": 12292,
+        "sales": 577,
+        "programmedSplit": {
+          "adSupported": 550118,
+          "premium": 626900
+        }
+      }
+    },
+    "75": {
+      "luminateId": "SG171283AA61A843708DDDE1C2F4291ED1",
+      "title": "Dry Spell",
+      "artist": "Kacey Musgraves",
+      "genre": "Folk",
+      "actualPts": 52046,
+      "consumption": {
+        "premiumStreams": 4850953,
+        "adSupportedStreams": 764095,
+        "programmedStreams": 677915,
+        "airplayAudience": 2221000,
+        "airplaySpins": 1635,
+        "sales": 734,
+        "programmedSplit": {
+          "adSupported": 517402,
+          "premium": 160513
+        }
+      }
+    },
+    "100": {
+      "luminateId": "SG74C7CFBB98E24903BEBCAC63BE831645",
+      "title": "Staying Still",
+      "artist": "Noah Kahan",
+      "genre": "Alt. Rock",
+      "actualPts": 38227,
+      "consumption": {
+        "premiumStreams": 3809861,
+        "adSupportedStreams": 212073,
+        "programmedStreams": 64857,
+        "airplayAudience": 0,
+        "airplaySpins": 0,
+        "sales": 248,
+        "programmedSplit": {
+          "adSupported": 64857,
+          "premium": 0
+        }
+      }
+    }
+  },
+  "tiktokSnapshots": [],
+  "tiktokNote": "Cobrand session expired (auth0 redirect); no snapshots captured this week."
+}
