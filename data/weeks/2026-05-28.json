@@ -128,6 +128,247 @@
       }
     }
   },
-  "tiktokSnapshots": [],
-  "tiktokNote": "Cobrand session expired (auth0 redirect); no snapshots captured this week."
+  "tiktokSnapshots": [
+    {
+      "rank": 1,
+      "title": "Janice STFU",
+      "artist": "Drake",
+      "genre": "Rap",
+      "songEquivalent": 317956,
+      "tiktokCreates": 315957,
+      "creates24h": 13244,
+      "sounds": 4
+    },
+    {
+      "rank": 2,
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "songEquivalent": 305953,
+      "tiktokCreates": 47274,
+      "creates24h": 216,
+      "sounds": 3
+    },
+    {
+      "rank": 3,
+      "title": "BE HER",
+      "artist": "Ella Langley",
+      "genre": "Country",
+      "songEquivalent": 209196,
+      "tiktokCreates": 237201,
+      "creates24h": 812,
+      "sounds": 2
+    },
+    {
+      "rank": 4,
+      "title": "Shabang",
+      "artist": "Drake",
+      "genre": "Rap",
+      "songEquivalent": 196834,
+      "tiktokCreates": 269382,
+      "creates24h": 16413,
+      "sounds": 10
+    },
+    {
+      "rank": 5,
+      "title": "the cure",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "songEquivalent": 194925,
+      "tiktokCreates": 122379,
+      "creates24h": 3575,
+      "sounds": 10
+    },
+    {
+      "rank": 6,
+      "title": "Ran To Atlanta",
+      "artist": "Drake, Future, Molly Santana",
+      "genre": "Rap",
+      "songEquivalent": 185004,
+      "tiktokCreates": 8144,
+      "creates24h": 214,
+      "sounds": 3
+    },
+    {
+      "rank": 7,
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "songEquivalent": 175003,
+      "tiktokCreates": 7352725,
+      "creates24h": 11318,
+      "sounds": 3
+    },
+    {
+      "rank": 8,
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "songEquivalent": 174257,
+      "tiktokCreates": 724678,
+      "creates24h": 3327,
+      "sounds": 3
+    },
+    {
+      "rank": 9,
+      "title": "Whisper My Name",
+      "artist": "Drake",
+      "genre": "Rap",
+      "songEquivalent": 170783,
+      "tiktokCreates": 28634,
+      "creates24h": 210,
+      "sounds": 3
+    },
+    {
+      "rank": 10,
+      "title": "Man I Need",
+      "artist": "Olivia Dean",
+      "genre": "Pop",
+      "songEquivalent": 170119,
+      "tiktokCreates": 2546183,
+      "creates24h": 764,
+      "sounds": 3
+    },
+    {
+      "rank": 11,
+      "title": "National Treasures",
+      "artist": "Drake",
+      "genre": "Rap",
+      "songEquivalent": 161957,
+      "tiktokCreates": 409217,
+      "creates24h": 13591,
+      "sounds": 10
+    },
+    {
+      "rank": 12,
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "genre": "Pop",
+      "songEquivalent": 157504,
+      "tiktokCreates": 814745,
+      "creates24h": 26495,
+      "sounds": 10
+    },
+    {
+      "rank": 13,
+      "title": "I CAN'T LOVE YOU ANYMORE",
+      "artist": "ELLA LANGLEY & MORGAN WALLEN",
+      "genre": "Country",
+      "songEquivalent": 155020,
+      "tiktokCreates": 23978,
+      "creates24h": 387,
+      "sounds": 4
+    },
+    {
+      "rank": 14,
+      "title": "Dracula",
+      "artist": "Tame Impala, JENNIE & Boys Noize",
+      "genre": "Alt. Rock",
+      "songEquivalent": 147758,
+      "tiktokCreates": 2827112,
+      "creates24h": 17605,
+      "sounds": 4
+    },
+    {
+      "rank": 15,
+      "title": "2 Hard 4 The Radio",
+      "artist": "Drake",
+      "genre": "Rap",
+      "songEquivalent": 142602,
+      "tiktokCreates": 29297,
+      "creates24h": 1304,
+      "sounds": 10
+    },
+    {
+      "rank": 16,
+      "title": "Risk It All",
+      "artist": "Bruno Mars",
+      "genre": "Pop",
+      "songEquivalent": 136687,
+      "tiktokCreates": 1889120,
+      "creates24h": 5253,
+      "sounds": 10
+    },
+    {
+      "rank": 17,
+      "title": "STATESIDE",
+      "artist": "PinkPantheress, Zara Larsson",
+      "genre": "Pop",
+      "songEquivalent": 133527,
+      "tiktokCreates": 445641,
+      "creates24h": 506,
+      "sounds": 2
+    },
+    {
+      "rank": 18,
+      "title": "Folded",
+      "artist": "Kehlani",
+      "genre": "R&B",
+      "songEquivalent": 131339,
+      "tiktokCreates": 2924795,
+      "creates24h": 495,
+      "sounds": 10
+    },
+    {
+      "rank": 19,
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "genre": "R&B",
+      "songEquivalent": 130688,
+      "tiktokCreates": 1625319,
+      "creates24h": 5763,
+      "sounds": 10
+    },
+    {
+      "rank": 20,
+      "title": "Boston",
+      "artist": "STELLA LEFTY",
+      "genre": "Country",
+      "songEquivalent": 129183,
+      "tiktokCreates": 315499,
+      "creates24h": 2749,
+      "sounds": 10
+    },
+    {
+      "rank": 21,
+      "title": "Plot Twist",
+      "artist": "Drake",
+      "genre": "Rap",
+      "songEquivalent": 115528,
+      "tiktokCreates": 65905,
+      "creates24h": 3413,
+      "sounds": 10
+    },
+    {
+      "rank": 23,
+      "title": "HOMEWRECKER",
+      "artist": "SOMBR",
+      "genre": "Alt. Rock",
+      "songEquivalent": 107609,
+      "tiktokCreates": 305915,
+      "creates24h": 660,
+      "sounds": 7
+    },
+    {
+      "rank": 24,
+      "title": "Dust",
+      "artist": "Drake",
+      "genre": "Rap",
+      "songEquivalent": 107230,
+      "tiktokCreates": 47480,
+      "creates24h": 944,
+      "sounds": 10
+    },
+    {
+      "rank": 25,
+      "title": "Midnight Sun",
+      "artist": "Zara Larsson",
+      "genre": "Pop",
+      "songEquivalent": 107021,
+      "tiktokCreates": 714957,
+      "creates24h": 3747,
+      "sounds": 10
+    }
+  ],
+  "tiktokNote": "24 of 25 Top-25 songs covered (rank 22 'Make Them Pay' had no matching Cobrand sound)"
 }

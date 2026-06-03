@@ -105,6 +105,46 @@
           "max": 38.5546
         }
       ]
+    },
+    {
+      "weekEnding": "2026-05-28",
+      "genreBenchmarks": [
+        {
+          "genre": "HIP-HOP",
+          "n": 8,
+          "median": 0.5066,
+          "min": 0.044,
+          "max": 2.5267
+        },
+        {
+          "genre": "COUNTRY",
+          "n": 4,
+          "median": 0.6443,
+          "min": 0.1545,
+          "max": 2.4423
+        },
+        {
+          "genre": "POP",
+          "n": 8,
+          "median": 5.9267,
+          "min": 0.6278,
+          "max": 42.0149
+        },
+        {
+          "genre": "ROCK",
+          "n": 2,
+          "median": 10.9881,
+          "min": 2.8428,
+          "max": 19.1334
+        },
+        {
+          "genre": "R&B",
+          "n": 2,
+          "median": 17.3528,
+          "min": 12.4366,
+          "max": 22.2691
+        }
+      ]
     }
   ]
 }

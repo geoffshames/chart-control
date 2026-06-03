@@ -46,10 +46,37 @@ function getTier(ratio: number): Tier {
   return            { label: 'GLOBAL-VIRAL', color: '#FF1744', solidBg: '#FF1744', tintBg: 'rgba(255, 23, 68, 0.12)' };
 }
 
+/** Pearson correlation coefficient between two equal-length arrays. */
+function pearson(xs: number[], ys: number[]): number {
+  const n = xs.length;
+  if (n < 2) return 0;
+  const mx = xs.reduce((a, b) => a + b, 0) / n;
+  const my = ys.reduce((a, b) => a + b, 0) / n;
+  let num = 0, dx2 = 0, dy2 = 0;
+  for (let i = 0; i < n; i++) {
+    const dx = xs[i] - mx;
+    const dy = ys[i] - my;
+    num += dx * dy;
+    dx2 += dx * dx;
+    dy2 += dy * dy;
+  }
+  const denom = Math.sqrt(dx2 * dy2);
+  return denom > 0 ? num / denom : 0;
+}
+
 export default function TiktokFingerprint() {
   const samples = (data.samples as Sample[]).slice().sort(
     (a, b) => a.tiktokCreates / a.songEquivalent - b.tiktokCreates / b.songEquivalent
   );
+
+  // Live Pearson(rank, lifetime creates) - recomputed every time the sample
+  // set in tiktok-fingerprint.json changes. Replaces the old hard-coded -0.002.
+  const pearsonR = pearson(
+    samples.map((s) => s.rank),
+    samples.map((s) => s.tiktokCreates),
+  );
+  // Real minus glyph to match the dashboard's typography.
+  const pearsonStr = (pearsonR < 0 ? '\u2212' : '') + Math.abs(pearsonR).toFixed(3);
 
   const benchmarks = computeBenchmarks(samples);
 
@@ -82,7 +109,7 @@ export default function TiktokFingerprint() {
           </h2>
           <p className="text-lg md:text-xl text-[#E4E4E9] leading-snug mb-6">
             TikTok creates don&apos;t correlate with Hot 100 position directly.{' '}
-            <span className="text-[#FAFAFA] font-semibold">Pearson &minus;0.002</span> across our {samples.length}-song sample.
+            <span className="text-[#FAFAFA] font-semibold">Pearson {pearsonStr}</span> across our {samples.length}-song sample.
           </p>
           <p className="text-base md:text-lg text-[#B8B8C0] leading-relaxed">
             But the ratio of lifetime creates to chart points{' '}<span className="text-[#FD3737] font-medium">is</span>{' '}a genre fingerprint.
